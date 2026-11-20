@@ -1,0 +1,953 @@
+{
+  "server": "BALAD",
+  "server_info": {
+    "name": "balad-mcp",
+    "title": "Balad Maps",
+    "version": "0.2.2",
+    "description": null,
+    "website_url": "https://github.com/sepehr071/balad-mcp",
+    "icons": null
+  },
+  "tools": [
+    {
+      "name": "bl_search",
+      "description": "Search Balad (Iranian map) for places, streets, neighbourhoods and cities by name, with coordinates and address.\n\nAlso geocodes addresses and city names. Pass lat/lng when searching outside Tehran (nearer results rank\nfirst). `type` is poi (pass its `id` to bl_place), road, city, region or category (its `category` slug goes\nto bl_nearby). For all places of one kind use bl_nearby. Empty: try a shorter or Persian query.",
+      "input_schema": {
+        "properties": {
+          "query": {
+            "description": "Place name, street, address, neighbourhood or city, e.g. برج میلاد.",
+            "maxLength": 200,
+            "minLength": 1,
+            "type": "string"
+          },
+          "lat": {
+            "anyOf": [
+              {
+                "maximum": 40.5,
+                "minimum": 24,
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Latitude to search around. Default: Tehran."
+          },
+          "lng": {
+            "anyOf": [
+              {
+                "maximum": 64,
+                "minimum": 43,
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Longitude to search around. Default: Tehran."
+          },
+          "limit": {
+            "default": 10,
+            "description": "Max results (1-20).",
+            "maximum": 20,
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "type": "object"
+      }
+    },
+    {
+      "name": "bl_search",
+      "title": "Search places and addresses",
+      "description": "Search Balad (Iranian map) for places, streets, neighbourhoods and cities by name, with coordinates and address.\n\nAlso geocodes addresses and city names. Pass lat/lng when searching outside Tehran (nearer results rank\nfirst). `type` is poi (pass its `id` to bl_place), road, city, region or category (its `category` slug goes\nto bl_nearby). For all places of one kind use bl_nearby. Empty: try a shorter or Persian query.",
+      "input_schema": {
+        "properties": {
+          "query": {
+            "description": "Place name, street, address, neighbourhood or city, e.g. برج میلاد.",
+            "maxLength": 200,
+            "minLength": 1,
+            "type": "string"
+          },
+          "lat": {
+            "anyOf": [
+              {
+                "maximum": 40.5,
+                "minimum": 24,
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Latitude to search around. Default: Tehran."
+          },
+          "lng": {
+            "anyOf": [
+              {
+                "maximum": 64,
+                "minimum": 43,
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Longitude to search around. Default: Tehran."
+          },
+          "limit": {
+            "default": 10,
+            "description": "Max results (1-20).",
+            "maximum": 20,
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "bl_nearby",
+      "description": "List places of one kind (pharmacy, restaurant, gas station...) around a point, with address, phone and rating.\n\nBalad's own order, each with straight-line `distance_km`. Free text naming a category (پیتزا) lists that\nwhole category (`category` says which). Get the point from bl_search. For driving time use\nbl_nearest_by_drive; for places on a trip bl_along_route; for hours and reviews bl_place with `id`. Empty:\nwiden radius_km or drop filters.",
+      "input_schema": {
+        "properties": {
+          "what": {
+            "description": "Category slug from bl_categories (e.g. pharmacy, gas-station) or free text (e.g. پیتزا).",
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "lat": {
+            "description": "Latitude, e.g. 35.7448.",
+            "maximum": 40.5,
+            "minimum": 24,
+            "type": "number"
+          },
+          "lng": {
+            "description": "Longitude, e.g. 51.3753.",
+            "maximum": 64,
+            "minimum": 43,
+            "type": "number"
+          },
+          "radius_km": {
+            "default": 1,
+            "description": "Box half-width in km (0.2-20).",
+            "maximum": 20,
+            "minimum": 0.2,
+            "type": "number"
+          },
+          "limit": {
+            "default": 10,
+            "description": "Max places (1-40).",
+            "maximum": 40,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "open_now": {
+            "default": false,
+            "description": "Only places open now.",
+            "type": "boolean"
+          },
+          "min_rating": {
+            "anyOf": [
+              {
+                "enum": [
+                  "3",
+                  "4",
+                  "4.5"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Only places rated above this."
+          },
+          "sort": {
+            "default": "relevance",
+            "description": "rating = best first, popular = most visited.",
+            "enum": [
+              "relevance",
+              "rating",
+              "popular"
+            ],
+            "type": "string"
+          },
+          "with_phone": {
+            "default": false,
+            "description": "Only places with a phone number.",
+            "type": "boolean"
+          },
+          "with_photos": {
+            "default": false,
+            "description": "Only places with photos.",
+            "type": "boolean"
+          },
+          "price": {
+            "anyOf": [
+              {
+                "enum": [
+                  "cheap",
+                  "moderate",
+                  "expensive"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Restaurants and cafes only."
+          }
+        },
+        "required": [
+          "what",
+          "lat",
+          "lng"
+        ],
+        "type": "object"
+      }
+    },
+    {
+      "name": "bl_nearby",
+      "title": "Nearby places by category",
+      "description": "List places of one kind (pharmacy, restaurant, gas station...) around a point, with address, phone and rating.\n\nBalad's own order, each with straight-line `distance_km`. Free text naming a category (پیتزا) lists that\nwhole category (`category` says which). Get the point from bl_search. For driving time use\nbl_nearest_by_drive; for places on a trip bl_along_route; for hours and reviews bl_place with `id`. Empty:\nwiden radius_km or drop filters.",
+      "input_schema": {
+        "properties": {
+          "what": {
+            "description": "Category slug from bl_categories (e.g. pharmacy, gas-station) or free text (e.g. پیتزا).",
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "lat": {
+            "description": "Latitude, e.g. 35.7448.",
+            "maximum": 40.5,
+            "minimum": 24,
+            "type": "number"
+          },
+          "lng": {
+            "description": "Longitude, e.g. 51.3753.",
+            "maximum": 64,
+            "minimum": 43,
+            "type": "number"
+          },
+          "radius_km": {
+            "default": 1,
+            "description": "Box half-width in km (0.2-20).",
+            "maximum": 20,
+            "minimum": 0.2,
+            "type": "number"
+          },
+          "limit": {
+            "default": 10,
+            "description": "Max places (1-40).",
+            "maximum": 40,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "open_now": {
+            "default": false,
+            "description": "Only places open now.",
+            "type": "boolean"
+          },
+          "min_rating": {
+            "anyOf": [
+              {
+                "enum": [
+                  "3",
+                  "4",
+                  "4.5"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Only places rated above this."
+          },
+          "sort": {
+            "default": "relevance",
+            "description": "rating = best first, popular = most visited.",
+            "enum": [
+              "relevance",
+              "rating",
+              "popular"
+            ],
+            "type": "string"
+          },
+          "with_phone": {
+            "default": false,
+            "description": "Only places with a phone number.",
+            "type": "boolean"
+          },
+          "with_photos": {
+            "default": false,
+            "description": "Only places with photos.",
+            "type": "boolean"
+          },
+          "price": {
+            "anyOf": [
+              {
+                "enum": [
+                  "cheap",
+                  "moderate",
+                  "expensive"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Restaurants and cafes only."
+          }
+        },
+        "required": [
+          "what",
+          "lat",
+          "lng"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "bl_place",
+      "description": "Get one place's full details from Balad: address, phones, hours, open now, rating, amenities, photos, reviews.\n\n`hours` maps each weekday (شنبه..جمعه) to its hours; `menu` is the menu link. More reviews: bl_reviews;\ndirections: bl_route with its lat/lng.",
+      "input_schema": {
+        "properties": {
+          "id": {
+            "description": "Place id from bl_search or bl_nearby.",
+            "pattern": "^[A-Za-z0-9]{6,32}$",
+            "type": "string"
+          },
+          "reviews": {
+            "default": 3,
+            "description": "Recent reviews to include (0-10).",
+            "maximum": 10,
+            "minimum": 0,
+            "type": "integer"
+          },
+          "photos": {
+            "default": 3,
+            "description": "Photo URLs to include (0-20).",
+            "maximum": 20,
+            "minimum": 0,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "id"
+        ],
+        "type": "object"
+      }
+    },
+    {
+      "name": "bl_place",
+      "title": "Place details",
+      "description": "Get one place's full details from Balad: address, phones, hours, open now, rating, amenities, photos, reviews.\n\n`hours` maps each weekday (شنبه..جمعه) to its hours; `menu` is the menu link. More reviews: bl_reviews;\ndirections: bl_route with its lat/lng.",
+      "input_schema": {
+        "properties": {
+          "id": {
+            "description": "Place id from bl_search or bl_nearby.",
+            "pattern": "^[A-Za-z0-9]{6,32}$",
+            "type": "string"
+          },
+          "reviews": {
+            "default": 3,
+            "description": "Recent reviews to include (0-10).",
+            "maximum": 10,
+            "minimum": 0,
+            "type": "integer"
+          },
+          "photos": {
+            "default": 3,
+            "description": "Photo URLs to include (0-20).",
+            "maximum": 20,
+            "minimum": 0,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "id"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "bl_reviews",
+      "description": "Get one page of user reviews of a place on Balad, newest first, with stars and the rating breakdown.\n\nWhen `more` is true, call again with page+1. bl_place already includes the first few reviews.",
+      "input_schema": {
+        "properties": {
+          "id": {
+            "description": "Place id from bl_search or bl_nearby.",
+            "pattern": "^[A-Za-z0-9]{6,32}$",
+            "type": "string"
+          },
+          "page": {
+            "default": 1,
+            "description": "Page (10 reviews each, 1-100).",
+            "maximum": 100,
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "id"
+        ],
+        "type": "object"
+      }
+    },
+    {
+      "name": "bl_reviews",
+      "title": "Place reviews",
+      "description": "Get one page of user reviews of a place on Balad, newest first, with stars and the rating breakdown.\n\nWhen `more` is true, call again with page+1. bl_place already includes the first few reviews.",
+      "input_schema": {
+        "properties": {
+          "id": {
+            "description": "Place id from bl_search or bl_nearby.",
+            "pattern": "^[A-Za-z0-9]{6,32}$",
+            "type": "string"
+          },
+          "page": {
+            "default": 1,
+            "description": "Page (10 reviews each, 1-100).",
+            "maximum": 100,
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "id"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "bl_reverse_geocode",
+      "description": "Turn coordinates into a Persian street address with city, county and neighbourhood (reverse geocoding).\n\nFor the opposite (name -> coordinates) use bl_search. Iran only; elsewhere it errors.",
+      "input_schema": {
+        "properties": {
+          "lat": {
+            "description": "Latitude, e.g. 35.7448.",
+            "maximum": 40.5,
+            "minimum": 24,
+            "type": "number"
+          },
+          "lng": {
+            "description": "Longitude, e.g. 51.3753.",
+            "maximum": 64,
+            "minimum": 43,
+            "type": "number"
+          }
+        },
+        "required": [
+          "lat",
+          "lng"
+        ],
+        "type": "object"
+      }
+    },
+    {
+      "name": "bl_reverse_geocode",
+      "title": "Address of a point",
+      "description": "Turn coordinates into a Persian street address with city, county and neighbourhood (reverse geocoding).\n\nFor the opposite (name -> coordinates) use bl_search. Iran only; elsewhere it errors.",
+      "input_schema": {
+        "properties": {
+          "lat": {
+            "description": "Latitude, e.g. 35.7448.",
+            "maximum": 40.5,
+            "minimum": 24,
+            "type": "number"
+          },
+          "lng": {
+            "description": "Longitude, e.g. 51.3753.",
+            "maximum": 64,
+            "minimum": 43,
+            "type": "number"
+          }
+        },
+        "required": [
+          "lat",
+          "lng"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "bl_route",
+      "description": "Get driving routes in Iran with distance, travel time in current traffic, tolls, roads and traffic-zone warnings.\n\nUp to 3 routes, suggested first; `notes` are the site's labels (delay, toll in Toman); `traffic_plan` appears\nwhen a route enters a restricted zone (طرح ترافیک, زوج و فرد); `legs` with `stops`. Driving only. Get\ncoordinates from bl_search. 'No route': a point is outside Iran or off the road network.",
+      "input_schema": {
+        "properties": {
+          "from_lat": {
+            "description": "Latitude, e.g. 35.7448.",
+            "maximum": 40.5,
+            "minimum": 24,
+            "type": "number"
+          },
+          "from_lng": {
+            "description": "Longitude, e.g. 51.3753.",
+            "maximum": 64,
+            "minimum": 43,
+            "type": "number"
+          },
+          "to_lat": {
+            "description": "Latitude, e.g. 35.7448.",
+            "maximum": 40.5,
+            "minimum": 24,
+            "type": "number"
+          },
+          "to_lng": {
+            "description": "Longitude, e.g. 51.3753.",
+            "maximum": 64,
+            "minimum": 43,
+            "type": "number"
+          },
+          "stops": {
+            "default": [],
+            "description": "Stops in order, each \"lat,lng\" (max 3).",
+            "items": {
+              "pattern": "^\\s*-?\\d+(\\.\\d+)?\\s*,\\s*-?\\d+(\\.\\d+)?\\s*$",
+              "type": "string"
+            },
+            "maxItems": 3,
+            "type": "array"
+          },
+          "steps": {
+            "default": false,
+            "description": "Include turn-by-turn steps.",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "from_lat",
+          "from_lng",
+          "to_lat",
+          "to_lng"
+        ],
+        "type": "object"
+      }
+    },
+    {
+      "name": "bl_route",
+      "title": "Driving route with live traffic",
+      "description": "Get driving routes in Iran with distance, travel time in current traffic, tolls, roads and traffic-zone warnings.\n\nUp to 3 routes, suggested first; `notes` are the site's labels (delay, toll in Toman); `traffic_plan` appears\nwhen a route enters a restricted zone (طرح ترافیک, زوج و فرد); `legs` with `stops`. Driving only. Get\ncoordinates from bl_search. 'No route': a point is outside Iran or off the road network.",
+      "input_schema": {
+        "properties": {
+          "from_lat": {
+            "description": "Latitude, e.g. 35.7448.",
+            "maximum": 40.5,
+            "minimum": 24,
+            "type": "number"
+          },
+          "from_lng": {
+            "description": "Longitude, e.g. 51.3753.",
+            "maximum": 64,
+            "minimum": 43,
+            "type": "number"
+          },
+          "to_lat": {
+            "description": "Latitude, e.g. 35.7448.",
+            "maximum": 40.5,
+            "minimum": 24,
+            "type": "number"
+          },
+          "to_lng": {
+            "description": "Longitude, e.g. 51.3753.",
+            "maximum": 64,
+            "minimum": 43,
+            "type": "number"
+          },
+          "stops": {
+            "default": [],
+            "description": "Stops in order, each \"lat,lng\" (max 3).",
+            "items": {
+              "pattern": "^\\s*-?\\d+(\\.\\d+)?\\s*,\\s*-?\\d+(\\.\\d+)?\\s*$",
+              "type": "string"
+            },
+            "maxItems": 3,
+            "type": "array"
+          },
+          "steps": {
+            "default": false,
+            "description": "Include turn-by-turn steps.",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "from_lat",
+          "from_lng",
+          "to_lat",
+          "to_lng"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "bl_nearest_by_drive",
+      "description": "Rank places of one kind around a point by driving time from it in current traffic, quickest first.\n\nTimes a drive to Balad's top `candidates` places (as bl_nearby lists them), one route call each; unroutable\nplaces are left out. For more places without drive times use bl_nearby; details: bl_place.",
+      "input_schema": {
+        "properties": {
+          "what": {
+            "description": "Category slug from bl_categories (e.g. pharmacy, gas-station) or free text (e.g. پیتزا).",
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "lat": {
+            "description": "Latitude, e.g. 35.7448.",
+            "maximum": 40.5,
+            "minimum": 24,
+            "type": "number"
+          },
+          "lng": {
+            "description": "Longitude, e.g. 51.3753.",
+            "maximum": 64,
+            "minimum": 43,
+            "type": "number"
+          },
+          "radius_km": {
+            "default": 3,
+            "description": "Box half-width in km (0.5-20).",
+            "maximum": 20,
+            "minimum": 0.5,
+            "type": "number"
+          },
+          "candidates": {
+            "default": 5,
+            "description": "How many top places to time (2-8).",
+            "maximum": 8,
+            "minimum": 2,
+            "type": "integer"
+          },
+          "open_now": {
+            "default": false,
+            "description": "Only places open now.",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "what",
+          "lat",
+          "lng"
+        ],
+        "type": "object"
+      }
+    },
+    {
+      "name": "bl_nearest_by_drive",
+      "title": "Closest places by driving time",
+      "description": "Rank places of one kind around a point by driving time from it in current traffic, quickest first.\n\nTimes a drive to Balad's top `candidates` places (as bl_nearby lists them), one route call each; unroutable\nplaces are left out. For more places without drive times use bl_nearby; details: bl_place.",
+      "input_schema": {
+        "properties": {
+          "what": {
+            "description": "Category slug from bl_categories (e.g. pharmacy, gas-station) or free text (e.g. پیتزا).",
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "lat": {
+            "description": "Latitude, e.g. 35.7448.",
+            "maximum": 40.5,
+            "minimum": 24,
+            "type": "number"
+          },
+          "lng": {
+            "description": "Longitude, e.g. 51.3753.",
+            "maximum": 64,
+            "minimum": 43,
+            "type": "number"
+          },
+          "radius_km": {
+            "default": 3,
+            "description": "Box half-width in km (0.5-20).",
+            "maximum": 20,
+            "minimum": 0.5,
+            "type": "number"
+          },
+          "candidates": {
+            "default": 5,
+            "description": "How many top places to time (2-8).",
+            "maximum": 8,
+            "minimum": 2,
+            "type": "integer"
+          },
+          "open_now": {
+            "default": false,
+            "description": "Only places open now.",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "what",
+          "lat",
+          "lng"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "bl_along_route",
+      "description": "Find places of one kind (gas station, restaurant, pharmacy...) along the suggested driving route between two points.\n\nOrdered by `km_from_start`, with `off_route_km`. Searches up to 12 boxes along the route, so on trips of\nhundreds of km places between boxes are missed; split the trip for full coverage.",
+      "input_schema": {
+        "properties": {
+          "what": {
+            "description": "Category slug from bl_categories (e.g. pharmacy, gas-station) or free text (e.g. پیتزا).",
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "from_lat": {
+            "description": "Latitude, e.g. 35.7448.",
+            "maximum": 40.5,
+            "minimum": 24,
+            "type": "number"
+          },
+          "from_lng": {
+            "description": "Longitude, e.g. 51.3753.",
+            "maximum": 64,
+            "minimum": 43,
+            "type": "number"
+          },
+          "to_lat": {
+            "description": "Latitude, e.g. 35.7448.",
+            "maximum": 40.5,
+            "minimum": 24,
+            "type": "number"
+          },
+          "to_lng": {
+            "description": "Longitude, e.g. 51.3753.",
+            "maximum": 64,
+            "minimum": 43,
+            "type": "number"
+          },
+          "max_off_route_km": {
+            "default": 0.5,
+            "description": "Max distance from the road in km (0.2-3).",
+            "maximum": 3,
+            "minimum": 0.2,
+            "type": "number"
+          },
+          "limit": {
+            "default": 10,
+            "description": "Max places to return (1-30).",
+            "maximum": 30,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "open_now": {
+            "default": false,
+            "description": "Only places open now.",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "what",
+          "from_lat",
+          "from_lng",
+          "to_lat",
+          "to_lng"
+        ],
+        "type": "object"
+      }
+    },
+    {
+      "name": "bl_along_route",
+      "title": "Places along a driving route",
+      "description": "Find places of one kind (gas station, restaurant, pharmacy...) along the suggested driving route between two points.\n\nOrdered by `km_from_start`, with `off_route_km`. Searches up to 12 boxes along the route, so on trips of\nhundreds of km places between boxes are missed; split the trip for full coverage.",
+      "input_schema": {
+        "properties": {
+          "what": {
+            "description": "Category slug from bl_categories (e.g. pharmacy, gas-station) or free text (e.g. پیتزا).",
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "from_lat": {
+            "description": "Latitude, e.g. 35.7448.",
+            "maximum": 40.5,
+            "minimum": 24,
+            "type": "number"
+          },
+          "from_lng": {
+            "description": "Longitude, e.g. 51.3753.",
+            "maximum": 64,
+            "minimum": 43,
+            "type": "number"
+          },
+          "to_lat": {
+            "description": "Latitude, e.g. 35.7448.",
+            "maximum": 40.5,
+            "minimum": 24,
+            "type": "number"
+          },
+          "to_lng": {
+            "description": "Longitude, e.g. 51.3753.",
+            "maximum": 64,
+            "minimum": 43,
+            "type": "number"
+          },
+          "max_off_route_km": {
+            "default": 0.5,
+            "description": "Max distance from the road in km (0.2-3).",
+            "maximum": 3,
+            "minimum": 0.2,
+            "type": "number"
+          },
+          "limit": {
+            "default": 10,
+            "description": "Max places to return (1-30).",
+            "maximum": 30,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "open_now": {
+            "default": false,
+            "description": "Only places open now.",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "what",
+          "from_lat",
+          "from_lng",
+          "to_lat",
+          "to_lng"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "bl_categories",
+      "description": "List Balad's place categories with the slug bl_nearby takes, grouped (food, health, shopping, services...).\n\nUse it for the exact slug for bl_nearby, bl_nearest_by_drive or bl_along_route.",
+      "input_schema": {
+        "properties": {},
+        "type": "object"
+      }
+    },
+    {
+      "name": "bl_categories",
+      "title": "Place categories",
+      "description": "List Balad's place categories with the slug bl_nearby takes, grouped (food, health, shopping, services...).\n\nUse it for the exact slug for bl_nearby, bl_nearest_by_drive or bl_along_route.",
+      "input_schema": {
+        "properties": {},
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    }
+  ]
+}
