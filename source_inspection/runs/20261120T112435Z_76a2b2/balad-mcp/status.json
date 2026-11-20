@@ -1,0 +1,26 @@
+{
+  "source": "balad-mcp",
+  "integration_type": "MCP stdio",
+  "timestamp": "2026-11-20T11:24:39.754997+00:00",
+  "evidence_status": "verified_live_response",
+  "startup_status": "initialized",
+  "authentication_status": "unknown",
+  "tool_discovery_status": "succeeded",
+  "real_request_executed": true,
+  "real_response_received": true,
+  "failure_stage": null,
+  "executable_configured": "C:\\Users\\Arvin\\Desktop\\info_extractor\\.venv\\Scripts\\balad-mcp.exe",
+  "executable_exists": true,
+  "required_credentials_or_configuration": [],
+  "notes": [
+    "bl_place: deferred until a real response supplies a required identifier.",
+    "bl_reviews: deferred until a real response supplies a required identifier."
+  ],
+  "optional_proxy_variable": "BALAD_MCP_PROXY",
+  "optional_proxy_configured": false,
+  "discovered_tool_count": 9,
+  "executed_request_count": 9,
+  "successful_request_count": 9,
+  "failed_request_count": 0,
+  "actual_response_file_count": 9
+}

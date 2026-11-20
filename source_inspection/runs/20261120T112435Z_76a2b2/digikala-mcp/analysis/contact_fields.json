@@ -1,0 +1,152 @@
+{
+  "evidence_status": "verified_live_response",
+  "observed_contact_fields": {
+    "categories.cell-phone-pouch-cover": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.mobile-phones-tablets-and-headphones-accessories": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "offers[].seller": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "offers[].seller_code": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "offers[].seller_rating": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "number"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "number",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].seller": {
+      "observed_values_count": 120,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_0aeb72bc.json",
+        "digikala-mcp/responses/001_8742d43d.json",
+        "digikala-mcp/responses/010_1b6bdd4a.json",
+        "digikala-mcp/responses/011_28c68f11.json",
+        "digikala-mcp/responses/detail_016_07c75528.json",
+        "digikala-mcp/responses/pagination_000_ddaf2262.json",
+        "digikala-mcp/responses/pagination_011_3e5e9eaa.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "reviews[].seller": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_014_71182347.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "seller": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "seller_types": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "seller_types[]": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    }
+  },
+  "phone_value_observed": true
+}

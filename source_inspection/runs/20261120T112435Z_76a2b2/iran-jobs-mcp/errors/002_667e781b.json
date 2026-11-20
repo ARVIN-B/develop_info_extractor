@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-11-20T11:25:09.136013+00:00",
+  "source": "iran-jobs-mcp",
+  "tool": "job_irantalent_search_jobs",
+  "stage": "execution",
+  "evidence_status": "verified_live_error",
+  "exception_type": "MCPToolError",
+  "message": "The live tool response contained an error.",
+  "response": {
+    "structuredContent": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "Error executing tool job_irantalent_search_jobs: 1 validation error for job_irantalent_search_jobsArguments\ncompany\n  String should match pattern '^[0-9a-fA-F-]{36}$' [type=string_pattern_mismatch, input_value='شرکت فناوری', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/string_pattern_mismatch",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "isError": false,
+    "_meta": null
+  },
+  "request_file": "requests/002_667e781b.json"
+}

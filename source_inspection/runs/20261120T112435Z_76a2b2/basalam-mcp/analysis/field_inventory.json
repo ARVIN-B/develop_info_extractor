@@ -1,0 +1,484 @@
+{
+  "evidence_status": "verified_live_response",
+  "response_file_count": 3,
+  "observed_fields": {
+    "categories": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 1,
+      "present_in_files": [
+        "basalam-mcp/responses/002_7363495e.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "offers": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "basalam-mcp/responses/001_024f77c3.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "offers[]": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "basalam-mcp/responses/001_024f77c3.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "offers[].category": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "basalam-mcp/responses/001_024f77c3.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "offers[].discount_pct": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "basalam-mcp/responses/001_024f77c3.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "offers[].id": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "basalam-mcp/responses/001_024f77c3.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "offers[].in_stock": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "basalam-mcp/responses/001_024f77c3.json"
+      ],
+      "observed_types": [
+        "boolean"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "boolean",
+      "evidence_status": "verified_live_response"
+    },
+    "offers[].name": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "basalam-mcp/responses/001_024f77c3.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "offers[].original_price": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "basalam-mcp/responses/001_024f77c3.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "offers[].price": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "basalam-mcp/responses/001_024f77c3.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "offers[].rating": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "basalam-mcp/responses/001_024f77c3.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "offers[].rating_count": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "basalam-mcp/responses/001_024f77c3.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "offers[].shop": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "basalam-mcp/responses/001_024f77c3.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "offers[].shop_id": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "basalam-mcp/responses/001_024f77c3.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "offers[].stock": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "basalam-mcp/responses/001_024f77c3.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "offers[].unit": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "basalam-mcp/responses/001_024f77c3.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "page": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "basalam-mcp/responses/000_0f4b82d5.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "products": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "basalam-mcp/responses/000_0f4b82d5.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "products[]": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "basalam-mcp/responses/000_0f4b82d5.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].category": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "basalam-mcp/responses/000_0f4b82d5.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].discount_pct": {
+      "observed_values_count": 5,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "basalam-mcp/responses/000_0f4b82d5.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].id": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "basalam-mcp/responses/000_0f4b82d5.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].in_stock": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "basalam-mcp/responses/000_0f4b82d5.json"
+      ],
+      "observed_types": [
+        "boolean"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "boolean",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].name": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "basalam-mcp/responses/000_0f4b82d5.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].original_price": {
+      "observed_values_count": 5,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "basalam-mcp/responses/000_0f4b82d5.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].price": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "basalam-mcp/responses/000_0f4b82d5.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].rating": {
+      "observed_values_count": 11,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "basalam-mcp/responses/000_0f4b82d5.json"
+      ],
+      "observed_types": [
+        "number",
+        "integer"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "multiple",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].rating_count": {
+      "observed_values_count": 11,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "basalam-mcp/responses/000_0f4b82d5.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].shop": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "basalam-mcp/responses/000_0f4b82d5.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].shop_id": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "basalam-mcp/responses/000_0f4b82d5.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].stock": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "basalam-mcp/responses/000_0f4b82d5.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].unit": {
+      "observed_values_count": 9,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "basalam-mcp/responses/000_0f4b82d5.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "total": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "basalam-mcp/responses/000_0f4b82d5.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "total_matches": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "basalam-mcp/responses/001_024f77c3.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    }
+  },
+  "note": "Only captured successful response payloads are inventoried; absent fields are not asserted unavailable."
+}

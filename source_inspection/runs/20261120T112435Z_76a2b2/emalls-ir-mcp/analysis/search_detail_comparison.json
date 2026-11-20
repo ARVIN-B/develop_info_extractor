@@ -1,0 +1,47 @@
+{
+  "evidence_status": "verified_live_response",
+  "search_response_files": [
+    "000_8616bef1.json",
+    "009_de87f965.json"
+  ],
+  "detail_response_files": [],
+  "fields_observed_in_search": [
+    "count",
+    "has_next",
+    "heading",
+    "page",
+    "products",
+    "products[]",
+    "products[].id",
+    "products[].price",
+    "products[].price_max",
+    "products[].shops",
+    "products[].title",
+    "products[].updated",
+    "shops",
+    "shops[]",
+    "shops[].id",
+    "shops[].name"
+  ],
+  "fields_observed_in_detail": [],
+  "common_fields": [],
+  "search_only_fields": [
+    "count",
+    "has_next",
+    "heading",
+    "page",
+    "products",
+    "products[]",
+    "products[].id",
+    "products[].price",
+    "products[].price_max",
+    "products[].shops",
+    "products[].title",
+    "products[].updated",
+    "shops",
+    "shops[]",
+    "shops[].id",
+    "shops[].name"
+  ],
+  "detail_only_fields": []
+}

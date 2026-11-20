@@ -1,0 +1,30 @@
+{
+  "source": "digikala-mcp",
+  "integration_type": "MCP stdio",
+  "timestamp": "2026-11-20T11:26:23.451846+00:00",
+  "evidence_status": "verified_live_response",
+  "startup_status": "initialized",
+  "authentication_status": "unknown",
+  "tool_discovery_status": "succeeded",
+  "real_request_executed": true,
+  "real_response_received": true,
+  "failure_stage": null,
+  "executable_configured": "C:\\Users\\Arvin\\Desktop\\info_extractor\\.venv\\Scripts\\digikala-mcp.exe",
+  "executable_exists": true,
+  "required_credentials_or_configuration": [],
+  "notes": [
+    "dk_product: deferred until a real response supplies a required identifier.",
+    "dk_price_history: deferred until a real response supplies a required identifier.",
+    "dk_reviews: deferred until a real response supplies a required identifier.",
+    "dk_questions: deferred until a real response supplies a required identifier.",
+    "dk_similar: deferred until a real response supplies a required identifier.",
+    "dk_installments: deferred until a real response supplies a required identifier."
+  ],
+  "optional_proxy_variable": "DIGIKALA_MCP_PROXY",
+  "optional_proxy_configured": false,
+  "discovered_tool_count": 23,
+  "executed_request_count": 20,
+  "successful_request_count": 17,
+  "failed_request_count": 3,
+  "actual_response_file_count": 17
+}

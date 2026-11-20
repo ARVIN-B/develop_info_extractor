@@ -1,0 +1,13 @@
+{
+  "structuredContent": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"query\":\"کافه\",\"count\":24,\"next_page\":3,\"shops\":[{\"id\":163914,\"name\":\"کافه PSD\",\"city\":\"کوار\",\"domain\":\"cafepsd.com\",\"url\":\"https://torob.com/shop/163914\"},{\"id\":22310,\"name\":\"کافه دیجی\",\"city\":\"تهران\",\"domain\":\"cafedigi.ir\",\"url\":\"https://torob.com/shop/22310\"},{\"id\":18864,\"name\":\"کافه فکر\",\"city\":\"تهران\",\"domain\":\"store.cafefekr.com\",\"url\":\"https://torob.com/shop/18864\"},{\"id\":12008,\"name\":\"کافه یراق\",\"city\":\"تهران\",\"domain\":\"cafeyaragh.com\",\"url\":\"https://torob.com/shop/12008\"},{\"id\":19734,\"name\":\"کافه الکترونیک استور\",\"city\":\"آران و بیدگل\",\"domain\":\"cafeelectronic.ir\",\"url\":\"https://torob.com/shop/19734\"},{\"id\":166938,\"name\":\"کافه ستاره\",\"city\":\"کاشان\",\"domain\":\"star-cafe.ir\",\"url\":\"https://torob.com/shop/166938\"},{\"id\":106011,\"name\":\"کافه فایل\",\"city\":\"بیرجند\",\"domain\":\"cafeefile.ir\",\"url\":\"https://torob.com/shop/106011\"},{\"id\":4437,\"name\":\"کافه ساپورت\",\"city\":\"تهران\",\"domain\":\"cafesupport.ir\",\"url\":\"https://torob.com/shop/4437\"},{\"id\":313196,\"name\":\"کافه رسان\",\"city\":\"تهران\",\"domain\":\"app.caferesan.com\",\"url\":\"https://torob.com/shop/313196\"},{\"id\":294068,\"name\":\"تجهیزات کافه رستوران پرشین\",\"city\":\"تهران\",\"domain\":\"tajhizatpersian.ir\",\"url\":\"https://torob.com/shop/294068\"}]}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "isError": false,
+  "_meta": null
+}

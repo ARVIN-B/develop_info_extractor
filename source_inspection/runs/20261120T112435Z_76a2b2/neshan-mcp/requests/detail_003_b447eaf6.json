@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-11-20T11:24:39.118968+00:00",
+  "source": "neshan-mcp",
+  "tool": "ns_photos",
+  "arguments": {
+    "place_id": "e8d96bd9b9e0d4afcd83f32a1cb61ceb"
+  },
+  "stage": "detail",
+  "evidence_status": "request_sent"
+}

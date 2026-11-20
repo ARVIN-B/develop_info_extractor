@@ -1,0 +1,1810 @@
+{
+  "evidence_status": "verified_live_response",
+  "response_file_count": 11,
+  "observed_fields": {
+    "attributes": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/002_99dc2342.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[]": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/002_99dc2342.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].slug": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/002_99dc2342.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].title": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/002_99dc2342.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/002_99dc2342.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values[]": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/002_99dc2342.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values[].name": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/002_99dc2342.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values[].value": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/002_99dc2342.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "brands": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/002_99dc2342.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "brands[]": {
+      "observed_values_count": 51,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/002_99dc2342.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "brands[].id": {
+      "observed_values_count": 51,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/002_99dc2342.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "brands[].name": {
+      "observed_values_count": 51,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/002_99dc2342.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "brands[].name_en": {
+      "observed_values_count": 51,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/002_99dc2342.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "budget": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/020_5283a697.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "categories": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/002_99dc2342.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "categories[]": {
+      "observed_values_count": 14,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/002_99dc2342.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "categories[].id": {
+      "observed_values_count": 14,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/002_99dc2342.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "categories[].title": {
+      "observed_values_count": 14,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/002_99dc2342.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "cheapest": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "cheapest.best_offer": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "cheapest.best_offer.price": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "cheapest.best_offer.shop": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "cheapest.best_offer.shop_id": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "cheapest.product": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "cheapest.product.id": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "cheapest.product.name": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "cheapest.product.url": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "cities": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 1,
+      "present_in_files": [
+        "torob-mcp/responses/007_58accdf5.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "count": {
+      "observed_values_count": 7,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/000_85c7510c.json",
+        "torob-mcp/responses/002_99dc2342.json",
+        "torob-mcp/responses/005_2947ea3a.json",
+        "torob-mcp/responses/007_58accdf5.json",
+        "torob-mcp/responses/024_914f0f65.json",
+        "torob-mcp/responses/pagination_000_f9c0d360.json",
+        "torob-mcp/responses/pagination_024_45dbd7f4.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "is_leaf_category": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/002_99dc2342.json"
+      ],
+      "observed_types": [
+        "boolean"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "boolean",
+      "evidence_status": "verified_live_response"
+    },
+    "matches": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/020_5283a697.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "next_page": {
+      "observed_values_count": 5,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/000_85c7510c.json",
+        "torob-mcp/responses/006_dde409e0.json",
+        "torob-mcp/responses/024_914f0f65.json",
+        "torob-mcp/responses/pagination_000_f9c0d360.json",
+        "torob-mcp/responses/pagination_024_45dbd7f4.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 6,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "note": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/020_5283a697.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "page": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/000_85c7510c.json",
+        "torob-mcp/responses/006_dde409e0.json",
+        "torob-mcp/responses/pagination_000_f9c0d360.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 8,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "parents": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 1,
+      "present_in_files": [
+        "torob-mcp/responses/002_99dc2342.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "picks": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "picks[]": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "picks[].best_offer": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "picks[].best_offer.buyer_notes": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "picks[].best_offer.buyer_notes[]": {
+      "observed_values_count": 6,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "picks[].best_offer.city": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "picks[].best_offer.installment": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "boolean"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "boolean",
+      "evidence_status": "verified_live_response"
+    },
+    "picks[].best_offer.price": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "picks[].best_offer.score": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "picks[].best_offer.shipping": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "picks[].best_offer.shipping.same_day": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "picks[].best_offer.shop": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "picks[].best_offer.shop_id": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "picks[].best_offer.title": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "picks[].best_offer.torob_warranty": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "boolean"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "boolean",
+      "evidence_status": "verified_live_response"
+    },
+    "picks[].best_offer.updated": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "picks[].product": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "picks[].product.id": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "picks[].product.name": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "picks[].product.url": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "picks[].stats": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "picks[].stats.installment": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "picks[].stats.max": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "picks[].stats.median": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "picks[].stats.min": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "picks[].stats.offers": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "picks[].stats.price_spread_pct": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "picks[].stats.torob_warranty": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "picks[].stats.unreliable": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "picks[].stats.usable": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "price_span": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/000_85c7510c.json",
+        "torob-mcp/responses/002_99dc2342.json",
+        "torob-mcp/responses/pagination_000_f9c0d360.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 8,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "price_span[]": {
+      "observed_values_count": 6,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/000_85c7510c.json",
+        "torob-mcp/responses/002_99dc2342.json",
+        "torob-mcp/responses/pagination_000_f9c0d360.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 8,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "products": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 1,
+      "present_in_files": [
+        "torob-mcp/responses/000_85c7510c.json",
+        "torob-mcp/responses/020_5283a697.json",
+        "torob-mcp/responses/pagination_000_f9c0d360.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 8,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "products[]": {
+      "observed_values_count": 19,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/000_85c7510c.json",
+        "torob-mcp/responses/pagination_000_f9c0d360.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 9,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].ad": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/000_85c7510c.json"
+      ],
+      "observed_types": [
+        "boolean"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "boolean",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].id": {
+      "observed_values_count": 19,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/000_85c7510c.json",
+        "torob-mcp/responses/pagination_000_f9c0d360.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 9,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].image": {
+      "observed_values_count": 19,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/000_85c7510c.json",
+        "torob-mcp/responses/pagination_000_f9c0d360.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 9,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].name": {
+      "observed_values_count": 19,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/000_85c7510c.json",
+        "torob-mcp/responses/pagination_000_f9c0d360.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 9,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].name_en": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/000_85c7510c.json",
+        "torob-mcp/responses/pagination_000_f9c0d360.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 9,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].price": {
+      "observed_values_count": 19,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/000_85c7510c.json",
+        "torob-mcp/responses/pagination_000_f9c0d360.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 9,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].shop": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/000_85c7510c.json",
+        "torob-mcp/responses/pagination_000_f9c0d360.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 9,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].shops": {
+      "observed_values_count": 19,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/000_85c7510c.json",
+        "torob-mcp/responses/pagination_000_f9c0d360.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 9,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].url": {
+      "observed_values_count": 19,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/000_85c7510c.json",
+        "torob-mcp/responses/pagination_000_f9c0d360.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 9,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "query": {
+      "observed_values_count": 5,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/000_85c7510c.json",
+        "torob-mcp/responses/018_ad162cae.json",
+        "torob-mcp/responses/024_914f0f65.json",
+        "torob-mcp/responses/pagination_000_f9c0d360.json",
+        "torob-mcp/responses/pagination_024_45dbd7f4.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 6,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "rank_by": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/020_5283a697.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "rows": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/006_dde409e0.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "rows[]": {
+      "observed_values_count": 33,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/006_dde409e0.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "rows[].products": {
+      "observed_values_count": 33,
+      "null_count": 0,
+      "empty_count": 10,
+      "present_in_files": [
+        "torob-mcp/responses/006_dde409e0.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "rows[].products[]": {
+      "observed_values_count": 230,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/006_dde409e0.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "rows[].products[].ad": {
+      "observed_values_count": 22,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/006_dde409e0.json"
+      ],
+      "observed_types": [
+        "boolean"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "boolean",
+      "evidence_status": "verified_live_response"
+    },
+    "rows[].products[].condition": {
+      "observed_values_count": 6,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/006_dde409e0.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "rows[].products[].id": {
+      "observed_values_count": 230,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/006_dde409e0.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "rows[].products[].image": {
+      "observed_values_count": 230,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/006_dde409e0.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "rows[].products[].name": {
+      "observed_values_count": 230,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/006_dde409e0.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "rows[].products[].name_en": {
+      "observed_values_count": 87,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/006_dde409e0.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "rows[].products[].price": {
+      "observed_values_count": 230,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/006_dde409e0.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "rows[].products[].shop": {
+      "observed_values_count": 44,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/006_dde409e0.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "rows[].products[].shops": {
+      "observed_values_count": 230,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/006_dde409e0.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "rows[].products[].url": {
+      "observed_values_count": 230,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/006_dde409e0.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "rows[].themes": {
+      "observed_values_count": 33,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/006_dde409e0.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "rows[].themes[]": {
+      "observed_values_count": 48,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/006_dde409e0.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "rows[].themes[].description": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/006_dde409e0.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "rows[].themes[].shop_id": {
+      "observed_values_count": 23,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/006_dde409e0.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "rows[].themes[].title": {
+      "observed_values_count": 48,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/006_dde409e0.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "shops": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/024_914f0f65.json",
+        "torob-mcp/responses/pagination_024_45dbd7f4.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 9,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "shops[]": {
+      "observed_values_count": 20,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/024_914f0f65.json",
+        "torob-mcp/responses/pagination_024_45dbd7f4.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 9,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "shops[].city": {
+      "observed_values_count": 20,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/024_914f0f65.json",
+        "torob-mcp/responses/pagination_024_45dbd7f4.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 9,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "shops[].domain": {
+      "observed_values_count": 20,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/024_914f0f65.json",
+        "torob-mcp/responses/pagination_024_45dbd7f4.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 9,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "shops[].id": {
+      "observed_values_count": 20,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/024_914f0f65.json",
+        "torob-mcp/responses/pagination_024_45dbd7f4.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 9,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "shops[].name": {
+      "observed_values_count": 20,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/024_914f0f65.json",
+        "torob-mcp/responses/pagination_024_45dbd7f4.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 9,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "shops[].url": {
+      "observed_values_count": 20,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/024_914f0f65.json",
+        "torob-mcp/responses/pagination_024_45dbd7f4.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 9,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "sort": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/002_99dc2342.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "sort[]": {
+      "observed_values_count": 5,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/002_99dc2342.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "suggestions": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/001_1d5b4727.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "suggestions[]": {
+      "observed_values_count": 9,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/001_1d5b4727.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "text": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/001_1d5b4727.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "toggles": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/002_99dc2342.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "toggles[]": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/002_99dc2342.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "trends": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/005_2947ea3a.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "trends[]": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/005_2947ea3a.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "trends[].category": {
+      "observed_values_count": 10,
+      "null_count": 1,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/005_2947ea3a.json"
+      ],
+      "observed_types": [
+        "integer",
+        "null"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "multiple",
+      "evidence_status": "verified_live_response"
+    },
+    "trends[].example": {
+      "observed_values_count": 9,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/005_2947ea3a.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "trends[].example.id": {
+      "observed_values_count": 9,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/005_2947ea3a.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "trends[].example.image": {
+      "observed_values_count": 9,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/005_2947ea3a.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "trends[].example.name": {
+      "observed_values_count": 9,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/005_2947ea3a.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "trends[].example.name_en": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/005_2947ea3a.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "trends[].example.price": {
+      "observed_values_count": 9,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/005_2947ea3a.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "trends[].example.shop": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/005_2947ea3a.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "trends[].example.shops": {
+      "observed_values_count": 9,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/005_2947ea3a.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "trends[].example.url": {
+      "observed_values_count": 9,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/005_2947ea3a.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "trends[].query": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/005_2947ea3a.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    }
+  },
+  "note": "Only captured successful response payloads are inventoried; absent fields are not asserted unavailable."
+}

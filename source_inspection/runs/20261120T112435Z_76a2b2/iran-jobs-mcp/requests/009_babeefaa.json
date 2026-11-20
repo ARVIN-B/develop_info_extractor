@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-11-20T11:25:10.760364+00:00",
+  "source": "iran-jobs-mcp",
+  "tool": "job_jobinja_search_jobs",
+  "arguments": {
+    "keyword": "کافه"
+  },
+  "evidence_status": "request_sent"
+}

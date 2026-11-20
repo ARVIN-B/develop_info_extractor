@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-11-20T11:25:46.790200+00:00",
+  "source": "iran-jobs-mcp",
+  "tool": "job_jobinja_company",
+  "stage": "detail_execution",
+  "evidence_status": "verified_live_error",
+  "exception_type": "MCPToolError",
+  "message": "The live tool response contained an error.",
+  "response": {
+    "structuredContent": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "Error executing tool job_jobinja_company: jobinja.ir found nothing at that address (HTTP 404). Check the company slug or job id.",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "isError": false,
+    "_meta": null
+  },
+  "request_file": "requests/detail_011_037bd43a.json"
+}

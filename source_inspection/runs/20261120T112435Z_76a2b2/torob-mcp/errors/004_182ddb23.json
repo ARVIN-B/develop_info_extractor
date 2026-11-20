@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-11-20T11:25:55.188862+00:00",
+  "source": "torob-mcp",
+  "tool": "tb_brands",
+  "stage": "execution",
+  "evidence_status": "verified_live_error",
+  "exception_type": "MCPToolError",
+  "message": "The live tool response contained an error.",
+  "response": {
+    "structuredContent": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "Error executing tool tb_brands: 1 validation error for tb_brandsArguments\ncategory\n  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='کافه', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/int_parsing",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "isError": false,
+    "_meta": null
+  },
+  "request_file": "requests/004_182ddb23.json"
+}

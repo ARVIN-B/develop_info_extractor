@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-11-20T11:25:06.522893+00:00",
+  "source": "iran-jobs-mcp",
+  "tool": "job_irantalent_salary_reports",
+  "arguments": {
+    "search": "کافه"
+  },
+  "evidence_status": "request_sent"
+}

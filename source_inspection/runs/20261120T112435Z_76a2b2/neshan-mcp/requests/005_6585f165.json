@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-11-20T11:24:37.346399+00:00",
+  "source": "neshan-mcp",
+  "tool": "ns_reverse_geocode",
+  "arguments": {
+    "location": "35.6892,51.3890"
+  },
+  "evidence_status": "request_sent"
+}

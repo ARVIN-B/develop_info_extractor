@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-11-20T11:24:54.994083+00:00",
+  "source": "emalls-ir-mcp",
+  "tool": "em_categories",
+  "arguments": {
+    "query": "کافه"
+  },
+  "evidence_status": "request_sent"
+}

@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-11-20T11:24:52.907533+00:00",
+  "tool": "bs_vendor",
+  "stage": "argument_construction",
+  "status": "requires_manual_configuration",
+  "missing_required_fields": [
+    "vendor"
+  ],
+  "reason": "No safe argument could be derived from the actual schema."
+}

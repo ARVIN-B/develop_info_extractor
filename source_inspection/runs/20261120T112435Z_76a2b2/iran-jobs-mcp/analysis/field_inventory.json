@@ -1,0 +1,4442 @@
+{
+  "evidence_status": "verified_live_response",
+  "response_file_count": 26,
+  "observed_fields": {
+    "ads": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/016_f327d2cf.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "ads[]": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/016_f327d2cf.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "ads[].company": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/016_f327d2cf.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "ads[].id": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/016_f327d2cf.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "ads[].salary": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/016_f327d2cf.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "ads[].salary_min_toman": {
+      "observed_values_count": 11,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/016_f327d2cf.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "ads[].salary_negotiable": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/016_f327d2cf.json"
+      ],
+      "observed_types": [
+        "boolean"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "boolean",
+      "evidence_status": "verified_live_response"
+    },
+    "ads[].title": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/016_f327d2cf.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "ads_with_pay": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/022_c8b30005.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "age": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/003_daeac392.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "age.from": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/003_daeac392.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "age.to": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/003_daeac392.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "announcements": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/029_b0fddc6b.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "announcements[]": {
+      "observed_values_count": 8,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/029_b0fddc6b.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "announcements[].article": {
+      "observed_values_count": 8,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/029_b0fddc6b.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "announcements[].published": {
+      "observed_values_count": 8,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/029_b0fddc6b.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "announcements[].summary": {
+      "observed_values_count": 8,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/029_b0fddc6b.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "announcements[].title": {
+      "observed_values_count": 8,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/029_b0fddc6b.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "applied": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/018_ca3c48eb.json",
+        "iran-jobs-mcp/responses/022_c8b30005.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "applied.keyword": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/018_ca3c48eb.json",
+        "iran-jobs-mcp/responses/022_c8b30005.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "apply_link": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 1,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/003_daeac392.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "breakdown": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/007_e61c54d9.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "careers": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 1,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/035_b6f433d8.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "categories": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/003_daeac392.json",
+        "iran-jobs-mcp/responses/014_1db2fab5.json",
+        "iran-jobs-mcp/responses/017_c5f494d4.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 23,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "categories[]": {
+      "observed_values_count": 97,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/003_daeac392.json",
+        "iran-jobs-mcp/responses/014_1db2fab5.json",
+        "iran-jobs-mcp/responses/017_c5f494d4.json"
+      ],
+      "observed_types": [
+        "string",
+        "object"
+      ],
+      "missing_from_file_count": 23,
+      "observed_type": "multiple",
+      "evidence_status": "verified_live_response"
+    },
+    "categories[].ads": {
+      "observed_values_count": 48,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/014_1db2fab5.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "categories[].name": {
+      "observed_values_count": 48,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/014_1db2fab5.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "city": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/003_daeac392.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "city_fa": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/003_daeac392.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "companies": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/013_5d971229.json",
+        "iran-jobs-mcp/responses/026_84c8c7ad.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "companies[]": {
+      "observed_values_count": 18,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/013_5d971229.json",
+        "iran-jobs-mcp/responses/026_84c8c7ad.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "companies[].city": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/013_5d971229.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "companies[].hiring": {
+      "observed_values_count": 8,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/013_5d971229.json"
+      ],
+      "observed_types": [
+        "boolean"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "boolean",
+      "evidence_status": "verified_live_response"
+    },
+    "companies[].id": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/026_84c8c7ad.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "companies[].industry": {
+      "observed_values_count": 8,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/013_5d971229.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "companies[].name": {
+      "observed_values_count": 18,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/013_5d971229.json",
+        "iran-jobs-mcp/responses/026_84c8c7ad.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "companies[].name_en": {
+      "observed_values_count": 17,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/013_5d971229.json",
+        "iran-jobs-mcp/responses/026_84c8c7ad.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "companies[].open_ads": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/026_84c8c7ad.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "companies[].rank": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/026_84c8c7ad.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "companies[].rating": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/026_84c8c7ad.json"
+      ],
+      "observed_types": [
+        "number"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "number",
+      "evidence_status": "verified_live_response"
+    },
+    "companies[].slug": {
+      "observed_values_count": 8,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/013_5d971229.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "companies[].url": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/026_84c8c7ad.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "company": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/003_daeac392.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "company.id": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/003_daeac392.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "company.industry": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/003_daeac392.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "company.name": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/003_daeac392.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "company.name_fa": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/003_daeac392.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "company.size": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/003_daeac392.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "count": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/024_eb5b2199.json",
+        "iran-jobs-mcp/responses/detail_012_7660183a.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "employers_total": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/007_e61c54d9.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "employment": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/003_daeac392.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "experience": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/017_c5f494d4.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "experience[]": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/017_c5f494d4.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "expired": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/detail_012_7660183a.json"
+      ],
+      "observed_types": [
+        "boolean"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "boolean",
+      "evidence_status": "verified_live_response"
+    },
+    "expires": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/003_daeac392.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "filters_total": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/028_2b1ffd21.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "found": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/009_babeefaa.json",
+        "iran-jobs-mcp/responses/pagination_009_a44d62a2.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "highest_max": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/022_c8b30005.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "id": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/003_daeac392.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "industries": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/014_1db2fab5.json",
+        "iran-jobs-mcp/responses/017_c5f494d4.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "industries[]": {
+      "observed_values_count": 46,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/014_1db2fab5.json",
+        "iran-jobs-mcp/responses/017_c5f494d4.json"
+      ],
+      "observed_types": [
+        "object",
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "multiple",
+      "evidence_status": "verified_live_response"
+    },
+    "industries[].ads": {
+      "observed_values_count": 29,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/014_1db2fab5.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "industries[].name": {
+      "observed_values_count": 29,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/014_1db2fab5.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent": {
+      "observed_values_count": 5,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/031_1d7be62e.json",
+        "iran-jobs-mcp/responses/032_ddfa28c1.json",
+        "iran-jobs-mcp/responses/033_a638804e.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 21,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.breakdown": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.companies": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/031_1d7be62e.json",
+        "iran-jobs-mcp/responses/032_ddfa28c1.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.companies[]": {
+      "observed_values_count": 80,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/031_1d7be62e.json",
+        "iran-jobs-mcp/responses/032_ddfa28c1.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.companies[].id": {
+      "observed_values_count": 80,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/031_1d7be62e.json",
+        "iran-jobs-mcp/responses/032_ddfa28c1.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.companies[].name": {
+      "observed_values_count": 80,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/031_1d7be62e.json",
+        "iran-jobs-mcp/responses/032_ddfa28c1.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.companies[].name_fa": {
+      "observed_values_count": 80,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/031_1d7be62e.json",
+        "iran-jobs-mcp/responses/032_ddfa28c1.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.companies[].open_jobs": {
+      "observed_values_count": 80,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/031_1d7be62e.json",
+        "iran-jobs-mcp/responses/032_ddfa28c1.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.companies[].rating": {
+      "observed_values_count": 52,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/031_1d7be62e.json",
+        "iran-jobs-mcp/responses/032_ddfa28c1.json"
+      ],
+      "observed_types": [
+        "number"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "number",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.companies[].ratings_count": {
+      "observed_values_count": 80,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/031_1d7be62e.json",
+        "iran-jobs-mcp/responses/032_ddfa28c1.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.companies[].slug": {
+      "observed_values_count": 80,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/031_1d7be62e.json",
+        "iran-jobs-mcp/responses/032_ddfa28c1.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.companies[].url": {
+      "observed_values_count": 80,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/031_1d7be62e.json",
+        "iran-jobs-mcp/responses/032_ddfa28c1.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.employers_total": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.items": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.items[]": {
+      "observed_values_count": 45,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.items[].name": {
+      "observed_values_count": 45,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.items[].name_fa": {
+      "observed_values_count": 45,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.items[].open_jobs": {
+      "observed_values_count": 45,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.items[].slug": {
+      "observed_values_count": 45,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.jobs": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.jobs[]": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.jobs[].categories": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.jobs[].categories[]": {
+      "observed_values_count": 9,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.jobs[].city": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.jobs[].city_fa": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.jobs[].company": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.jobs[].company.id": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.jobs[].company.name": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.jobs[].company.name_fa": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.jobs[].employment": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.jobs[].id": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.jobs[].posted": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.jobs[].salary_toman_per_month": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.jobs[].salary_toman_per_month.from": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.jobs[].salary_toman_per_month.to": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.jobs[].seniority": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.jobs[].seniority[]": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.jobs[].title": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.jobs[].title_fa": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.jobs[].url": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.jobs[].work_type": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.open_jobs_total": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.page": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/031_1d7be62e.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 23,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.pages": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/031_1d7be62e.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 23,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "irantalent.total": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/031_1d7be62e.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 23,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "items": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/007_e61c54d9.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "items[]": {
+      "observed_values_count": 45,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/007_e61c54d9.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "items[].name": {
+      "observed_values_count": 45,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/007_e61c54d9.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "items[].name_fa": {
+      "observed_values_count": 45,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/007_e61c54d9.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "items[].open_jobs": {
+      "observed_values_count": 45,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/007_e61c54d9.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "items[].slug": {
+      "observed_values_count": 45,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/007_e61c54d9.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "job_type": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/017_c5f494d4.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "job_type[]": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/017_c5f494d4.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja": {
+      "observed_values_count": 5,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/031_1d7be62e.json",
+        "iran-jobs-mcp/responses/032_ddfa28c1.json",
+        "iran-jobs-mcp/responses/033_a638804e.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 21,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.categories": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.categories[]": {
+      "observed_values_count": 48,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.categories[].ads": {
+      "observed_values_count": 48,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.categories[].name": {
+      "observed_values_count": 48,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.companies": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/031_1d7be62e.json",
+        "iran-jobs-mcp/responses/032_ddfa28c1.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.companies[]": {
+      "observed_values_count": 58,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/031_1d7be62e.json",
+        "iran-jobs-mcp/responses/032_ddfa28c1.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.companies[].city": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/031_1d7be62e.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.companies[].hiring": {
+      "observed_values_count": 8,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/031_1d7be62e.json"
+      ],
+      "observed_types": [
+        "boolean"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "boolean",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.companies[].industry": {
+      "observed_values_count": 58,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/031_1d7be62e.json",
+        "iran-jobs-mcp/responses/032_ddfa28c1.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.companies[].name": {
+      "observed_values_count": 58,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/031_1d7be62e.json",
+        "iran-jobs-mcp/responses/032_ddfa28c1.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.companies[].name_en": {
+      "observed_values_count": 55,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/031_1d7be62e.json",
+        "iran-jobs-mcp/responses/032_ddfa28c1.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.companies[].open_jobs": {
+      "observed_values_count": 50,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/032_ddfa28c1.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.companies[].rank": {
+      "observed_values_count": 50,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/032_ddfa28c1.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.companies[].score": {
+      "observed_values_count": 50,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/032_ddfa28c1.json"
+      ],
+      "observed_types": [
+        "number"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "number",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.companies[].size": {
+      "observed_values_count": 50,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/032_ddfa28c1.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.companies[].slug": {
+      "observed_values_count": 58,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/031_1d7be62e.json",
+        "iran-jobs-mcp/responses/032_ddfa28c1.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.companies[].sub_scores": {
+      "observed_values_count": 50,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/032_ddfa28c1.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.companies[].sub_scores.بررسی رزومه‌های دریافتی": {
+      "observed_values_count": 50,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/032_ddfa28c1.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.companies[].sub_scores.تعدد و تنوع فرصت‌های شغلی": {
+      "observed_values_count": 50,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/032_ddfa28c1.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.companies[].sub_scores.محبوبیت میان کارجویان": {
+      "observed_values_count": 50,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/032_ddfa28c1.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.found": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.industries": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.industries[]": {
+      "observed_values_count": 29,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.industries[].ads": {
+      "observed_values_count": 29,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.industries[].name": {
+      "observed_values_count": 29,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.jobs": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.jobs[]": {
+      "observed_values_count": 40,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.jobs[].city": {
+      "observed_values_count": 40,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.jobs[].company": {
+      "observed_values_count": 40,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.jobs[].contract": {
+      "observed_values_count": 40,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.jobs[].id": {
+      "observed_values_count": 40,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.jobs[].posted": {
+      "observed_values_count": 40,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.jobs[].promoted": {
+      "observed_values_count": 22,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "boolean"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "boolean",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.jobs[].title": {
+      "observed_values_count": 40,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.jobs[].url": {
+      "observed_values_count": 40,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.next": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/031_1d7be62e.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 23,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.page": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/031_1d7be62e.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 23,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.pages": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.provinces": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.provinces[]": {
+      "observed_values_count": 31,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.provinces[].ads": {
+      "observed_values_count": 31,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.provinces[].name": {
+      "observed_values_count": 31,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.top_skills": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.top_skills[]": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.top_skills[].ads": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "jobinja.top_skills[].name": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobs": {
+      "observed_values_count": 6,
+      "null_count": 0,
+      "empty_count": 1,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/008_e25ce241.json",
+        "iran-jobs-mcp/responses/009_babeefaa.json",
+        "iran-jobs-mcp/responses/018_ca3c48eb.json",
+        "iran-jobs-mcp/responses/020_f35ce972.json",
+        "iran-jobs-mcp/responses/detail_012_7660183a.json",
+        "iran-jobs-mcp/responses/pagination_009_a44d62a2.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 20,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "jobs[]": {
+      "observed_values_count": 66,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/008_e25ce241.json",
+        "iran-jobs-mcp/responses/009_babeefaa.json",
+        "iran-jobs-mcp/responses/018_ca3c48eb.json",
+        "iran-jobs-mcp/responses/detail_012_7660183a.json",
+        "iran-jobs-mcp/responses/pagination_009_a44d62a2.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 21,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "jobs[].categories": {
+      "observed_values_count": 15,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/008_e25ce241.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "jobs[].categories[]": {
+      "observed_values_count": 18,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/008_e25ce241.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobs[].city": {
+      "observed_values_count": 66,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/008_e25ce241.json",
+        "iran-jobs-mcp/responses/009_babeefaa.json",
+        "iran-jobs-mcp/responses/018_ca3c48eb.json",
+        "iran-jobs-mcp/responses/detail_012_7660183a.json",
+        "iran-jobs-mcp/responses/pagination_009_a44d62a2.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 21,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobs[].city_fa": {
+      "observed_values_count": 15,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/008_e25ce241.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobs[].company": {
+      "observed_values_count": 66,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/008_e25ce241.json",
+        "iran-jobs-mcp/responses/009_babeefaa.json",
+        "iran-jobs-mcp/responses/018_ca3c48eb.json",
+        "iran-jobs-mcp/responses/detail_012_7660183a.json",
+        "iran-jobs-mcp/responses/pagination_009_a44d62a2.json"
+      ],
+      "observed_types": [
+        "object",
+        "string"
+      ],
+      "missing_from_file_count": 21,
+      "observed_type": "multiple",
+      "evidence_status": "verified_live_response"
+    },
+    "jobs[].company.id": {
+      "observed_values_count": 25,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/008_e25ce241.json",
+        "iran-jobs-mcp/responses/018_ca3c48eb.json"
+      ],
+      "observed_types": [
+        "string",
+        "integer"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "multiple",
+      "evidence_status": "verified_live_response"
+    },
+    "jobs[].company.name": {
+      "observed_values_count": 25,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/008_e25ce241.json",
+        "iran-jobs-mcp/responses/018_ca3c48eb.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobs[].company.name_fa": {
+      "observed_values_count": 13,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/008_e25ce241.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobs[].contract": {
+      "observed_values_count": 41,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/009_babeefaa.json",
+        "iran-jobs-mcp/responses/detail_012_7660183a.json",
+        "iran-jobs-mcp/responses/pagination_009_a44d62a2.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 23,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobs[].days_left": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/018_ca3c48eb.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "jobs[].employment": {
+      "observed_values_count": 15,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/008_e25ce241.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobs[].experience_years": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/018_ca3c48eb.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "jobs[].id": {
+      "observed_values_count": 66,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/008_e25ce241.json",
+        "iran-jobs-mcp/responses/009_babeefaa.json",
+        "iran-jobs-mcp/responses/018_ca3c48eb.json",
+        "iran-jobs-mcp/responses/detail_012_7660183a.json",
+        "iran-jobs-mcp/responses/pagination_009_a44d62a2.json"
+      ],
+      "observed_types": [
+        "integer",
+        "string"
+      ],
+      "missing_from_file_count": 21,
+      "observed_type": "multiple",
+      "evidence_status": "verified_live_response"
+    },
+    "jobs[].posted": {
+      "observed_values_count": 66,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/008_e25ce241.json",
+        "iran-jobs-mcp/responses/009_babeefaa.json",
+        "iran-jobs-mcp/responses/018_ca3c48eb.json",
+        "iran-jobs-mcp/responses/detail_012_7660183a.json",
+        "iran-jobs-mcp/responses/pagination_009_a44d62a2.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 21,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobs[].promoted": {
+      "observed_values_count": 22,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/009_babeefaa.json",
+        "iran-jobs-mcp/responses/pagination_009_a44d62a2.json"
+      ],
+      "observed_types": [
+        "boolean"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "boolean",
+      "evidence_status": "verified_live_response"
+    },
+    "jobs[].province": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/018_ca3c48eb.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobs[].region": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/018_ca3c48eb.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobs[].salary_million_toman": {
+      "observed_values_count": 8,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/018_ca3c48eb.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobs[].salary_toman_per_month": {
+      "observed_values_count": 8,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/008_e25ce241.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "jobs[].salary_toman_per_month.from": {
+      "observed_values_count": 8,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/008_e25ce241.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "jobs[].salary_toman_per_month.to": {
+      "observed_values_count": 8,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/008_e25ce241.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "jobs[].seniority": {
+      "observed_values_count": 25,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/008_e25ce241.json",
+        "iran-jobs-mcp/responses/018_ca3c48eb.json"
+      ],
+      "observed_types": [
+        "array",
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "multiple",
+      "evidence_status": "verified_live_response"
+    },
+    "jobs[].seniority[]": {
+      "observed_values_count": 15,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/008_e25ce241.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobs[].title": {
+      "observed_values_count": 66,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/008_e25ce241.json",
+        "iran-jobs-mcp/responses/009_babeefaa.json",
+        "iran-jobs-mcp/responses/018_ca3c48eb.json",
+        "iran-jobs-mcp/responses/detail_012_7660183a.json",
+        "iran-jobs-mcp/responses/pagination_009_a44d62a2.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 21,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobs[].title_fa": {
+      "observed_values_count": 15,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/008_e25ce241.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobs[].urgent": {
+      "observed_values_count": 9,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/018_ca3c48eb.json"
+      ],
+      "observed_types": [
+        "boolean"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "boolean",
+      "evidence_status": "verified_live_response"
+    },
+    "jobs[].url": {
+      "observed_values_count": 66,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/008_e25ce241.json",
+        "iran-jobs-mcp/responses/009_babeefaa.json",
+        "iran-jobs-mcp/responses/018_ca3c48eb.json",
+        "iran-jobs-mcp/responses/detail_012_7660183a.json",
+        "iran-jobs-mcp/responses/pagination_009_a44d62a2.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 21,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobs[].work_type": {
+      "observed_values_count": 25,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/008_e25ce241.json",
+        "iran-jobs-mcp/responses/018_ca3c48eb.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision": {
+      "observed_values_count": 5,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/031_1d7be62e.json",
+        "iran-jobs-mcp/responses/032_ddfa28c1.json",
+        "iran-jobs-mcp/responses/033_a638804e.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 21,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.applied": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.applied.keyword": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.by": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.companies": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/031_1d7be62e.json",
+        "iran-jobs-mcp/responses/032_ddfa28c1.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.companies[]": {
+      "observed_values_count": 20,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/031_1d7be62e.json",
+        "iran-jobs-mcp/responses/032_ddfa28c1.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.companies[].id": {
+      "observed_values_count": 20,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/031_1d7be62e.json",
+        "iran-jobs-mcp/responses/032_ddfa28c1.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.companies[].name": {
+      "observed_values_count": 20,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/031_1d7be62e.json",
+        "iran-jobs-mcp/responses/032_ddfa28c1.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.companies[].name_en": {
+      "observed_values_count": 19,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/031_1d7be62e.json",
+        "iran-jobs-mcp/responses/032_ddfa28c1.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.companies[].open_ads": {
+      "observed_values_count": 20,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/031_1d7be62e.json",
+        "iran-jobs-mcp/responses/032_ddfa28c1.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.companies[].rank": {
+      "observed_values_count": 11,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/031_1d7be62e.json",
+        "iran-jobs-mcp/responses/032_ddfa28c1.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.companies[].rating": {
+      "observed_values_count": 11,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/031_1d7be62e.json",
+        "iran-jobs-mcp/responses/032_ddfa28c1.json"
+      ],
+      "observed_types": [
+        "number"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "number",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.companies[].url": {
+      "observed_values_count": 20,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/031_1d7be62e.json",
+        "iran-jobs-mcp/responses/032_ddfa28c1.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.filters_total": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.groups": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.groups[]": {
+      "observed_values_count": 15,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.groups[].ads": {
+      "observed_values_count": 15,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.groups[].key": {
+      "observed_values_count": 15,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.groups[].name": {
+      "observed_values_count": 15,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.groups_checked": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.groups_total": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.jobs": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.jobs[]": {
+      "observed_values_count": 20,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.jobs[].city": {
+      "observed_values_count": 20,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.jobs[].company": {
+      "observed_values_count": 20,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.jobs[].company.id": {
+      "observed_values_count": 20,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.jobs[].company.name": {
+      "observed_values_count": 20,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.jobs[].days_left": {
+      "observed_values_count": 20,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.jobs[].experience_years": {
+      "observed_values_count": 20,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.jobs[].id": {
+      "observed_values_count": 20,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.jobs[].internship": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "boolean"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "boolean",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.jobs[].posted": {
+      "observed_values_count": 20,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.jobs[].province": {
+      "observed_values_count": 20,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.jobs[].region": {
+      "observed_values_count": 19,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.jobs[].salary_million_toman": {
+      "observed_values_count": 18,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.jobs[].seniority": {
+      "observed_values_count": 20,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.jobs[].title": {
+      "observed_values_count": 20,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.jobs[].urgent": {
+      "observed_values_count": 18,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "boolean"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "boolean",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.jobs[].url": {
+      "observed_values_count": 20,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.jobs[].work_type": {
+      "observed_values_count": 20,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.page": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/031_1d7be62e.json",
+        "iran-jobs-mcp/responses/032_ddfa28c1.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 22,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.site": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.site.cities_with_ads": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.site.companies_hiring_about": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.site.hires_about": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.site.open_ads": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.site.registered_candidates_about": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/033_a638804e.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "jobvision.total": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/030_62669a78.json",
+        "iran-jobs-mcp/responses/031_1d7be62e.json",
+        "iran-jobs-mcp/responses/032_ddfa28c1.json",
+        "iran-jobs-mcp/responses/pagination_030_b81802d6.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 22,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "language": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/003_daeac392.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "lowest_min": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/022_c8b30005.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "matched": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/035_b6f433d8.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "matching_ads": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/022_c8b30005.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "max": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/016_f327d2cf.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "mean": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/016_f327d2cf.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "median": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/016_f327d2cf.json",
+        "iran-jobs-mcp/responses/022_c8b30005.json"
+      ],
+      "observed_types": [
+        "integer",
+        "number"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "multiple",
+      "evidence_status": "verified_live_response"
+    },
+    "min": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/016_f327d2cf.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "min_experience_years": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/003_daeac392.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "min_salary_million_toman": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/017_c5f494d4.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "min_salary_million_toman[]": {
+      "observed_values_count": 14,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/017_c5f494d4.json"
+      ],
+      "observed_types": [
+        "number",
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "multiple",
+      "evidence_status": "verified_live_response"
+    },
+    "n_negotiable": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/016_f327d2cf.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "n_sampled": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/016_f327d2cf.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "n_with_salary": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/016_f327d2cf.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "next": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/009_babeefaa.json",
+        "iran-jobs-mcp/responses/013_5d971229.json",
+        "iran-jobs-mcp/responses/pagination_009_a44d62a2.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 23,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "open_jobs_total": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/007_e61c54d9.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "p25": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/022_c8b30005.json"
+      ],
+      "observed_types": [
+        "number"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "number",
+      "evidence_status": "verified_live_response"
+    },
+    "p75": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/022_c8b30005.json"
+      ],
+      "observed_types": [
+        "number"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "number",
+      "evidence_status": "verified_live_response"
+    },
+    "page": {
+      "observed_values_count": 6,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/000_e71bba9d.json",
+        "iran-jobs-mcp/responses/009_babeefaa.json",
+        "iran-jobs-mcp/responses/013_5d971229.json",
+        "iran-jobs-mcp/responses/018_ca3c48eb.json",
+        "iran-jobs-mcp/responses/026_84c8c7ad.json",
+        "iran-jobs-mcp/responses/pagination_009_a44d62a2.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 20,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "pages": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/000_e71bba9d.json",
+        "iran-jobs-mcp/responses/009_babeefaa.json",
+        "iran-jobs-mcp/responses/pagination_009_a44d62a2.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 23,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "places": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 1,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/024_eb5b2199.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "posted": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/003_daeac392.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "provinces": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/014_1db2fab5.json",
+        "iran-jobs-mcp/responses/017_c5f494d4.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "provinces[]": {
+      "observed_values_count": 62,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/014_1db2fab5.json",
+        "iran-jobs-mcp/responses/017_c5f494d4.json"
+      ],
+      "observed_types": [
+        "object",
+        "string"
+      ],
+      "missing_from_file_count": 24,
+      "observed_type": "multiple",
+      "evidence_status": "verified_live_response"
+    },
+    "provinces[].ads": {
+      "observed_values_count": 31,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/014_1db2fab5.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "provinces[].name": {
+      "observed_values_count": 31,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/014_1db2fab5.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "query": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/015_fb4d36ba.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "reference_code": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/003_daeac392.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "reports": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 1,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/000_e71bba9d.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "requirements": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/003_daeac392.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "sampled_ads": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/022_c8b30005.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "sector": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/029_b0fddc6b.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "seniority": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 1,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/003_daeac392.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "share_with_pay": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/022_c8b30005.json"
+      ],
+      "observed_types": [
+        "number"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "number",
+      "evidence_status": "verified_live_response"
+    },
+    "site": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/028_2b1ffd21.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "site.cities_with_ads": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/028_2b1ffd21.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "site.companies_hiring_about": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/028_2b1ffd21.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "site.hires_about": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/028_2b1ffd21.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "site.open_ads": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/028_2b1ffd21.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "site.registered_candidates_about": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/028_2b1ffd21.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "skills": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/015_fb4d36ba.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "skills[]": {
+      "observed_values_count": 5,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/015_fb4d36ba.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "skills[].ads_ever": {
+      "observed_values_count": 5,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/015_fb4d36ba.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "skills[].skill": {
+      "observed_values_count": 5,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/015_fb4d36ba.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "slug": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/detail_012_7660183a.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "sort": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/017_c5f494d4.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "sort[]": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/017_c5f494d4.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "status": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/003_daeac392.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "study_fields": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 1,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/003_daeac392.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "title": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/003_daeac392.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "titles": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/023_f3328e64.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "titles[]": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/023_f3328e64.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "titles[].ads_frequency": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/023_f3328e64.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "titles[].title": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/023_f3328e64.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "top_skills": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/014_1db2fab5.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "top_skills[]": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/014_1db2fab5.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "top_skills[].ads": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/014_1db2fab5.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "top_skills[].name": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/014_1db2fab5.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "total": {
+      "observed_values_count": 6,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/000_e71bba9d.json",
+        "iran-jobs-mcp/responses/008_e25ce241.json",
+        "iran-jobs-mcp/responses/018_ca3c48eb.json",
+        "iran-jobs-mcp/responses/026_84c8c7ad.json",
+        "iran-jobs-mcp/responses/029_b0fddc6b.json",
+        "iran-jobs-mcp/responses/035_b6f433d8.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 20,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "unit": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/022_c8b30005.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "updated": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/029_b0fddc6b.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "url": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/003_daeac392.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "views": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/003_daeac392.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "work_type": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "iran-jobs-mcp/responses/003_daeac392.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 25,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    }
+  },
+  "note": "Only captured successful response payloads are inventoried; absent fields are not asserted unavailable."
+}

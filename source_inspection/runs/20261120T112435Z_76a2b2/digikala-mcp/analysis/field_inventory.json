@@ -1,0 +1,4184 @@
+{
+  "evidence_status": "verified_live_response",
+  "response_file_count": 17,
+  "observed_fields": {
+    "attributes": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[]": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].id": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].title": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].value_count": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values": {
+      "observed_values_count": 9,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.1 تکه": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.16 تکه": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.2 تکه": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.3 تکه": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.4 تکه": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.5 تکه": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.6 تکه": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.7 تکه": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.8 تکه": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.9 تکه": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.آویز": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.افقی": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.افقی و عمودی": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.انیمه": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.ایستاده": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.بوم": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.تابلو شاسی": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.تابلو طبیعت و سایر": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.تابلوی چند تکه": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.تکه 12": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.خوراکی": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.دارای ثبات رنگ": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.دختر": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.دیجیتال": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.رنگ شده": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.روکش لمینت": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.زرد": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.زن و نور": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.ساده": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.سایر": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.سفید": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.شخصیت کارتونی": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.ضد آب": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.ضد خش": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.طوسی": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.عمودی": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.قهوه‌ای": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.مشاغل": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.مشکی": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.منظره": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.موسیقی": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.نارنجی": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.نامشخص": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.نقاشی": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.کاپ کیک": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "attributes[].values.گاموت رنگی بالا": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "average_rating": {
+      "observed_values_count": 1,
+      "null_count": 1,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/002_908b9e06.json"
+      ],
+      "observed_types": [
+        "null"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "null",
+      "evidence_status": "verified_live_response"
+    },
+    "benefits": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/020_7fed7db6.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "benefits[]": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/020_7fed7db6.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "brand": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "brand_code": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "brand_id": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "candidates": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/002_908b9e06.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "categories": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 1,
+      "present_in_files": [
+        "digikala-mcp/responses/003_bfddd8b4.json",
+        "digikala-mcp/responses/004_31037e08.json",
+        "digikala-mcp/responses/010_1b6bdd4a.json"
+      ],
+      "observed_types": [
+        "array",
+        "object"
+      ],
+      "missing_from_file_count": 14,
+      "observed_type": "multiple",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.airfreshener": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.apron": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.art-tiling": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.ashtray": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.bell": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.beverage-maker-accessories": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.brown-red-sugar": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.building": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.cappuccino": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.car": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.car-air-freshener-air-purifier": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.cat-and-dog-mattress-and-bed": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.cell-phone-pouch-cover": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.chassis": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.children-book": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.clocks": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.coasters": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.coffee-and-herbal-tea-maker": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.coffee-capsules": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.coffee-mate": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.coffee-mix": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.console": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.cupandmug": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.cushion": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.decorative-board": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.decorativelamp": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.disposablecontainer": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.educational-game": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.espresso-coffee": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.espresso-makers": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.flower-pot": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.foreign-printed-book": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.french-coffee": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.gift-bag": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.gift-paper": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.green-coffee": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.hair-color-kit": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.industrial-uniform": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.intellectual-game": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.laptop-other-accessories": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.latte-coffee": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.led-system-board": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.legumecontainer": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.men-shirts": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.men-tee-shirts": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.men-ties": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.mobile-phones-tablets-and-headphones-accessories": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.motorcycle": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.motorcycle-accessories": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.mouse-pad": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.mug": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.notebook": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.organic-cereals": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.organizer": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.other-decorative": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.other-instant-coffee": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.philosophy-book": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.pictorial-carpet": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.pocket-perfumes": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.postcard": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.printed-book-of-philosophy-and-psychology": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.printed-book-of-poetry-and-literature": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.puzzle": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.rural-coffee": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.rural-dried-herbs": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.rural-flavors-and-spices": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.rural-herbal-tea": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.safety-sign": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.sticker-and-poster": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.storagedresser": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.string-and-neon-lights": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.tissue-holder": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.tray": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.turk-coffee": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.wall-shelf": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.wallpaper": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories.women-men-perfume-cologne": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories[]": {
+      "observed_values_count": 18,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/010_1b6bdd4a.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "categories[].code": {
+      "observed_values_count": 18,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/010_1b6bdd4a.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories[].id": {
+      "observed_values_count": 18,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/010_1b6bdd4a.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "categories[].title": {
+      "observed_values_count": 18,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/010_1b6bdd4a.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "category": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "category.code": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "category.id": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "category.title": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "coins": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/021_57502de2.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "coins[]": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/021_57502de2.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "coins[].change_pct": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/021_57502de2.json"
+      ],
+      "observed_types": [
+        "number",
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "multiple",
+      "evidence_status": "verified_live_response"
+    },
+    "coins[].price": {
+      "observed_values_count": 3,
+      "null_count": 2,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/021_57502de2.json"
+      ],
+      "observed_types": [
+        "integer",
+        "null"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "multiple",
+      "evidence_status": "verified_live_response"
+    },
+    "coins[].title": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/021_57502de2.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "colors": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 1,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json",
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "object",
+        "array"
+      ],
+      "missing_from_file_count": 15,
+      "observed_type": "multiple",
+      "evidence_status": "verified_live_response"
+    },
+    "colors.آبی": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "colors.بنفش": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "colors.زرد": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "colors.سبز": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "colors.سفید": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "colors.صورتی": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "colors.طوسی": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "colors.قرمز": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "colors.قهوه‌ای": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "colors.مشکی": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "colors.نارنجی": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "colors.نقره‌ای": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "comments_count": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "fast_delivery_available": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "boolean"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "boolean",
+      "evidence_status": "verified_live_response"
+    },
+    "gold18_day_change_pct": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/021_57502de2.json"
+      ],
+      "observed_types": [
+        "number"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "number",
+      "evidence_status": "verified_live_response"
+    },
+    "gold18_per_gram": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/021_57502de2.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "gold18_period_change_pct": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/021_57502de2.json"
+      ],
+      "observed_types": [
+        "number"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "number",
+      "evidence_status": "verified_live_response"
+    },
+    "gold18_period_high": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/021_57502de2.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "gold18_period_low": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/021_57502de2.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "id": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "image": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "images": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "images[]": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "in_stock": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "boolean"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "boolean",
+      "evidence_status": "verified_live_response"
+    },
+    "keywords": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/003_bfddd8b4.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "keywords[]": {
+      "observed_values_count": 9,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/003_bfddd8b4.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "lowest_price_30d": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "matches": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_0aeb72bc.json",
+        "digikala-mcp/responses/pagination_000_ddaf2262.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 15,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "matches.all": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_0aeb72bc.json",
+        "digikala-mcp/responses/pagination_000_ddaf2262.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 15,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "matches.none": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_0aeb72bc.json",
+        "digikala-mcp/responses/pagination_000_ddaf2262.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 15,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "matches.some": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_0aeb72bc.json",
+        "digikala-mcp/responses/pagination_000_ddaf2262.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 15,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "note": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/002_908b9e06.json",
+        "digikala-mcp/responses/detail_019_7a4da84a.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 15,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "offers": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "offers[]": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "offers[].free_shipping": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "boolean"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "boolean",
+      "evidence_status": "verified_live_response"
+    },
+    "offers[].lead_time_days": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "offers[].price": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "offers[].seller": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "offers[].seller_code": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "offers[].seller_rating": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "number"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "number",
+      "evidence_status": "verified_live_response"
+    },
+    "offers[].shipping": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "offers[].ships_by": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "offers[].ships_by[]": {
+      "observed_values_count": 21,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "offers[].variant": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "offers[].variant_id": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "offers[].warranty": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "offers_count": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "page": {
+      "observed_values_count": 7,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_0aeb72bc.json",
+        "digikala-mcp/responses/011_28c68f11.json",
+        "digikala-mcp/responses/detail_014_71182347.json",
+        "digikala-mcp/responses/detail_015_40179c4f.json",
+        "digikala-mcp/responses/detail_016_07c75528.json",
+        "digikala-mcp/responses/pagination_000_ddaf2262.json",
+        "digikala-mcp/responses/pagination_011_3e5e9eaa.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "picks": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 1,
+      "present_in_files": [
+        "digikala-mcp/responses/002_908b9e06.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "plans": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 1,
+      "present_in_files": [
+        "digikala-mcp/responses/020_7fed7db6.json",
+        "digikala-mcp/responses/detail_019_7a4da84a.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 15,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "plans[]": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/020_7fed7db6.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "plans[].days": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/020_7fed7db6.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "plans[].discount_pct": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/020_7fed7db6.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "plans[].free_shipments": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/020_7fed7db6.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "plans[].fresh_free_shipments": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/020_7fed7db6.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "plans[].id": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/020_7fed7db6.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "plans[].jet_free_shipments": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/020_7fed7db6.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "plans[].note": {
+      "observed_values_count": 4,
+      "null_count": 3,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/020_7fed7db6.json"
+      ],
+      "observed_types": [
+        "null",
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "multiple",
+      "evidence_status": "verified_live_response"
+    },
+    "plans[].price": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/020_7fed7db6.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "plans[].price_before_discount": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/020_7fed7db6.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "plans[].title": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/020_7fed7db6.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "price": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "price_floor": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/001_8742d43d.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "price_range": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "price_range.max": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "price_range.min": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "products": {
+      "observed_values_count": 7,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_0aeb72bc.json",
+        "digikala-mcp/responses/001_8742d43d.json",
+        "digikala-mcp/responses/010_1b6bdd4a.json",
+        "digikala-mcp/responses/011_28c68f11.json",
+        "digikala-mcp/responses/detail_016_07c75528.json",
+        "digikala-mcp/responses/pagination_000_ddaf2262.json",
+        "digikala-mcp/responses/pagination_011_3e5e9eaa.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "products[]": {
+      "observed_values_count": 120,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_0aeb72bc.json",
+        "digikala-mcp/responses/001_8742d43d.json",
+        "digikala-mcp/responses/010_1b6bdd4a.json",
+        "digikala-mcp/responses/011_28c68f11.json",
+        "digikala-mcp/responses/detail_016_07c75528.json",
+        "digikala-mcp/responses/pagination_000_ddaf2262.json",
+        "digikala-mcp/responses/pagination_011_3e5e9eaa.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].brand": {
+      "observed_values_count": 120,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_0aeb72bc.json",
+        "digikala-mcp/responses/001_8742d43d.json",
+        "digikala-mcp/responses/010_1b6bdd4a.json",
+        "digikala-mcp/responses/011_28c68f11.json",
+        "digikala-mcp/responses/detail_016_07c75528.json",
+        "digikala-mcp/responses/pagination_000_ddaf2262.json",
+        "digikala-mcp/responses/pagination_011_3e5e9eaa.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].discount_pct": {
+      "observed_values_count": 46,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_0aeb72bc.json",
+        "digikala-mcp/responses/001_8742d43d.json",
+        "digikala-mcp/responses/010_1b6bdd4a.json",
+        "digikala-mcp/responses/011_28c68f11.json",
+        "digikala-mcp/responses/pagination_000_ddaf2262.json",
+        "digikala-mcp/responses/pagination_011_3e5e9eaa.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 11,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].id": {
+      "observed_values_count": 120,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_0aeb72bc.json",
+        "digikala-mcp/responses/001_8742d43d.json",
+        "digikala-mcp/responses/010_1b6bdd4a.json",
+        "digikala-mcp/responses/011_28c68f11.json",
+        "digikala-mcp/responses/detail_016_07c75528.json",
+        "digikala-mcp/responses/pagination_000_ddaf2262.json",
+        "digikala-mcp/responses/pagination_011_3e5e9eaa.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].image": {
+      "observed_values_count": 120,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_0aeb72bc.json",
+        "digikala-mcp/responses/001_8742d43d.json",
+        "digikala-mcp/responses/010_1b6bdd4a.json",
+        "digikala-mcp/responses/011_28c68f11.json",
+        "digikala-mcp/responses/detail_016_07c75528.json",
+        "digikala-mcp/responses/pagination_000_ddaf2262.json",
+        "digikala-mcp/responses/pagination_011_3e5e9eaa.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].in_stock": {
+      "observed_values_count": 120,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_0aeb72bc.json",
+        "digikala-mcp/responses/001_8742d43d.json",
+        "digikala-mcp/responses/010_1b6bdd4a.json",
+        "digikala-mcp/responses/011_28c68f11.json",
+        "digikala-mcp/responses/detail_016_07c75528.json",
+        "digikala-mcp/responses/pagination_000_ddaf2262.json",
+        "digikala-mcp/responses/pagination_011_3e5e9eaa.json"
+      ],
+      "observed_types": [
+        "boolean"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "boolean",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].match": {
+      "observed_values_count": 40,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_0aeb72bc.json",
+        "digikala-mcp/responses/pagination_000_ddaf2262.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 15,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].price": {
+      "observed_values_count": 120,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_0aeb72bc.json",
+        "digikala-mcp/responses/001_8742d43d.json",
+        "digikala-mcp/responses/010_1b6bdd4a.json",
+        "digikala-mcp/responses/011_28c68f11.json",
+        "digikala-mcp/responses/detail_016_07c75528.json",
+        "digikala-mcp/responses/pagination_000_ddaf2262.json",
+        "digikala-mcp/responses/pagination_011_3e5e9eaa.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].price_before_discount": {
+      "observed_values_count": 46,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_0aeb72bc.json",
+        "digikala-mcp/responses/001_8742d43d.json",
+        "digikala-mcp/responses/010_1b6bdd4a.json",
+        "digikala-mcp/responses/011_28c68f11.json",
+        "digikala-mcp/responses/pagination_000_ddaf2262.json",
+        "digikala-mcp/responses/pagination_011_3e5e9eaa.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 11,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].rating": {
+      "observed_values_count": 108,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_0aeb72bc.json",
+        "digikala-mcp/responses/001_8742d43d.json",
+        "digikala-mcp/responses/010_1b6bdd4a.json",
+        "digikala-mcp/responses/011_28c68f11.json",
+        "digikala-mcp/responses/detail_016_07c75528.json",
+        "digikala-mcp/responses/pagination_000_ddaf2262.json",
+        "digikala-mcp/responses/pagination_011_3e5e9eaa.json"
+      ],
+      "observed_types": [
+        "number"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "number",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].rating_count": {
+      "observed_values_count": 108,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_0aeb72bc.json",
+        "digikala-mcp/responses/001_8742d43d.json",
+        "digikala-mcp/responses/010_1b6bdd4a.json",
+        "digikala-mcp/responses/011_28c68f11.json",
+        "digikala-mcp/responses/detail_016_07c75528.json",
+        "digikala-mcp/responses/pagination_000_ddaf2262.json",
+        "digikala-mcp/responses/pagination_011_3e5e9eaa.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].seller": {
+      "observed_values_count": 120,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_0aeb72bc.json",
+        "digikala-mcp/responses/001_8742d43d.json",
+        "digikala-mcp/responses/010_1b6bdd4a.json",
+        "digikala-mcp/responses/011_28c68f11.json",
+        "digikala-mcp/responses/detail_016_07c75528.json",
+        "digikala-mcp/responses/pagination_000_ddaf2262.json",
+        "digikala-mcp/responses/pagination_011_3e5e9eaa.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].title": {
+      "observed_values_count": 120,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_0aeb72bc.json",
+        "digikala-mcp/responses/001_8742d43d.json",
+        "digikala-mcp/responses/010_1b6bdd4a.json",
+        "digikala-mcp/responses/011_28c68f11.json",
+        "digikala-mcp/responses/detail_016_07c75528.json",
+        "digikala-mcp/responses/pagination_000_ddaf2262.json",
+        "digikala-mcp/responses/pagination_011_3e5e9eaa.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].url": {
+      "observed_values_count": 120,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_0aeb72bc.json",
+        "digikala-mcp/responses/001_8742d43d.json",
+        "digikala-mcp/responses/010_1b6bdd4a.json",
+        "digikala-mcp/responses/011_28c68f11.json",
+        "digikala-mcp/responses/detail_016_07c75528.json",
+        "digikala-mcp/responses/pagination_000_ddaf2262.json",
+        "digikala-mcp/responses/pagination_011_3e5e9eaa.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "questions": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_015_40179c4f.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "questions[]": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_015_40179c4f.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "questions[].answer_count": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_015_40179c4f.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "questions[].answers": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_015_40179c4f.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "questions[].answers[]": {
+      "observed_values_count": 6,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_015_40179c4f.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "questions[].answers[].answered_by": {
+      "observed_values_count": 6,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_015_40179c4f.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "questions[].answers[].likes": {
+      "observed_values_count": 6,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_015_40179c4f.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "questions[].answers[].text": {
+      "observed_values_count": 6,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_015_40179c4f.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "questions[].date": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_015_40179c4f.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "questions[].text": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_015_40179c4f.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "questions_count": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "rating": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "number"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "number",
+      "evidence_status": "verified_live_response"
+    },
+    "rating_count": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "reviews": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_014_71182347.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "reviews[]": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_014_71182347.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "reviews[].cons": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_014_71182347.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "reviews[].cons[]": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_014_71182347.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "reviews[].date": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_014_71182347.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "reviews[].dislikes": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_014_71182347.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "reviews[].likes": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_014_71182347.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "reviews[].pros": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_014_71182347.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "reviews[].pros[]": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_014_71182347.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "reviews[].rating": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_014_71182347.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "reviews[].seller": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_014_71182347.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "reviews[].text": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_014_71182347.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "reviews[].verified_buyer": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_014_71182347.json"
+      ],
+      "observed_types": [
+        "boolean"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "boolean",
+      "evidence_status": "verified_live_response"
+    },
+    "scanned": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/001_8742d43d.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "seller": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "seller_types": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "seller_types[]": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/004_31037e08.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "skipped_few_ratings": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/002_908b9e06.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "specs": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "specs.مشخصات": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "specs.مشخصات.تعداد تکه": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "specs.مشخصات.جنس": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "specs.مشخصات.نحوه استفاده": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "store": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "subcategories": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 2,
+      "present_in_files": [
+        "digikala-mcp/responses/011_28c68f11.json",
+        "digikala-mcp/responses/pagination_011_3e5e9eaa.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 15,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "title": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "title_en": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 1,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "today": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_013_864f9fc7.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "total": {
+      "observed_values_count": 8,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_0aeb72bc.json",
+        "digikala-mcp/responses/004_31037e08.json",
+        "digikala-mcp/responses/011_28c68f11.json",
+        "digikala-mcp/responses/detail_014_71182347.json",
+        "digikala-mcp/responses/detail_015_40179c4f.json",
+        "digikala-mcp/responses/detail_016_07c75528.json",
+        "digikala-mcp/responses/pagination_000_ddaf2262.json",
+        "digikala-mcp/responses/pagination_011_3e5e9eaa.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 9,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "total_pages": {
+      "observed_values_count": 7,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_0aeb72bc.json",
+        "digikala-mcp/responses/011_28c68f11.json",
+        "digikala-mcp/responses/detail_014_71182347.json",
+        "digikala-mcp/responses/detail_015_40179c4f.json",
+        "digikala-mcp/responses/detail_016_07c75528.json",
+        "digikala-mcp/responses/pagination_000_ddaf2262.json",
+        "digikala-mcp/responses/pagination_011_3e5e9eaa.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "trending": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/003_bfddd8b4.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "trending[]": {
+      "observed_values_count": 5,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/003_bfddd8b4.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "updated": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/021_57502de2.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "url": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_012_1d1c979f.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "variants": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_013_864f9fc7.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "variants[]": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_013_864f9fc7.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "variants[].days": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_013_864f9fc7.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "variants[].days[]": {
+      "observed_values_count": 360,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_013_864f9fc7.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "variants[].days[].day": {
+      "observed_values_count": 360,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_013_864f9fc7.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "variants[].days[].price": {
+      "observed_values_count": 360,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_013_864f9fc7.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "variants[].highest": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_013_864f9fc7.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "variants[].last_price": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_013_864f9fc7.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "variants[].lowest": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_013_864f9fc7.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "variants[].lowest_2_days": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_013_864f9fc7.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "variants[].variant": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/detail_013_864f9fc7.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 16,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    }
+  },
+  "note": "Only captured successful response payloads are inventoried; absent fields are not asserted unavailable."
+}

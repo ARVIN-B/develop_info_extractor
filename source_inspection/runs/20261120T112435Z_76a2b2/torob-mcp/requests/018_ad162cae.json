@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-11-20T11:26:02.105493+00:00",
+  "source": "torob-mcp",
+  "tool": "tb_cheapest",
+  "arguments": {
+    "query": "کافه"
+  },
+  "evidence_status": "request_sent"
+}

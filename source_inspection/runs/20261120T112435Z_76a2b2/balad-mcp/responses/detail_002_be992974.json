@@ -1,0 +1,13 @@
+{
+  "structuredContent": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"id\":\"2xywjOuDpBy9JD\",\"name\":\"کافه ساحل\",\"category\":\"کافه\",\"lat\":35.699521,\"lng\":51.411954,\"address\":\"تهران، انقلاب، خ حافظ، خ شهریار، پ ۲\",\"open_now\":null,\"hours_status\":null,\"rating\":null,\"ratings\":null,\"price\":null,\"menu\":null,\"amenities\":[],\"photo_count\":null,\"photos\":[],\"stars_1_to_5\":[0,0,0,0,0],\"review_count\":0,\"reviews\":[],\"url\":\"https://balad.ir/p/کافه-ساحل_coffee-shop-2xywjOuDpBy9JD\"}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "isError": false,
+  "_meta": null
+}

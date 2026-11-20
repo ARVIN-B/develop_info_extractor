@@ -1,0 +1,18 @@
+{
+  "source": "sheypoor-mcp",
+  "integration_type": "MCP stdio",
+  "timestamp": "2026-11-20T11:24:49.645252+00:00",
+  "evidence_status": "unavailable",
+  "startup_status": "unavailable",
+  "authentication_status": "unknown",
+  "tool_discovery_status": "not_attempted",
+  "real_request_executed": false,
+  "real_response_received": false,
+  "failure_stage": "startup",
+  "executable_configured": "C:\\Users\\Arvin\\Desktop\\info_extractor\\.venv\\Scripts\\sheypoor-mcp.exe",
+  "executable_exists": false,
+  "required_credentials_or_configuration": [],
+  "notes": [
+    "No executable was found in the project virtual environments; no source request was made."
+  ]
+}

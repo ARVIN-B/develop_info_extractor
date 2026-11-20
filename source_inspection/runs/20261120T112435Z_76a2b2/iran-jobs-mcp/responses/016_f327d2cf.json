@@ -1,0 +1,13 @@
+{
+  "structuredContent": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"n_sampled\":12,\"n_with_salary\":11,\"n_negotiable\":1,\"min\":13000000,\"median\":30000000,\"max\":40000000,\"mean\":27727272,\"ads\":[{\"id\":\"bazardanaei/tuEB\",\"title\":\"سرپرست کافه\",\"company\":\"..ساتیار گستر ساویز (کافه سالیز) | Satiyar gostar saviz (saliz)\",\"salary\":\"از ۴۰,۰۰۰,۰۰۰ تومان\",\"salary_min_toman\":40000000},{\"id\":\"armotak-2/tMC2\",\"title\":\"فروشنده کافه\",\"company\":\"آرموتک | Armotak\",\"salary\":\"از ۳۰,۰۰۰,۰۰۰ تومان\",\"salary_min_toman\":30000000},{\"id\":\"shanti-yoga/t1FC\",\"title\":\"مسئول کافه (خانم)\",\"company\":\"شانتی یوگا | Shanti Yoga\",\"salary\":\"از ۱۳,۰۰۰,۰۰۰ تومان\",\"salary_min_toman\":13000000},{\"id\":\"armotak-2/tMtN\",\"title\":\"سالن کار (کافه)\",\"company\":\"آرموتک | Armotak\",\"salary\":\"از ۳۰,۰۰۰,۰۰۰ تومان\",\"salary_min_toman\":30000000},{\"id\":\"alpha-dna/tTQH\",\"title\":\"سالندار کافه بازی (خانم-مشهد)\",\"company\":\"دانش بنیان شکوفا ژن برنا | Alpha DNA\",\"salary\":\"از ۱۸,۰۰۰,۰۰۰ تومان\",\"salary_min_toman\":18000000},{\"id\":\"brandzcafe-1/t18z\",\"title\":\"آشپز (آقا)\",\"company\":\"برندز کافه | Brandz Cafe\",\"salary\":\"از ۴۰,۰۰۰,۰۰۰ تومان\",\"salary_min_toman\":40000000},{\"id\":\"dorche-cafe/t1i4\",\"title\":\"آشپز\",\"company\":\"کافه درچه | Dorche Cafe\",\"salary\":\"از ۳۵,۰۰۰,۰۰۰ تومان\",\"salary_min_toman\":35000000},{\"id\":\"hiran-cafe/t1Kb\",\"title\":\"باریستا\",\"company\":\"کافه هیران | Hiran.Cafe\",\"salary\":\"از ۱۵,۰۰۰,۰۰۰ تومان\",\"salary_min_toman\":15000000},{\"id\":\"cafetadris/t1tS\",\"title\":\"تدوینگر ویدئو\",\"company\":\"کافه تدریس | Cafetadris\",\"salary\":\"توافقی\",\"salary_negotiable\":true},{\"id\":\"cafetadris/tNwI\",\"title\":\"کارشناس فروش و پشتیبانی\",\"company\":\"کافه تدریس | Cafetadris\",\"salary\":\"از ۴۰,۰۰۰,۰۰۰ تومان\",\"salary_min_toman\":40000000},{\"id\":\"koli-cafe-1/tT3i\",\"title\":\"باریستا\",\"company\":\"کافه کولی | Koli Cafe\",\"salary\":\"از ۲۲,۰۰۰,۰۰۰ تومان\",\"salary_min_toman\":22000000},{\"id\":\"coffe-dyar/tmsE\",\"title\":\"باریستا\",\"company\":\"کافه دیار | coffe dyar\",\"salary\":\"از ۲۲,۰۰۰,۰۰۰ تومان\",\"salary_min_toman\":22000000}]}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "isError": false,
+  "_meta": null
+}

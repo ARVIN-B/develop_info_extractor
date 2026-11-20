@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-11-20T11:26:28.299421+00:00",
+  "source": "digikala-mcp",
+  "tool": "dk_categories",
+  "stage": "execution",
+  "evidence_status": "verified_live_error",
+  "exception_type": "MCPToolError",
+  "message": "The live tool response contained an error.",
+  "response": {
+    "structuredContent": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "Error executing tool dk_categories: Not found on api.digikala.com (status 404). Check the product id / category, brand or seller code.",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "isError": false,
+    "_meta": null
+  },
+  "request_file": "requests/005_805d02b0.json"
+}

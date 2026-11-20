@@ -1,0 +1,13 @@
+{
+  "structuredContent": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"page\":1,\"companies\":[{\"slug\":\"dorche-cafe\",\"name\":\"کافه درچه\",\"name_en\":\"Dorche Cafe\",\"industry\":\"غذا و رستوران‌ها\",\"hiring\":true},{\"slug\":\"hiran-cafe\",\"name\":\"کافه هیران\",\"name_en\":\"Hiran.Cafe\",\"city\":\"تهران، تهران\",\"industry\":\"غذا و رستوران‌ها\",\"hiring\":true},{\"slug\":\"sayna-cafe-restaurant\",\"name\":\"کافه و رستوران ساینا\",\"name_en\":\"Sayna cafe & restaurant\",\"city\":\"تهران، تهران\",\"industry\":\"غذا و رستوران‌ها\",\"hiring\":true},{\"slug\":\"vohu-coffee\",\"name\":\"کافه وهو\",\"name_en\":\"vohu coffee\",\"industry\":\"غذا و رستوران‌ها\",\"hiring\":true},{\"slug\":\"blaze-cafe\",\"name\":\"کافه بلیز\",\"name_en\":\"Blaze Cafe\",\"city\":\"تهران، تهران\",\"industry\":\"غذا و رستوران‌ها\",\"hiring\":true},{\"slug\":\"meet-coffeee\",\"name\":\"کافه میت\",\"name_en\":\"Meet coffeee\",\"industry\":\"غذا و رستوران‌ها\",\"hiring\":true},{\"slug\":\"lafpheh\",\"name\":\"کافه لففه\",\"name_en\":\"Lafpheh\",\"industry\":\"غذا و رستوران‌ها\",\"hiring\":true},{\"slug\":\"gravio-cafe-restaurant\",\"name\":\"کافه رستوران گرویو\",\"name_en\":\"Gravio Cafe & Restaurant\",\"industry\":\"غذا و رستوران‌ها\",\"hiring\":true}],\"next\":\"Raise page for more.\"}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "isError": false,
+  "_meta": null
+}

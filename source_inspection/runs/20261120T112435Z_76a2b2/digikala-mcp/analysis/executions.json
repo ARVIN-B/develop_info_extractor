@@ -1,0 +1,271 @@
+{
+  "evidence_status": "execution_records",
+  "records": [
+    {
+      "tool": "dk_search",
+      "request_file": "requests/000_0aeb72bc.json",
+      "response_file": "responses/000_0aeb72bc.json",
+      "arguments": {
+        "query": "کافه"
+      },
+      "ids_observed": [
+        "9337229",
+        "21517264",
+        "18208488",
+        "20735974",
+        "18641687",
+        "11204388",
+        "20304913",
+        "18289058",
+        "20860246",
+        "18188730",
+        "21345975",
+        "21345894",
+        "18297812",
+        "18965687",
+        "804721",
+        "18564901",
+        "18641951",
+        "18285447",
+        "17660049",
+        "17721420"
+      ]
+    },
+    {
+      "tool": "dk_find_cheapest",
+      "request_file": "requests/001_8742d43d.json",
+      "response_file": "responses/001_8742d43d.json",
+      "arguments": {
+        "query": "کافه"
+      },
+      "ids_observed": [
+        "18289058",
+        "18285447",
+        "17045746",
+        "804721",
+        "21441763",
+        "19466441",
+        "19537641",
+        "19442539",
+        "19183116",
+        "804716"
+      ]
+    },
+    {
+      "tool": "dk_best_for_budget",
+      "request_file": "requests/002_908b9e06.json",
+      "response_file": "responses/002_908b9e06.json",
+      "arguments": {
+        "max_price": 1,
+        "query": "کافه"
+      },
+      "ids_observed": []
+    },
+    {
+      "tool": "dk_suggest",
+      "request_file": "requests/003_bfddd8b4.json",
+      "response_file": "responses/003_bfddd8b4.json",
+      "arguments": {
+        "query": "کافه"
+      },
+      "ids_observed": []
+    },
+    {
+      "tool": "dk_filters",
+      "request_file": "requests/004_31037e08.json",
+      "response_file": "responses/004_31037e08.json",
+      "arguments": {
+        "query": "کافه"
+      },
+      "ids_observed": [
+        "7830",
+        "5127",
+        "5103",
+        "7878",
+        "7874",
+        "8492",
+        "5254",
+        "12371",
+        "12368",
+        "12370"
+      ]
+    },
+    {
+      "tool": "dk_best_sellers",
+      "request_file": "requests/010_1b6bdd4a.json",
+      "response_file": "responses/010_1b6bdd4a.json",
+      "arguments": {},
+      "ids_observed": [
+        "11294389",
+        "7158804",
+        "8936377",
+        "4219079",
+        "3516245",
+        "8423381",
+        "3549737",
+        "3536523",
+        "3554456",
+        "3536596",
+        "1",
+        "mobile",
+        "6027",
+        "toys",
+        "5966",
+        "electronic-devices",
+        "11382",
+        "gold-silver",
+        "8749",
+        "apparel",
+        "5967",
+        "home-and-kitchen",
+        "8895",
+        "food-beverage",
+        "8",
+        "book-and-media",
+        "8428",
+        "pet",
+        "5753",
+        "home-appliance",
+        "6741",
+        "mother-and-child",
+        "5702",
+        "health-care",
+        "5968",
+        "personal-appliance",
+        "6124",
+        "sport-entertainment",
+        "8450",
+        "vehicles",
+        "10688",
+        "vehicles-spare-parts",
+        "10170",
+        "rural-products",
+        "10061",
+        "dk-ds-gift-card"
+      ]
+    },
+    {
+      "tool": "dk_fresh_search",
+      "request_file": "requests/011_28c68f11.json",
+      "response_file": "responses/011_28c68f11.json",
+      "arguments": {
+        "query": "کافه"
+      },
+      "ids_observed": [
+        "804708",
+        "804721",
+        "3537810",
+        "804719",
+        "804716",
+        "17992047",
+        "3467585",
+        "17992058",
+        "3467607",
+        "17992059",
+        "3467769",
+        "21056865",
+        "5031119",
+        "8091331",
+        "8091370",
+        "6850958",
+        "21053631",
+        "18262694",
+        "3831679",
+        "804706"
+      ]
+    },
+    {
+      "tool": "dk_plus_plans",
+      "request_file": "requests/020_7fed7db6.json",
+      "response_file": "responses/020_7fed7db6.json",
+      "arguments": {},
+      "ids_observed": [
+        "8",
+        "1",
+        "23",
+        "14"
+      ]
+    },
+    {
+      "tool": "dk_gold_prices",
+      "request_file": "requests/021_57502de2.json",
+      "response_file": "responses/021_57502de2.json",
+      "arguments": {},
+      "ids_observed": []
+    },
+    {
+      "tool": "dk_product",
+      "request_file": "requests/detail_012_1d1c979f.json",
+      "response_file": "responses/detail_012_1d1c979f.json",
+      "stage": "detail",
+      "arguments": {
+        "product_id": 9337229
+      }
+    },
+    {
+      "tool": "dk_price_history",
+      "request_file": "requests/detail_013_864f9fc7.json",
+      "response_file": "responses/detail_013_864f9fc7.json",
+      "stage": "detail",
+      "arguments": {
+        "product_id": 9337229
+      }
+    },
+    {
+      "tool": "dk_reviews",
+      "request_file": "requests/detail_014_71182347.json",
+      "response_file": "responses/detail_014_71182347.json",
+      "stage": "detail",
+      "arguments": {
+        "product_id": 9337229
+      }
+    },
+    {
+      "tool": "dk_questions",
+      "request_file": "requests/detail_015_40179c4f.json",
+      "response_file": "responses/detail_015_40179c4f.json",
+      "stage": "detail",
+      "arguments": {
+        "product_id": 9337229
+      }
+    },
+    {
+      "tool": "dk_similar",
+      "request_file": "requests/detail_016_07c75528.json",
+      "response_file": "responses/detail_016_07c75528.json",
+      "stage": "detail",
+      "arguments": {
+        "product_id": 9337229
+      }
+    },
+    {
+      "tool": "dk_installments",
+      "request_file": "requests/detail_019_7a4da84a.json",
+      "response_file": "responses/detail_019_7a4da84a.json",
+      "stage": "detail",
+      "arguments": {
+        "product_id": 9337229
+      }
+    },
+    {
+      "tool": "dk_search",
+      "request_file": "requests/pagination_000_ddaf2262.json",
+      "response_file": "responses/pagination_000_ddaf2262.json",
+      "stage": "pagination",
+      "arguments": {
+        "query": "کافه",
+        "page": 2
+      }
+    },
+    {
+      "tool": "dk_fresh_search",
+      "request_file": "requests/pagination_011_3e5e9eaa.json",
+      "response_file": "responses/pagination_011_3e5e9eaa.json",
+      "stage": "pagination",
+      "arguments": {
+        "query": "کافه",
+        "page": 2
+      }
+    }
+  ]
+}

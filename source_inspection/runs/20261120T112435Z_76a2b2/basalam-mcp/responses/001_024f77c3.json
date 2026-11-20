@@ -1,0 +1,13 @@
+{
+  "structuredContent": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"total_matches\":10000,\"offers\":[{\"id\":64613404,\"name\":\"نی کافه بسته بندی\",\"price\":10000,\"in_stock\":true,\"stock\":16,\"unit\":\"100 گرم\",\"category\":\"آبمیوه و شربت\",\"shop\":\"آنلاین شاپ خونمونه (جهت استعلام رنگ پیام بذارید)\",\"shop_id\":\"seyyedarzanforoosh\"},{\"id\":5414234,\"name\":\"ماکت تابلو کافه M18\",\"price\":11000,\"in_stock\":true,\"stock\":2,\"category\":\"محصولات خراطی\",\"shop\":\"فروشگاه بزرگ ظرافت\",\"shop_id\":\"zerafat_shop\"},{\"id\":6210647,\"name\":\"پودر قهوه علی کافه 2.5 گرمی مدل Black Gold،حاوی جینسینگ،ساخت کشور مالزی (تخفیف ویژه)\",\"price\":12500,\"rating\":5,\"rating_count\":1,\"in_stock\":true,\"stock\":10,\"unit\":\"15 گرم\",\"category\":\"قهوه\",\"shop\":\"𝑳𝒂𝒘𝒂𝒛𝒆𝒎 𝑱𝒂𝒏𝒆𝒃𝒊 𝑻𝒂𝒍𝒌𝒉𝒂𝒃𝒊\",\"shop_id\":\"lavazem_janebi_talkhabi\"},{\"id\":39267782,\"name\":\"کتاب کافه در آتش اثر محمد نیکزاد\",\"price\":12720,\"in_stock\":true,\"stock\":1,\"category\":\"کتاب های روانشناسی و خودیاری\",\"shop\":\"جویا بوک\",\"shop_id\":\"joyabook\"},{\"id\":46404059,\"name\":\"جاسیگاری دکوری مدل مربع سنگ مصنوعی رنگ دلخواه مناسب منزل و کافه\",\"price\":15000,\"rating\":5,\"rating_count\":7,\"in_stock\":true,\"stock\":235,\"category\":\"سایر دکوری و تزئینی\",\"shop\":\"هزار شمع و سنگ\",\"shop_id\":\"hezar-sham-va-sang\"},{\"id\":64083106,\"name\":\"پودر شکلات ونز کید ونر کافه \",\"price\":15000,\"rating\":5,\"rating_count\":1,\"in_stock\":true,\"stock\":194,\"unit\":\"20 گرم\",\"category\":\"قهوه\",\"shop\":\"مواد غذایی محقق ، قروه کردستان\",\"shop_id\":\"story_mohaghegh\"},{\"id\":66086301,\"name\":\"نبات وانیل مخصوص کافه ها\",\"price\":15000,\"in_stock\":true,\"stock\":30,\"unit\":\"18 گرم\",\"category\":\"قند و شکر\",\"shop\":\"مناسب کادویی.شیرینی قندو نبات دمنوشی\",\"shop_id\":\"azam-aliyari\"},{\"id\":61299058,\"name\":\"پلاک قلیان همراه اسم کافه\",\"price\":15750,\"original_price\":21000,\"discount_pct\":25,\"in_stock\":true,\"stock\":20000,\"category\":\"آینه و تابلو\",\"shop\":\"PRINT REZVAN\",\"shop_id\":\"helmagraph\"},{\"id\":13920819,\"name\":\"کتاب کافه شوستو دودو\",\"price\":16300,\"in_stock\":true,\"stock\":1,\"category\":\"کتاب چاپی\",\"shop\":\"غرفه «موجوده»\",\"shop_id\":\"mojodeh\"},{\"id\":52174221,\"name\":\"پوستر کلاسیک قهوه ای طرح کافه\",\"price\":17000,\"in_stock\":true,\"stock\":1,\"category\":\"طراحی و چاپ عکس\",\"shop\":\"Sunhobi\",\"shop_id\":\"sunhobi\"}]}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "isError": false,
+  "_meta": null
+}

@@ -1,0 +1,50 @@
+{
+  "evidence_status": "verified_live_response",
+  "observed_identifier_fields": {
+    "categories[].id": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/001_57240b39.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].id": {
+      "observed_values_count": 40,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/000_8616bef1.json",
+        "emalls-ir-mcp/responses/pagination_000_646131e5.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 3,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "shops[].id": {
+      "observed_values_count": 96,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/009_de87f965.json",
+        "emalls-ir-mcp/responses/pagination_009_33a30b7a.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 3,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    }
+  },
+  "note": "These are fields present in captured payloads, not a complete source schema."
+}

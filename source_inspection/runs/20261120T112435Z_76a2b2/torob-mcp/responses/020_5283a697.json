@@ -1,0 +1,13 @@
+{
+  "structuredContent": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"budget\":1000,\"rank_by\":\"budget_reach\",\"matches\":1,\"products\":[],\"note\":\"No in-stock product with at least 3 shops fits 1,000 Toman (1 cards checked). Raise the budget, lower min_shops, or broaden the query / category.\"}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "isError": false,
+  "_meta": null
+}

@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-11-20T11:24:51.605931+00:00",
+  "source": "basalam-mcp",
+  "tool": "bs_find_cheapest",
+  "arguments": {
+    "query": "کافه"
+  },
+  "evidence_status": "request_sent"
+}

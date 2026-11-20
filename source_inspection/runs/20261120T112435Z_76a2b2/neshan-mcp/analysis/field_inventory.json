@@ -1,0 +1,1283 @@
+{
+  "evidence_status": "verified_live_response",
+  "response_file_count": 8,
+  "observed_fields": {
+    "address": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/005_6585f165.json",
+        "neshan-mcp/responses/detail_001_26996ee4.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 6,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "album": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_003_b447eaf6.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "albums": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_003_b447eaf6.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "albums[]": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_003_b447eaf6.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "albums[].id": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_003_b447eaf6.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "albums[].title": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_003_b447eaf6.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "aqi": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/006_b3137ed2.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "category": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_001_26996ee4.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "city": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/006_b3137ed2.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "count": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/000_eff32398.json",
+        "neshan-mcp/responses/detail_002_ef1f3df1.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 6,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "groups": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_004_d497dac6.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "groups[]": {
+      "observed_values_count": 7,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_004_d497dac6.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "groups[].group": {
+      "observed_values_count": 7,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_004_d497dac6.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "groups[].places": {
+      "observed_values_count": 7,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_004_d497dac6.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "groups[].places[]": {
+      "observed_values_count": 21,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_004_d497dac6.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "groups[].places[].category": {
+      "observed_values_count": 21,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_004_d497dac6.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "groups[].places[].distance_m": {
+      "observed_values_count": 21,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_004_d497dac6.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "groups[].places[].id": {
+      "observed_values_count": 21,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_004_d497dac6.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "groups[].places[].lat": {
+      "observed_values_count": 21,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_004_d497dac6.json"
+      ],
+      "observed_types": [
+        "number"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "number",
+      "evidence_status": "verified_live_response"
+    },
+    "groups[].places[].lng": {
+      "observed_values_count": 21,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_004_d497dac6.json"
+      ],
+      "observed_types": [
+        "number"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "number",
+      "evidence_status": "verified_live_response"
+    },
+    "groups[].places[].name": {
+      "observed_values_count": 21,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_004_d497dac6.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "groups[].places[].rating": {
+      "observed_values_count": 15,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_004_d497dac6.json"
+      ],
+      "observed_types": [
+        "number"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "number",
+      "evidence_status": "verified_live_response"
+    },
+    "groups[].places[].status": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_004_d497dac6.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "groups[].places[].votes": {
+      "observed_values_count": 15,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_004_d497dac6.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "hours": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_001_26996ee4.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "hours[]": {
+      "observed_values_count": 7,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_001_26996ee4.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "hours_today": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_001_26996ee4.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "id": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_001_26996ee4.json",
+        "neshan-mcp/responses/detail_002_ef1f3df1.json",
+        "neshan-mcp/responses/detail_003_b447eaf6.json",
+        "neshan-mcp/responses/detail_004_d497dac6.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "in_odd_even_zone": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/009_54a6b80d.json"
+      ],
+      "observed_types": [
+        "boolean"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "boolean",
+      "evidence_status": "verified_live_response"
+    },
+    "in_traffic_zone": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/009_54a6b80d.json"
+      ],
+      "observed_types": [
+        "boolean"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "boolean",
+      "evidence_status": "verified_live_response"
+    },
+    "lat": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/005_6585f165.json",
+        "neshan-mcp/responses/009_54a6b80d.json",
+        "neshan-mcp/responses/detail_001_26996ee4.json",
+        "neshan-mcp/responses/detail_004_d497dac6.json"
+      ],
+      "observed_types": [
+        "number"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "number",
+      "evidence_status": "verified_live_response"
+    },
+    "lng": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/005_6585f165.json",
+        "neshan-mcp/responses/009_54a6b80d.json",
+        "neshan-mcp/responses/detail_001_26996ee4.json",
+        "neshan-mcp/responses/detail_004_d497dac6.json"
+      ],
+      "observed_types": [
+        "number"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "number",
+      "evidence_status": "verified_live_response"
+    },
+    "more": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_002_ef1f3df1.json"
+      ],
+      "observed_types": [
+        "boolean"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "boolean",
+      "evidence_status": "verified_live_response"
+    },
+    "name": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_001_26996ee4.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "open": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_001_26996ee4.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "page": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_002_ef1f3df1.json",
+        "neshan-mcp/responses/detail_003_b447eaf6.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 6,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "pages": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_003_b447eaf6.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "phones": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_001_26996ee4.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "phones[]": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_001_26996ee4.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "photo_categories": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_001_26996ee4.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "photo_categories[]": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_001_26996ee4.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "photo_categories[].id": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_001_26996ee4.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "photo_categories[].title": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_001_26996ee4.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "photos": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_001_26996ee4.json",
+        "neshan-mcp/responses/detail_003_b447eaf6.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 6,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "photos[]": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_001_26996ee4.json",
+        "neshan-mcp/responses/detail_003_b447eaf6.json"
+      ],
+      "observed_types": [
+        "string",
+        "object"
+      ],
+      "missing_from_file_count": 6,
+      "observed_type": "multiple",
+      "evidence_status": "verified_live_response"
+    },
+    "photos[].author": {
+      "observed_values_count": 7,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_003_b447eaf6.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "photos[].date": {
+      "observed_values_count": 7,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_003_b447eaf6.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "photos[].url": {
+      "observed_values_count": 7,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_003_b447eaf6.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "plans": {
+      "observed_values_count": 1,
+      "null_count": 1,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/009_54a6b80d.json"
+      ],
+      "observed_types": [
+        "null"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "null",
+      "evidence_status": "verified_live_response"
+    },
+    "pollutants": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/006_b3137ed2.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "pollutants.CO": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/006_b3137ed2.json"
+      ],
+      "observed_types": [
+        "number"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "number",
+      "evidence_status": "verified_live_response"
+    },
+    "pollutants.NO2": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/006_b3137ed2.json"
+      ],
+      "observed_types": [
+        "number"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "number",
+      "evidence_status": "verified_live_response"
+    },
+    "pollutants.O3": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/006_b3137ed2.json"
+      ],
+      "observed_types": [
+        "number"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "number",
+      "evidence_status": "verified_live_response"
+    },
+    "pollutants.PM10": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/006_b3137ed2.json"
+      ],
+      "observed_types": [
+        "number"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "number",
+      "evidence_status": "verified_live_response"
+    },
+    "pollutants.PM2.5": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/006_b3137ed2.json"
+      ],
+      "observed_types": [
+        "number"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "number",
+      "evidence_status": "verified_live_response"
+    },
+    "pollutants.SO2": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/006_b3137ed2.json"
+      ],
+      "observed_types": [
+        "number"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "number",
+      "evidence_status": "verified_live_response"
+    },
+    "province": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/005_6585f165.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "rating": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_001_26996ee4.json"
+      ],
+      "observed_types": [
+        "number"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "number",
+      "evidence_status": "verified_live_response"
+    },
+    "results": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/000_eff32398.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "results[]": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/000_eff32398.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].address": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/000_eff32398.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].category": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/000_eff32398.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].distance_m": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/000_eff32398.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].id": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/000_eff32398.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].lat": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/000_eff32398.json"
+      ],
+      "observed_types": [
+        "number"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "number",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].lng": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/000_eff32398.json"
+      ],
+      "observed_types": [
+        "number"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "number",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].name": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/000_eff32398.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].phone": {
+      "observed_values_count": 9,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/000_eff32398.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].rating": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/000_eff32398.json"
+      ],
+      "observed_types": [
+        "number"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "number",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].status": {
+      "observed_values_count": 7,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/000_eff32398.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].votes": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/000_eff32398.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "reviews": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_002_ef1f3df1.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "reviews[]": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_002_ef1f3df1.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "reviews[].author": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_002_ef1f3df1.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "reviews[].comment": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_002_ef1f3df1.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "reviews[].date": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_002_ef1f3df1.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "reviews[].likes": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_002_ef1f3df1.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "reviews[].rating": {
+      "observed_values_count": 9,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_002_ef1f3df1.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "sort": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_002_ef1f3df1.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "stations": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/006_b3137ed2.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "stations[]": {
+      "observed_values_count": 27,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/006_b3137ed2.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "stations[].aqi": {
+      "observed_values_count": 27,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/006_b3137ed2.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "stations[].name": {
+      "observed_values_count": 27,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/006_b3137ed2.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "stations[].status": {
+      "observed_values_count": 27,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/006_b3137ed2.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "status": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/006_b3137ed2.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "street": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/005_6585f165.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "updated": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/006_b3137ed2.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "url": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/006_b3137ed2.json",
+        "neshan-mcp/responses/detail_001_26996ee4.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 6,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "votes": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_001_26996ee4.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "website": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_001_26996ee4.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    }
+  },
+  "note": "Only captured successful response payloads are inventoried; absent fields are not asserted unavailable."
+}

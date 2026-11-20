@@ -1,0 +1,335 @@
+{
+  "evidence_status": "verified_live_response",
+  "response_file_count": 5,
+  "observed_fields": {
+    "categories": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/001_57240b39.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "categories[]": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/001_57240b39.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "categories[].id": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/001_57240b39.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "categories[].name": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/001_57240b39.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "count": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/000_8616bef1.json",
+        "emalls-ir-mcp/responses/pagination_000_646131e5.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 3,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "has_next": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/000_8616bef1.json",
+        "emalls-ir-mcp/responses/009_de87f965.json",
+        "emalls-ir-mcp/responses/pagination_000_646131e5.json",
+        "emalls-ir-mcp/responses/pagination_009_33a30b7a.json"
+      ],
+      "observed_types": [
+        "boolean"
+      ],
+      "missing_from_file_count": 1,
+      "observed_type": "boolean",
+      "evidence_status": "verified_live_response"
+    },
+    "heading": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/000_8616bef1.json",
+        "emalls-ir-mcp/responses/pagination_000_646131e5.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 3,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "page": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/000_8616bef1.json",
+        "emalls-ir-mcp/responses/009_de87f965.json",
+        "emalls-ir-mcp/responses/pagination_000_646131e5.json",
+        "emalls-ir-mcp/responses/pagination_009_33a30b7a.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 1,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "products": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/000_8616bef1.json",
+        "emalls-ir-mcp/responses/pagination_000_646131e5.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 3,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "products[]": {
+      "observed_values_count": 40,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/000_8616bef1.json",
+        "emalls-ir-mcp/responses/pagination_000_646131e5.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 3,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].id": {
+      "observed_values_count": 40,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/000_8616bef1.json",
+        "emalls-ir-mcp/responses/pagination_000_646131e5.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 3,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].price": {
+      "observed_values_count": 40,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/000_8616bef1.json",
+        "emalls-ir-mcp/responses/pagination_000_646131e5.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 3,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].price_max": {
+      "observed_values_count": 40,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/000_8616bef1.json",
+        "emalls-ir-mcp/responses/pagination_000_646131e5.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 3,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].shops": {
+      "observed_values_count": 40,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/000_8616bef1.json",
+        "emalls-ir-mcp/responses/pagination_000_646131e5.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 3,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].title": {
+      "observed_values_count": 40,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/000_8616bef1.json",
+        "emalls-ir-mcp/responses/pagination_000_646131e5.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 3,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].updated": {
+      "observed_values_count": 40,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/000_8616bef1.json",
+        "emalls-ir-mcp/responses/pagination_000_646131e5.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 3,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "search_phrases": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/001_57240b39.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "search_phrases[]": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/001_57240b39.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "shops": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/009_de87f965.json",
+        "emalls-ir-mcp/responses/pagination_009_33a30b7a.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 3,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "shops[]": {
+      "observed_values_count": 96,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/009_de87f965.json",
+        "emalls-ir-mcp/responses/pagination_009_33a30b7a.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 3,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "shops[].id": {
+      "observed_values_count": 96,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/009_de87f965.json",
+        "emalls-ir-mcp/responses/pagination_009_33a30b7a.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 3,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "shops[].name": {
+      "observed_values_count": 96,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/009_de87f965.json",
+        "emalls-ir-mcp/responses/pagination_009_33a30b7a.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 3,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    }
+  },
+  "note": "Only captured successful response payloads are inventoried; absent fields are not asserted unavailable."
+}

@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-11-20T11:25:46.359976+00:00",
+  "source": "iran-jobs-mcp",
+  "tool": "job_jobinja_company",
+  "arguments": {
+    "slug": "dorche-cafe"
+  },
+  "stage": "detail",
+  "evidence_status": "request_sent"
+}

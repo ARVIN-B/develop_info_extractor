@@ -1,0 +1,13 @@
+{
+  "structuredContent": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"categories\":[{\"id\":30265,\"name\":\"کیک و شیرینی\"},{\"id\":33014,\"name\":\"موتورسیکلت\"},{\"id\":31358,\"name\":\"قهوه\"}],\"search_phrases\":[\"کافه ریسر\",\"کافه ریس\",\"کافه بار\",\"کافه لاته\"]}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "isError": false,
+  "_meta": null
+}

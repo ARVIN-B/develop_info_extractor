@@ -1,0 +1,13 @@
+{
+  "structuredContent": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"total\":4,\"page\":1,\"total_pages\":1,\"questions\":[{\"text\":\"سلام،چطور آویز میشه،پشت کار چسب داره؟\",\"date\":\"23 مهر 1404\",\"answer_count\":2,\"answers\":[{\"text\":\"شیار داره برای جای میخ\",\"answered_by\":\"buyer\",\"likes\":0},{\"text\":\"سلام خیر چشب نداره \",\"answered_by\":\"buyer\",\"likes\":1}]},{\"text\":\"تابلو همون قرمزس یا زمینه طوسی هم داخل تابلو هست\",\"date\":\"22 بهمن 1402\",\"answer_count\":2,\"answers\":[{\"text\":\"قرمزه،طوسی کجای تابلو وجود داره؟\",\"answered_by\":\"buyer\",\"likes\":0},{\"text\":\"تابلو همون قرمزس وکوچک است\",\"answered_by\":\"buyer\",\"likes\":0}]},{\"text\":\"سلام اندازههای شما اول طول  است بعد عرض یا برعکس\",\"date\":\"8 مهر 1405\",\"answer_count\":1,\"answers\":[{\"text\":\"در این تصویر بزرگترین عدد عرض میباشد\",\"answered_by\":\"seller\",\"likes\":0}]},{\"text\":\"من می خوام عرض کار بیشتر از طولش باشه..اندازه های شما اول طول نوشته شده بعد عرض یا برعکس\",\"date\":\"8 مهر 1405\",\"answer_count\":1,\"answers\":[{\"text\":\"در این تصویر بزرگترین عدد عرض میباشد\",\"answered_by\":\"seller\",\"likes\":0}]}]}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "isError": false,
+  "_meta": null
+}

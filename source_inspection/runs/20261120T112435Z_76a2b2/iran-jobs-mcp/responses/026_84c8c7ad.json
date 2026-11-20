@@ -1,0 +1,13 @@
+{
+  "structuredContent": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"total\":2604,\"page\":1,\"companies\":[{\"id\":72122,\"name\":\"کافه بیکری بن پن\",\"name_en\":\"Bon Pain coffee bakery\",\"open_ads\":9,\"rating\":3.69,\"rank\":390,\"url\":\"https://jobvision.ir/companies/72122\"},{\"id\":243107,\"name\":\"کافه نان و نفس\",\"name_en\":\"Nan o nafas\",\"open_ads\":0,\"url\":\"https://jobvision.ir/companies/243107\"},{\"id\":243358,\"name\":\"کافه بارسا\",\"open_ads\":0,\"url\":\"https://jobvision.ir/companies/243358\"},{\"id\":243436,\"name\":\"کافه ویوین\",\"name_en\":\"vivien\",\"open_ads\":0,\"url\":\"https://jobvision.ir/companies/243436\"},{\"id\":243457,\"name\":\"کافه و رستوران حیرا\",\"name_en\":\"hayra restaurant\",\"open_ads\":0,\"url\":\"https://jobvision.ir/companies/243457\"},{\"id\":243461,\"name\":\"کافه رستوران کوبه استیک\",\"name_en\":\"Kobe Steak\",\"open_ads\":0,\"url\":\"https://jobvision.ir/companies/243461\"},{\"id\":243516,\"name\":\"کافه رستوران لیلو\",\"name_en\":\"lilocaferestaurant\",\"open_ads\":0,\"url\":\"https://jobvision.ir/companies/243516\"},{\"id\":243530,\"name\":\"کافه حجره\",\"name_en\":\"cafe hojreh\",\"open_ads\":0,\"url\":\"https://jobvision.ir/companies/243530\"},{\"id\":243546,\"name\":\"کافه لوته\",\"name_en\":\"cafe lotte\",\"open_ads\":0,\"url\":\"https://jobvision.ir/companies/243546\"},{\"id\":243555,\"name\":\"ش کافه اندرزگو\",\"name_en\":\"she cafe\",\"open_ads\":0,\"url\":\"https://jobvision.ir/companies/243555\"}]}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "isError": false,
+  "_meta": null
+}

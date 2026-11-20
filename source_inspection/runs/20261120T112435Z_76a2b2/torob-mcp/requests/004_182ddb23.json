@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-11-20T11:25:55.187128+00:00",
+  "source": "torob-mcp",
+  "tool": "tb_brands",
+  "arguments": {
+    "category": "کافه",
+    "search": "کافه"
+  },
+  "evidence_status": "request_sent"
+}

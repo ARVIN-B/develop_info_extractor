@@ -1,0 +1,13 @@
+{
+  "structuredContent": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"query\":\"کافه\",\"count\":24,\"next_page\":1,\"shops\":[{\"id\":266449,\"name\":\"کاریز کافه\",\"city\":\"تهران\",\"domain\":\"kariz.market\",\"url\":\"https://torob.com/shop/266449\"},{\"id\":100502,\"name\":\"تجهیزات کافه رئوف\",\"city\":\"اصفهان\",\"domain\":\"tajhizatkafferaoof.ir\",\"url\":\"https://torob.com/shop/100502\"},{\"id\":120232,\"name\":\"کافه ‌کادو\",\"city\":\"ابهر\",\"domain\":\"cafeekadoo.ir\",\"url\":\"https://torob.com/shop/120232\"},{\"id\":72227,\"name\":\"کافه باتری\",\"city\":\"تهران\",\"domain\":\"cafebattery.com\",\"url\":\"https://torob.com/shop/72227\"},{\"id\":46846,\"name\":\"کافه درما\",\"city\":\"اهواز\",\"domain\":\"cafederma.ir\",\"url\":\"https://torob.com/shop/46846\"},{\"id\":6036,\"name\":\"کافه ربات\",\"city\":\"تهران\",\"domain\":\"thecaferobot.com\",\"url\":\"https://torob.com/shop/6036\"},{\"id\":195293,\"name\":\"کینگ کافه\",\"city\":\"بندر دیلم\",\"domain\":\"coffee-king.ir\",\"url\":\"https://torob.com/shop/195293\"},{\"id\":181697,\"name\":\"شاپ کافه\",\"city\":\"تجریش\",\"domain\":\"shopcofe.ir\",\"url\":\"https://torob.com/shop/181697\"},{\"id\":147402,\"name\":\"کافه متاورس\",\"city\":\"تهران\",\"domain\":\"mvscoffee.ir\",\"url\":\"https://torob.com/shop/147402\"},{\"id\":207524,\"name\":\"کافه‎ سیلو\",\"city\":\"اصفهان\",\"domain\":\"coffeesilo.ir\",\"url\":\"https://torob.com/shop/207524\"}]}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "isError": false,
+  "_meta": null
+}

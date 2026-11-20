@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-11-20T11:25:09.680097+00:00",
+  "source": "iran-jobs-mcp",
+  "tool": "job_irantalent_lookups",
+  "stage": "execution",
+  "evidence_status": "verified_live_error",
+  "exception_type": "MCPToolError",
+  "message": "The live tool response contained an error.",
+  "response": {
+    "structuredContent": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "Error executing tool job_irantalent_lookups: 1 validation error for job_irantalent_lookupsArguments\nkind\n  Input should be 'categories', 'industries', 'seniority', 'employment', 'company_size', 'locations', 'work_types', 'salary_specialties' or 'salary_seniority' [type=literal_error, input_value='all', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/literal_error",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "isError": false,
+    "_meta": null
+  },
+  "request_file": "requests/006_1a5970fd.json"
+}

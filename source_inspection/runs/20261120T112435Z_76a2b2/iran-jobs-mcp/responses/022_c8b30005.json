@@ -1,0 +1,13 @@
+{
+  "structuredContent": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"matching_ads\":1383,\"sampled_ads\":300,\"ads_with_pay\":227,\"share_with_pay\":0.76,\"applied\":{\"keyword\":\"کافه\"},\"unit\":\"million Toman per month\",\"median\":30.0,\"p25\":26.0,\"p75\":35.8,\"lowest_min\":8,\"highest_max\":150}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "isError": false,
+  "_meta": null
+}

@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-11-20T11:25:09.133175+00:00",
+  "source": "iran-jobs-mcp",
+  "tool": "job_irantalent_search_jobs",
+  "arguments": {
+    "keyword": "کافه",
+    "company": "شرکت فناوری"
+  },
+  "evidence_status": "request_sent"
+}

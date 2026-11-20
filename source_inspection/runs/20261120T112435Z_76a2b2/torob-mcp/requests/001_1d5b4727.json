@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-11-20T11:25:51.073911+00:00",
+  "source": "torob-mcp",
+  "tool": "tb_suggest",
+  "arguments": {
+    "text": "کافه"
+  },
+  "evidence_status": "request_sent"
+}

@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-11-20T11:24:46.629666+00:00",
+  "source": "balad-mcp",
+  "tool": "bl_along_route",
+  "arguments": {
+    "what": "کافه",
+    "from_lat": 35.6892,
+    "from_lng": 51.389,
+    "to_lat": 35.7219,
+    "to_lng": 51.3347
+  },
+  "evidence_status": "request_sent"
+}

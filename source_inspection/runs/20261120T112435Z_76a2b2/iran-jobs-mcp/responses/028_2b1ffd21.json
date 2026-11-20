@@ -1,0 +1,13 @@
+{
+  "structuredContent": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"site\":{\"open_ads\":65064,\"cities_with_ads\":412,\"companies_hiring_about\":155000,\"registered_candidates_about\":5680000,\"hires_about\":312000},\"filters_total\":1383}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "isError": false,
+  "_meta": null
+}

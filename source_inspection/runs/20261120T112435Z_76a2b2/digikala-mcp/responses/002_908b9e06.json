@@ -1,0 +1,13 @@
+{
+  "structuredContent": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"candidates\":0,\"skipped_few_ratings\":0,\"average_rating\":null,\"picks\":[],\"note\":\"Nothing rated in this budget; raise max_price, lower min_ratings or try dk_suggest for other words.\"}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "isError": false,
+  "_meta": null
+}

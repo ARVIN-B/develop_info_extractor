@@ -1,0 +1,74 @@
+{
+  "evidence_status": "execution_records",
+  "records": [
+    {
+      "tool": "bs_search",
+      "request_file": "requests/000_0f4b82d5.json",
+      "response_file": "responses/000_0f4b82d5.json",
+      "arguments": {
+        "query": "کافه"
+      },
+      "ids_observed": [
+        "23764133",
+        "standgol_galleryy",
+        "44096234",
+        "helmagraph",
+        "11790087",
+        "venzcafe",
+        "31681413",
+        "my_plate",
+        "18651894",
+        "mojezehtabiaat",
+        "11790003",
+        "14833561",
+        "rezaei_store",
+        "14833325",
+        "14833508",
+        "27630162",
+        "mehran-pakhsh",
+        "38300717",
+        "khanbaar",
+        "36050811"
+      ]
+    },
+    {
+      "tool": "bs_find_cheapest",
+      "request_file": "requests/001_024f77c3.json",
+      "response_file": "responses/001_024f77c3.json",
+      "arguments": {
+        "query": "کافه"
+      },
+      "ids_observed": [
+        "64613404",
+        "seyyedarzanforoosh",
+        "5414234",
+        "zerafat_shop",
+        "6210647",
+        "lavazem_janebi_talkhabi",
+        "39267782",
+        "joyabook",
+        "46404059",
+        "hezar-sham-va-sang",
+        "64083106",
+        "story_mohaghegh",
+        "66086301",
+        "azam-aliyari",
+        "61299058",
+        "helmagraph",
+        "13920819",
+        "mojodeh",
+        "52174221",
+        "sunhobi"
+      ]
+    },
+    {
+      "tool": "bs_categories",
+      "request_file": "requests/002_7363495e.json",
+      "response_file": "responses/002_7363495e.json",
+      "arguments": {
+        "query": "کافه"
+      },
+      "ids_observed": []
+    }
+  ]
+}

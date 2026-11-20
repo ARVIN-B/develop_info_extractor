@@ -1,0 +1,176 @@
+{
+  "evidence_status": "verified_live_response",
+  "observed_identifier_fields": {
+    "attributes[].slug": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/002_99dc2342.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "brands[].id": {
+      "observed_values_count": 51,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/002_99dc2342.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "categories[].id": {
+      "observed_values_count": 14,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/002_99dc2342.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "cheapest.best_offer.shop_id": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "cheapest.product.id": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "picks[].best_offer.shop_id": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "picks[].product.id": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/018_ad162cae.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].id": {
+      "observed_values_count": 19,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/000_85c7510c.json",
+        "torob-mcp/responses/pagination_000_f9c0d360.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 9,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "rows[].products[].id": {
+      "observed_values_count": 230,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/006_dde409e0.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "rows[].themes[].shop_id": {
+      "observed_values_count": 23,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/006_dde409e0.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "shops[].id": {
+      "observed_values_count": 20,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/024_914f0f65.json",
+        "torob-mcp/responses/pagination_024_45dbd7f4.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 9,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "trends[].example.id": {
+      "observed_values_count": 9,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/005_2947ea3a.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    }
+  },
+  "note": "These are fields present in captured payloads, not a complete source schema."
+}

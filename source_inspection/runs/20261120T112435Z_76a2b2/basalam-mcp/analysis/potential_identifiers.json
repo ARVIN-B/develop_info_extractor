@@ -1,0 +1,62 @@
+{
+  "evidence_status": "verified_live_response",
+  "observed_identifier_fields": {
+    "offers[].id": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "basalam-mcp/responses/001_024f77c3.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "offers[].shop_id": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "basalam-mcp/responses/001_024f77c3.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].id": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "basalam-mcp/responses/000_0f4b82d5.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].shop_id": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "basalam-mcp/responses/000_0f4b82d5.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    }
+  },
+  "note": "These are fields present in captured payloads, not a complete source schema."
+}
