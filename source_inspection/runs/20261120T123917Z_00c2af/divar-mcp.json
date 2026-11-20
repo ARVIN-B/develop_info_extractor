@@ -1,0 +1,27 @@
+{
+  "source": "divar-mcp",
+  "run_id": "20261120T123917Z_00c2af",
+  "started_at": "2026-11-20T12:39:56.885476+00:00",
+  "output_file": "divar-mcp.json",
+  "connection": {
+    "status": "unavailable",
+    "executable": "C:\\Users\\Arvin\\Desktop\\info_extractor\\.venv\\Scripts\\divar-mcp.exe",
+    "executable_available": false,
+    "initialized_at": null,
+    "initialization_result": null,
+    "failure": {
+      "stage": "startup",
+      "exception_type": "FileNotFoundError",
+      "message": "Configured executable was not found: C:\\Users\\Arvin\\Desktop\\info_extractor\\.venv\\Scripts\\divar-mcp.exe"
+    }
+  },
+  "tool_discovery": {
+    "status": "not_attempted",
+    "discovered_count": 0
+  },
+  "tools": [],
+  "process_output": {
+    "stderr": ""
+  },
+  "finished_at": "2026-11-20T12:39:56.886232+00:00"
+}
