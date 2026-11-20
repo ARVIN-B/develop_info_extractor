@@ -1,0 +1,36 @@
+{
+  "evidence_status": "verified_live_response",
+  "observed_identifier_fields": {
+    "places[].id": {
+      "observed_values_count": 25,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/001_6cde41cf.json",
+        "balad-mcp/responses/006_bf2336c3.json",
+        "balad-mcp/responses/007_b5687983.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].id": {
+      "observed_values_count": 9,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/000_25dd04ed.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 6,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    }
+  },
+  "note": "These are fields present in captured payloads, not a complete source schema."
+}

@@ -1,0 +1,13 @@
+{
+  "structuredContent": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"count\":10,\"cities\":[{\"id\":392,\"name\":\"تهران\"},{\"id\":468,\"name\":\"مشهد\"},{\"id\":240,\"name\":\"اصفهان\"},{\"id\":65,\"name\":\"تبریز\"},{\"id\":753,\"name\":\"شیراز\"},{\"id\":252,\"name\":\"کرج\"},{\"id\":798,\"name\":\"قم\"},{\"id\":585,\"name\":\"اهواز\"},{\"id\":1005,\"name\":\"رشت\"},{\"id\":1202,\"name\":\"یزد\"}]}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "isError": false,
+  "_meta": null
+}

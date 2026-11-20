@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-11-20T11:01:12.661212+00:00",
+  "source": "neshan-mcp",
+  "tool": "ns_reverse_geocode",
+  "arguments": {
+    "location": "تهران"
+  },
+  "evidence_status": "request_sent"
+}

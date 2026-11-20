@@ -1,0 +1,79 @@
+{
+  "evidence_status": "verified_live_response",
+  "observed_identifier_fields": {
+    "albums[].id": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_003_2c250f80.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "groups[].places[].id": {
+      "observed_values_count": 21,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_004_e5e05de5.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "id": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_001_b2f61eb9.json",
+        "neshan-mcp/responses/detail_002_e25de0f9.json",
+        "neshan-mcp/responses/detail_003_2c250f80.json",
+        "neshan-mcp/responses/detail_004_e5e05de5.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "photo_categories[].id": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_001_b2f61eb9.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].id": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/000_a116380d.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    }
+  },
+  "note": "These are fields present in captured payloads, not a complete source schema."
+}

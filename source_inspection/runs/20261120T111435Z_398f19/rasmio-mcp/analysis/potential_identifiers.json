@@ -1,0 +1,149 @@
+{
+  "evidence_status": "verified_live_response",
+  "observed_identifier_fields": {
+    "auditors.rows[].ad_id": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_c8fc619c.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "auditors.rows[].person_id": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_c8fc619c.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "board.rows[].ad_id": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_c8fc619c.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "board.rows[].person_id": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_c8fc619c.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "capital_changes.rows[].ad_id": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_c8fc619c.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "company_id": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_c8fc619c.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "recent_ads[].ad_id": {
+      "observed_values_count": 5,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_c8fc619c.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].companies[].company_id": {
+      "observed_values_count": 60,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/006_8aeadf7d.json",
+        "rasmio-mcp/responses/pagination_006_64666538.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 3,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].company_id": {
+      "observed_values_count": 40,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/005_22e264f4.json",
+        "rasmio-mcp/responses/pagination_005_c7e9620f.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 3,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].person_id": {
+      "observed_values_count": 40,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/006_8aeadf7d.json",
+        "rasmio-mcp/responses/pagination_006_64666538.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 3,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    }
+  },
+  "note": "These are fields present in captured payloads, not a complete source schema."
+}

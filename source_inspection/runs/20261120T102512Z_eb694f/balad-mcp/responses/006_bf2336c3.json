@@ -1,0 +1,13 @@
+{
+  "structuredContent": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"category\":\"coffee-shop\",\"found\":40,\"timed\":5,\"places\":[{\"id\":\"3QEtZvoE6AEulO\",\"name\":\"سیف کافی\",\"category\":\"کافه\",\"address\":\"تهران،منیریه،خ سرو،پاساژ صنعت کاران پلاک ۸\",\"lat\":35.687791,\"lng\":51.394583,\"drive_minutes\":3,\"drive_km\":1.1},{\"id\":\"36qyUR37ellzvt\",\"name\":\"کافه نوشو\",\"category\":\"کافه\",\"address\":\"میدان دانشگاه جنگ. خیابان دانشگاه جنگ نبش کوچه فیاضی. نرسیده به خیابان باستان\",\"phone\":\"02166926353\",\"rating\":5,\"ratings\":1,\"lat\":35.691851,\"lng\":51.384562,\"drive_minutes\":3,\"drive_km\":1.7},{\"id\":\"3yilz4uFW122GN\",\"name\":\"کافه رودیگر\",\"category\":\"کافه\",\"address\":\"تهران،جمالزاده،خ کارگر جنوبی،خ آذربایجان،پ ۱۸۱\",\"phone\":\"02166421796\",\"rating\":5,\"ratings\":2,\"lat\":35.693465,\"lng\":51.391365,\"drive_minutes\":4,\"drive_km\":1.2},{\"id\":\"Pa2AD7s5RcqzRZ\",\"name\":\"کافه رامو\",\"category\":\"کافه\",\"address\":\"تهران،میدان حر،خ آذربایجان،خ غفاری موحد،خ دانشگاه جنگ\",\"phone\":\"09128946033\",\"rating\":5,\"ratings\":1,\"lat\":35.691517,\"lng\":51.38656,\"drive_minutes\":4,\"drive_km\":1.5},{\"id\":\"2pXGbS6Rj7SBnE\",\"name\":\"کافه نیکان\",\"category\":\"کافه\",\"address\":\"تهران، منیریه، خ کارگر جنوبی بین شاه‌جعفری و بانکی\",\"phone\":\"09197783973\",\"rating\":5,\"ratings\":1,\"lat\":35.685595,\"lng\":51.393347,\"drive_minutes\":4,\"drive_km\":1.9}]}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "isError": false,
+  "_meta": null
+}

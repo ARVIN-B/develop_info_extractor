@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-11-20T10:55:52.801633+00:00",
+  "source": "emalls-ir-mcp",
+  "tool": "em_price_history",
+  "arguments": {
+    "product_id": 1
+  },
+  "evidence_status": "request_sent"
+}

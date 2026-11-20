@@ -1,0 +1,42 @@
+{
+  "evidence_status": "verified_live_response",
+  "search_response_files": [
+    "000_cd581d5f.json"
+  ],
+  "detail_response_files": [],
+  "fields_observed_in_search": [
+    "count",
+    "results",
+    "results[]",
+    "results[].address",
+    "results[].category",
+    "results[].distance_m",
+    "results[].id",
+    "results[].lat",
+    "results[].lng",
+    "results[].name",
+    "results[].phone",
+    "results[].rating",
+    "results[].status",
+    "results[].votes"
+  ],
+  "fields_observed_in_detail": [],
+  "common_fields": [],
+  "search_only_fields": [
+    "count",
+    "results",
+    "results[]",
+    "results[].address",
+    "results[].category",
+    "results[].distance_m",
+    "results[].id",
+    "results[].lat",
+    "results[].lng",
+    "results[].name",
+    "results[].phone",
+    "results[].rating",
+    "results[].status",
+    "results[].votes"
+  ],
+  "detail_only_fields": []
+}

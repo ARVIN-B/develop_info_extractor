@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-11-20T11:10:06.286774+00:00",
+  "source": "rasmio-mcp",
+  "tool": "rs_search_companies",
+  "arguments": {
+    "page": 2
+  },
+  "stage": "pagination",
+  "evidence_status": "request_sent"
+}

@@ -1,0 +1,13 @@
+{
+  "structuredContent": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"id\":\"e8d96bd9b9e0d4afcd83f32a1cb61ceb\",\"name\":\"خانه هنر نیماژ\",\"category\":\"کافه رستوران\",\"address\":\"تهران، کارگر جنوبی، شهدای ژاندارمری، مهران، پلاک 64 (محله‌ی فلسطین - انقلاب)\",\"lat\":35.699918,\"lng\":51.397247,\"rating\":4.2,\"votes\":22,\"open\":\"باز است\",\"hours_today\":\"۹ تا ۲۳\",\"hours\":[\"جمعه: ۹ تا ۲۳\",\"شنبه: ۹ تا ۲۳\",\"یکشنبه: ۹ تا ۲۳\",\"دوشنبه: ۹ تا ۲۳\",\"سه‌شنبه: ۹ تا ۲۳\",\"چهارشنبه: ۹ تا ۲۳\",\"پنجشنبه: ۹ تا ۲۳\"],\"phones\":[\"09121451569\"],\"website\":\"http://datoverse.ir\",\"photos\":[\"https://static.neshanmap.ir/places/images/e8d/4376145_16983655.jpeg\",\"https://static.neshanmap.ir/places/images/e8d/4376145_16983657.jpeg\",\"https://static.neshanmap.ir/places/images/e8d/4188200_15881476.jpeg\",\"https://static.neshanmap.ir/places/images/e8d/4188193_15881422.jpeg\",\"https://static.neshanmap.ir/places/images/e8d/4188199_15881454.jpeg\"],\"photo_categories\":[{\"id\":\"products\",\"title\":\"محصولات\"}],\"url\":\"https://neshan.org/maps/places/e8d96bd9b9e0d4afcd83f32a1cb61ceb\"}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "isError": false,
+  "_meta": null
+}

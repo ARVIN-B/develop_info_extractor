@@ -1,0 +1,1542 @@
+{
+  "evidence_status": "verified_live_response",
+  "observed_fields": {
+    "address": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/004_1314123c.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "category": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/001_6cde41cf.json",
+        "balad-mcp/responses/006_bf2336c3.json",
+        "balad-mcp/responses/007_b5687983.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "city": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/004_1314123c.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "county": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/004_1314123c.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "filters": {
+      "observed_values_count": 1,
+      "null_count": 1,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/001_6cde41cf.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "found": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/001_6cde41cf.json",
+        "balad-mcp/responses/006_bf2336c3.json",
+        "balad-mcp/responses/007_b5687983.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "from": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/005_4572cec0.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.اقامت": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.اقامت.guest-house": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.اقامت.hotel": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.اقامت.motel": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.اقامت.vernacular-accommodation": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.تفریح و ورزش": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.تفریح و ورزش.amusement-park": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.تفریح و ورزش.art-gallery": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.تفریح و ورزش.cinema": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.تفریح و ورزش.historical-place": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.تفریح و ورزش.museum": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.تفریح و ورزش.park": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.تفریح و ورزش.pool": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.تفریح و ورزش.sports-club": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.تفریح و ورزش.theater": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.تفریح و ورزش.water-park": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.تفریح و ورزش.zoo": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خدمات": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خدمات خودرو": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خدمات خودرو.auto-parts-store": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خدمات خودرو.car-charging-station": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خدمات خودرو.car-evaluation-center": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خدمات خودرو.car-inspection": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خدمات خودرو.car-servicing": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خدمات خودرو.car-wash": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خدمات خودرو.cng-station": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خدمات خودرو.gas-station": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خدمات خودرو.plate-number-registration-center": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خدمات.atm": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خدمات.bag-and-shoes-repair": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خدمات.building-services": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خدمات.dry-cleaner": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خدمات.equipment-repair": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خدمات.estate-agency": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خدمات.key-duplication-service": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خدمات.makeup-and-trimming": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خدمات.mosque": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خدمات.parking": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خدمات.public-bathroom": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خدمات.shipping-company": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خدمات.tailoring-clothes-showroom": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خدمات.travel-agency": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خدمات.video-and-photo-studio": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خرید": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خرید.audio-visual-equipment-shop": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خرید.bag-and-shoes-shop": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خرید.camera-accessories-store": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خرید.cell-phone-store": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خرید.clothing-store": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خرید.computer-store": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خرید.cosmetics-store": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خرید.electrical-appliances-store": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خرید.electrical-equipment-store": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خرید.florist": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خرید.gold-store": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خرید.home-goods-and-accessories-store": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خرید.medicinal-herbs-store": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خرید.rug-store": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خرید.shopping-mall": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خرید.stationery-store": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خرید.supermarket": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خوراکی": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خوراکی.ash-and-halim": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خوراکی.catering": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خوراکی.coffee-shop": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خوراکی.confectionery": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خوراکی.dairy-shop": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خوراکی.dizi": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خوراکی.fast-food-restaurant": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خوراکی.fruits-and-vegetables-sales": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خوراکی.ice-cream-and-juice-shop": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خوراکی.iranian-bakery": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خوراکی.jegaraki": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خوراکی.meat-and-protein-shop": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خوراکی.nuts-store": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خوراکی.restaurant": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خوراکی.tabakhi": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.دفاتر خدماتی": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.دفاتر خدماتی.city-electronic-services-offices": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.دفاتر خدماتی.dispute-resolution-council": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.دفاتر خدماتی.judicial-services-bureau": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.دفاتر خدماتی.lawyer": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.دفاتر خدماتی.notary-public": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.دفاتر خدماتی.pishkhan-office": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.دفاتر خدماتی.police-10": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.دفاتر خدماتی.post-office": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.دفاتر خدماتی.social-security-office": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.دفاتر خدماتی.translation-office": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.سلامت": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.سلامت.counseling-centers": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.سلامت.hospital": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.سلامت.infirmary": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.سلامت.medical-clinic": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.سلامت.medical-laboratory": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.سلامت.medical-office": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.سلامت.pharmacy": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.سلامت.veterinarian": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "neighborhood": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/004_1314123c.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "places": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/001_6cde41cf.json",
+        "balad-mcp/responses/006_bf2336c3.json",
+        "balad-mcp/responses/007_b5687983.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "places[]": {
+      "observed_values_count": 25,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/001_6cde41cf.json",
+        "balad-mcp/responses/006_bf2336c3.json",
+        "balad-mcp/responses/007_b5687983.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "places[].address": {
+      "observed_values_count": 25,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/001_6cde41cf.json",
+        "balad-mcp/responses/006_bf2336c3.json",
+        "balad-mcp/responses/007_b5687983.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "places[].category": {
+      "observed_values_count": 25,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/001_6cde41cf.json",
+        "balad-mcp/responses/006_bf2336c3.json",
+        "balad-mcp/responses/007_b5687983.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "places[].distance_km": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/001_6cde41cf.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "places[].drive_km": {
+      "observed_values_count": 5,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/006_bf2336c3.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "places[].drive_minutes": {
+      "observed_values_count": 5,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/006_bf2336c3.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "places[].id": {
+      "observed_values_count": 25,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/001_6cde41cf.json",
+        "balad-mcp/responses/006_bf2336c3.json",
+        "balad-mcp/responses/007_b5687983.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "places[].km_from_start": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/007_b5687983.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "places[].lat": {
+      "observed_values_count": 25,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/001_6cde41cf.json",
+        "balad-mcp/responses/006_bf2336c3.json",
+        "balad-mcp/responses/007_b5687983.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "places[].lng": {
+      "observed_values_count": 25,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/001_6cde41cf.json",
+        "balad-mcp/responses/006_bf2336c3.json",
+        "balad-mcp/responses/007_b5687983.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "places[].name": {
+      "observed_values_count": 25,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/001_6cde41cf.json",
+        "balad-mcp/responses/006_bf2336c3.json",
+        "balad-mcp/responses/007_b5687983.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "places[].off_route_km": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/007_b5687983.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "places[].phone": {
+      "observed_values_count": 18,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/001_6cde41cf.json",
+        "balad-mcp/responses/006_bf2336c3.json",
+        "balad-mcp/responses/007_b5687983.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "places[].rating": {
+      "observed_values_count": 18,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/001_6cde41cf.json",
+        "balad-mcp/responses/006_bf2336c3.json",
+        "balad-mcp/responses/007_b5687983.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "places[].ratings": {
+      "observed_values_count": 18,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/001_6cde41cf.json",
+        "balad-mcp/responses/006_bf2336c3.json",
+        "balad-mcp/responses/007_b5687983.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "results": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/000_25dd04ed.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "results[]": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/000_25dd04ed.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].address": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/000_25dd04ed.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].category": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/000_25dd04ed.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].id": {
+      "observed_values_count": 9,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/000_25dd04ed.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].lat": {
+      "observed_values_count": 9,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/000_25dd04ed.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].lng": {
+      "observed_values_count": 9,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/000_25dd04ed.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].name": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/000_25dd04ed.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].phone": {
+      "observed_values_count": 6,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/000_25dd04ed.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].type": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/000_25dd04ed.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "route": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/007_b5687983.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "route.km": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/007_b5687983.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "route.minutes": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/007_b5687983.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "route.roads": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/007_b5687983.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "routes": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/005_4572cec0.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "routes[]": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/005_4572cec0.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "routes[].km": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/005_4572cec0.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "routes[].minutes": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/005_4572cec0.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "routes[].notes": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/005_4572cec0.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "routes[].notes[]": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/005_4572cec0.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "routes[].roads": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/005_4572cec0.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "routes[].title": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/005_4572cec0.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "routes[].traffic_plan": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/005_4572cec0.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "routes[].traffic_plan.message": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/005_4572cec0.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "searched_every_km": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/007_b5687983.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "streets": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/004_1314123c.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "streets[]": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/004_1314123c.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "timed": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/006_bf2336c3.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "to": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/005_4572cec0.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    }
+  },
+  "note": "Only captured successful response payloads are inventoried; absent fields are not asserted unavailable."
+}

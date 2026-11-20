@@ -1,0 +1,13 @@
+{
+  "structuredContent": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"query\":\"کافه\",\"picks\":[{\"product\":{\"id\":\"2bad4646-f70d-47ab-9813-1e1bdc075d58\",\"name\":\"قهوه میکس ویژه کافه (۳۰٪ عربیکا ۷۰٪ روبوستا)\",\"url\":\"https://torob.com/p/2bad4646-f70d-47ab-9813-1e1bdc075d58/\"},\"best_offer\":{\"shop_id\":143656,\"shop\":\"کافه‌ساز\",\"city\":\"تهران\",\"price\":15150000,\"score\":5,\"torob_warranty\":true,\"installment\":true,\"shipping\":{\"same_day\":\"امکان تحویل در همان روز برای تهران با هماهنگی\"},\"updated\":\"۲ ماه و ۱۲ روز پیش\",\"buyer_notes\":[\"حدود ۲۰۰ تا ۳۰۰ سفارش در ۹۰ روز اخیر فعالیت در ترب\",\"کاربری در ترب پیگیری سفارش ثبت نکرده است.\"],\"title\":\"قهوه میکس ویژه کافه (۳۰٪ عربیکا ۷۰٪ روبوستا)\"},\"stats\":{\"offers\":1,\"usable\":1,\"installment\":1,\"torob_warranty\":1,\"min\":15150000,\"median\":15150000,\"max\":15150000,\"price_spread_pct\":0}},{\"product\":{\"id\":\"e0887fd6-be16-4103-bc7d-f15e46ab9348\",\"name\":\"کافی میت مولتی کافه 200 گرم\",\"url\":\"https://torob.com/p/e0887fd6-be16-4103-bc7d-f15e46ab9348/\"},\"best_offer\":{\"shop_id\":297146,\"shop\":\"چای حامد\",\"city\":\"تهران\",\"price\":450000,\"score\":5,\"shipping\":{\"same_day\":\"امکان تحویل در همان روز برای تهران با هماهنگی\"},\"updated\":\"۱ ماه و ۲۴ روز پیش\",\"buyer_notes\":[\"حدود ۵۰ تا ۱۰۰ سفارش در ۹۰ روز اخیر فعالیت در ترب\",\"کاربری در ترب پیگیری سفارش ثبت نکرده است.\"],\"title\":\"کافی میت مولتی کافه 200 گرم\"},\"stats\":{\"offers\":4,\"usable\":4,\"installment\":3,\"min\":450000,\"median\":503400,\"max\":508800,\"price_spread_pct\":13}},{\"product\":{\"id\":\"9c552c00-53d2-475f-b4d6-3980856754f4\",\"name\":\"کپسول قهوه اسپرسو 60 عربیکا - 40 روبوستا Armonico مولتی کافه - 10 عددی\",\"url\":\"https://torob.com/p/9c552c00-53d2-475f-b4d6-3980856754f4/\"},\"best_offer\":{\"shop_id\":42525,\"shop\":\"حیلامات\",\"city\":\"تهران\",\"price\":340000,\"score\":5,\"installment\":true,\"updated\":\"۳ ساعت پیش\",\"buyer_notes\":[\"حدود ۱۰۰۰ تا ۲۰۰۰ سفارش در ۹۰ روز اخیر فعالیت در ترب\",\"۳ کاربر از طریق ترب سفارش خود را پیگیری کرده اند.\"],\"title\":\"کپسول قهوه اسپرسو 60 عربیکا- 40 روبوستا Armonico مولتی کافه - 10 عددی\"},\"stats\":{\"offers\":25,\"usable\":19,\"unreliable\":1,\"installment\":11,\"torob_warranty\":3,\"min\":340000,\"median\":684000,\"max\":1163340,\"price_spread_pct\":242}}],\"cheapest\":{\"product\":{\"id\":\"9c552c00-53d2-475f-b4d6-3980856754f4\",\"name\":\"کپسول قهوه اسپرسو 60 عربیکا - 40 روبوستا Armonico مولتی کافه - 10 عددی\",\"url\":\"https://torob.com/p/9c552c00-53d2-475f-b4d6-3980856754f4/\"},\"best_offer\":{\"shop_id\":42525,\"shop\":\"حیلامات\",\"price\":340000}}}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "isError": false,
+  "_meta": null
+}

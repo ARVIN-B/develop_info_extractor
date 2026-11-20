@@ -1,0 +1,13 @@
+{
+  "structuredContent": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"company_id\":1,\"summary\":{\"reports\":0,\"questions\":0},\"total_in_list\":0,\"page\":1,\"reports\":[],\"url\":\"https://jobvision.ir/companies/1\"}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "isError": false,
+  "_meta": null
+}

@@ -1,0 +1,48 @@
+{
+  "evidence_status": "verified_live_response",
+  "observed_contact_fields": {
+    "address": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/008_fc03f3be.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "phone": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/008_fc03f3be.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "website": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/008_fc03f3be.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    }
+  },
+  "phone_value_observed": true
+}

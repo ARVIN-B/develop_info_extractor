@@ -1,0 +1,26 @@
+{
+  "source": "rasmio-mcp",
+  "integration_type": "MCP stdio",
+  "timestamp": "2026-11-20T11:10:01.982271+00:00",
+  "evidence_status": "verified_live_response",
+  "startup_status": "initialized",
+  "authentication_status": "unknown",
+  "tool_discovery_status": "succeeded",
+  "real_request_executed": true,
+  "real_response_received": true,
+  "failure_stage": null,
+  "executable_configured": "C:\\Users\\Arvin\\Desktop\\info_extractor\\.venv\\Scripts\\rasmio-mcp.exe",
+  "executable_exists": true,
+  "required_credentials_or_configuration": [],
+  "notes": [
+    "rs_company: deferred until a real response supplies a required identifier.",
+    "rs_product: deferred until a real response supplies a required identifier."
+  ],
+  "optional_proxy_variable": "RASMIO_MCP_PROXY",
+  "optional_proxy_configured": false,
+  "discovered_tool_count": 8,
+  "executed_request_count": 5,
+  "successful_request_count": 4,
+  "failed_request_count": 1,
+  "actual_response_file_count": 4
+}

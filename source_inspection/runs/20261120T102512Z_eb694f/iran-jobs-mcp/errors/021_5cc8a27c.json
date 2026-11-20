@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-11-20T11:03:58.791555+00:00",
+  "source": "iran-jobs-mcp",
+  "tool": "job_jobvision_company",
+  "stage": "execution",
+  "evidence_status": "verified_live_error",
+  "exception_type": "MCPToolError",
+  "message": "The live tool response contained an error.",
+  "response": {
+    "structuredContent": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "Error executing tool job_jobvision_company: No company with id 1.",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "isError": false,
+    "_meta": null
+  },
+  "request_file": "requests/021_5cc8a27c.json"
+}

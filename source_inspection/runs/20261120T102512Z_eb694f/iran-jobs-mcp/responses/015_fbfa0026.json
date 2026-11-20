@@ -1,0 +1,13 @@
+{
+  "structuredContent": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"query\":\"کافه\",\"skills\":[{\"skill\":\"کافه\",\"ads_ever\":19},{\"skill\":\"امور کافه\",\"ads_ever\":8},{\"skill\":\"مدیریت کافه\",\"ads_ever\":6},{\"skill\":\"مدیر کافه\",\"ads_ever\":1},{\"skill\":\"امور اجرایی کافه\",\"ads_ever\":1}]}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "isError": false,
+  "_meta": null
+}

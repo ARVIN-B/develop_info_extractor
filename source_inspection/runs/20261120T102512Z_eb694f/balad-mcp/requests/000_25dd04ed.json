@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-11-20T10:55:20.146381+00:00",
+  "source": "balad-mcp",
+  "tool": "bl_search",
+  "arguments": {
+    "query": "کافه"
+  },
+  "evidence_status": "request_sent"
+}

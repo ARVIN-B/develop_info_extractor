@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-11-20T10:57:45.847253+00:00",
+  "source": "torob-mcp",
+  "tool": "tb_shop_products",
+  "arguments": {
+    "shop_id": 1
+  },
+  "evidence_status": "request_sent"
+}

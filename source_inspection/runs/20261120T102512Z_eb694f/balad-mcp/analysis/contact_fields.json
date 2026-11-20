@@ -1,0 +1,108 @@
+{
+  "evidence_status": "verified_live_response",
+  "observed_contact_fields": {
+    "address": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/004_1314123c.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 6,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.خرید.cell-phone-store": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 6,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "groups.دفاتر خدماتی.social-security-office": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/008_69771d7b.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 6,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "places[].address": {
+      "observed_values_count": 25,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/001_6cde41cf.json",
+        "balad-mcp/responses/006_bf2336c3.json",
+        "balad-mcp/responses/007_b5687983.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "places[].phone": {
+      "observed_values_count": 18,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/001_6cde41cf.json",
+        "balad-mcp/responses/006_bf2336c3.json",
+        "balad-mcp/responses/007_b5687983.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].address": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/000_25dd04ed.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 6,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].phone": {
+      "observed_values_count": 6,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "balad-mcp/responses/000_25dd04ed.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 6,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    }
+  },
+  "phone_value_observed": true
+}

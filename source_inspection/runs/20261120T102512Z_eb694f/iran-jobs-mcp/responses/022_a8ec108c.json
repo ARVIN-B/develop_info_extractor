@@ -1,0 +1,13 @@
+{
+  "structuredContent": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"matching_ads\":65065,\"sampled_ads\":300,\"ads_with_pay\":168,\"share_with_pay\":0.56,\"applied\":{},\"unit\":\"million Toman per month\",\"median\":42.5,\"p25\":32.1,\"p75\":60.0,\"lowest_min\":12,\"highest_max\":250}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "isError": false,
+  "_meta": null
+}

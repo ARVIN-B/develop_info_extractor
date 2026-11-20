@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-11-20T11:03:58.701307+00:00",
+  "source": "neshan-mcp",
+  "tool": "ns_zone_check",
+  "stage": "execution",
+  "evidence_status": "verified_live_error",
+  "exception_type": "MCPToolError",
+  "message": "The live tool response contained an error.",
+  "response": {
+    "structuredContent": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "Error executing tool ns_zone_check: location must be 'lat,lng', e.g. '35.6997,51.3380'. Get coordinates from ns_search.",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "isError": false,
+    "_meta": null
+  },
+  "request_file": "requests/009_026e1ccc.json"
+}

@@ -1,0 +1,20 @@
+{
+  "evidence_status": "verified_live_response",
+  "observed_contact_fields": {
+    "website": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "torob-mcp/responses/023_86672d58.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    }
+  },
+  "phone_value_observed": false
+}

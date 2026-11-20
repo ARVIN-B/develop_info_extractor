@@ -1,0 +1,23 @@
+{
+  "source": "emalls-ir-mcp",
+  "integration_type": "MCP stdio",
+  "timestamp": "2026-11-20T10:55:45.631150+00:00",
+  "evidence_status": "verified_live_response",
+  "startup_status": "initialized",
+  "authentication_status": "unknown",
+  "tool_discovery_status": "succeeded",
+  "real_request_executed": true,
+  "real_response_received": true,
+  "failure_stage": null,
+  "executable_configured": "C:\\Users\\Arvin\\Desktop\\info_extractor\\.venv\\Scripts\\emalls-ir-mcp.exe",
+  "executable_exists": true,
+  "required_credentials_or_configuration": [],
+  "notes": [],
+  "optional_proxy_variable": "EMALLS_MCP_PROXY",
+  "optional_proxy_configured": false,
+  "discovered_tool_count": 10,
+  "executed_request_count": 9,
+  "successful_request_count": 3,
+  "failed_request_count": 6,
+  "actual_response_file_count": 3
+}

@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-11-20T11:03:58.776396+00:00",
+  "source": "emalls-ir-mcp",
+  "tool": "em_search",
+  "stage": "execution",
+  "evidence_status": "verified_live_error",
+  "exception_type": "MCPToolError",
+  "message": "The live tool response contained an error.",
+  "response": {
+    "structuredContent": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "Error executing tool em_search: Give a query, a category_id, or both.",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "isError": false,
+    "_meta": null
+  },
+  "request_file": "requests/000_660a7ccb.json"
+}

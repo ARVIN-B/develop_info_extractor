@@ -1,0 +1,676 @@
+{
+  "evidence_status": "verified_live_response",
+  "observed_fields": {
+    "benefits": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/020_8d3ce3ce.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "benefits[]": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/020_8d3ce3ce.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "categories": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 1,
+      "present_in_files": [
+        "digikala-mcp/responses/003_c08173c0.json",
+        "digikala-mcp/responses/010_f30d90b3.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "categories[]": {
+      "observed_values_count": 18,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/010_f30d90b3.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "categories[].code": {
+      "observed_values_count": 18,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/010_f30d90b3.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "categories[].id": {
+      "observed_values_count": 18,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/010_f30d90b3.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "categories[].title": {
+      "observed_values_count": 18,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/010_f30d90b3.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "coins": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/021_7f26b729.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "coins[]": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/021_7f26b729.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "coins[].change_pct": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/021_7f26b729.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "coins[].price": {
+      "observed_values_count": 3,
+      "null_count": 2,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/021_7f26b729.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "coins[].title": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/021_7f26b729.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "gold18_day_change_pct": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/021_7f26b729.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "gold18_per_gram": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/021_7f26b729.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "gold18_period_change_pct": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/021_7f26b729.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "gold18_period_high": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/021_7f26b729.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "gold18_period_low": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/021_7f26b729.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "keywords": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/003_c08173c0.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "keywords[]": {
+      "observed_values_count": 9,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/003_c08173c0.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "matches": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_557092d0.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "matches.all": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_557092d0.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "matches.none": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_557092d0.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "matches.some": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_557092d0.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "note": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/019_add6507b.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "page": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_557092d0.json",
+        "digikala-mcp/responses/014_40e8dc20.json",
+        "digikala-mcp/responses/015_282a9e80.json",
+        "digikala-mcp/responses/016_d49d6360.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "plans": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 1,
+      "present_in_files": [
+        "digikala-mcp/responses/019_add6507b.json",
+        "digikala-mcp/responses/020_8d3ce3ce.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "plans[]": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/020_8d3ce3ce.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "plans[].days": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/020_8d3ce3ce.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "plans[].discount_pct": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/020_8d3ce3ce.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "plans[].free_shipments": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/020_8d3ce3ce.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "plans[].fresh_free_shipments": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/020_8d3ce3ce.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "plans[].id": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/020_8d3ce3ce.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "plans[].jet_free_shipments": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/020_8d3ce3ce.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "plans[].note": {
+      "observed_values_count": 4,
+      "null_count": 3,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/020_8d3ce3ce.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "plans[].price": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/020_8d3ce3ce.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "plans[].price_before_discount": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/020_8d3ce3ce.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "plans[].title": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/020_8d3ce3ce.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "price_floor": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/001_4d86a530.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "products": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 1,
+      "present_in_files": [
+        "digikala-mcp/responses/000_557092d0.json",
+        "digikala-mcp/responses/001_4d86a530.json",
+        "digikala-mcp/responses/010_f30d90b3.json",
+        "digikala-mcp/responses/016_d49d6360.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "products[]": {
+      "observed_values_count": 40,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_557092d0.json",
+        "digikala-mcp/responses/001_4d86a530.json",
+        "digikala-mcp/responses/010_f30d90b3.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].brand": {
+      "observed_values_count": 40,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_557092d0.json",
+        "digikala-mcp/responses/001_4d86a530.json",
+        "digikala-mcp/responses/010_f30d90b3.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].discount_pct": {
+      "observed_values_count": 25,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_557092d0.json",
+        "digikala-mcp/responses/001_4d86a530.json",
+        "digikala-mcp/responses/010_f30d90b3.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].id": {
+      "observed_values_count": 40,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_557092d0.json",
+        "digikala-mcp/responses/001_4d86a530.json",
+        "digikala-mcp/responses/010_f30d90b3.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].image": {
+      "observed_values_count": 40,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_557092d0.json",
+        "digikala-mcp/responses/001_4d86a530.json",
+        "digikala-mcp/responses/010_f30d90b3.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].in_stock": {
+      "observed_values_count": 40,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_557092d0.json",
+        "digikala-mcp/responses/001_4d86a530.json",
+        "digikala-mcp/responses/010_f30d90b3.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].match": {
+      "observed_values_count": 20,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_557092d0.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].price": {
+      "observed_values_count": 40,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_557092d0.json",
+        "digikala-mcp/responses/001_4d86a530.json",
+        "digikala-mcp/responses/010_f30d90b3.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].price_before_discount": {
+      "observed_values_count": 25,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_557092d0.json",
+        "digikala-mcp/responses/001_4d86a530.json",
+        "digikala-mcp/responses/010_f30d90b3.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].rating": {
+      "observed_values_count": 33,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_557092d0.json",
+        "digikala-mcp/responses/001_4d86a530.json",
+        "digikala-mcp/responses/010_f30d90b3.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].rating_count": {
+      "observed_values_count": 33,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_557092d0.json",
+        "digikala-mcp/responses/001_4d86a530.json",
+        "digikala-mcp/responses/010_f30d90b3.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].seller": {
+      "observed_values_count": 40,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_557092d0.json",
+        "digikala-mcp/responses/001_4d86a530.json",
+        "digikala-mcp/responses/010_f30d90b3.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].title": {
+      "observed_values_count": 40,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_557092d0.json",
+        "digikala-mcp/responses/001_4d86a530.json",
+        "digikala-mcp/responses/010_f30d90b3.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].url": {
+      "observed_values_count": 40,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_557092d0.json",
+        "digikala-mcp/responses/001_4d86a530.json",
+        "digikala-mcp/responses/010_f30d90b3.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "questions": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 1,
+      "present_in_files": [
+        "digikala-mcp/responses/015_282a9e80.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "reviews": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 1,
+      "present_in_files": [
+        "digikala-mcp/responses/014_40e8dc20.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "scanned": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/001_4d86a530.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "today": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/013_f0e32144.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "total": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_557092d0.json",
+        "digikala-mcp/responses/014_40e8dc20.json",
+        "digikala-mcp/responses/015_282a9e80.json",
+        "digikala-mcp/responses/016_d49d6360.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "total_pages": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_557092d0.json",
+        "digikala-mcp/responses/014_40e8dc20.json",
+        "digikala-mcp/responses/015_282a9e80.json",
+        "digikala-mcp/responses/016_d49d6360.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "trending": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/003_c08173c0.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "trending[]": {
+      "observed_values_count": 5,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/003_c08173c0.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "updated": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/021_7f26b729.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "variants": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 1,
+      "present_in_files": [
+        "digikala-mcp/responses/013_f0e32144.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    }
+  },
+  "note": "Only captured successful response payloads are inventoried; absent fields are not asserted unavailable."
+}

@@ -1,0 +1,1386 @@
+{
+  "evidence_status": "verified_tool_schema",
+  "tools": [
+    {
+      "name": "tb_search",
+      "title": "Search products",
+      "description": "Search Torob for products; each card has the cheapest shop price (Toman) and the shop count.\n\nWeak matches set `low_confidence` and `unmatched_terms`; `spellcheck` / `suggested_queries` help rephrase.\n`price_span` is the span of the unfiltered result.",
+      "input_schema": {
+        "properties": {
+          "query": {
+            "anyOf": [
+              {
+                "maxLength": 120,
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Persian or Finglish text, e.g. 'گوشی آیفون 13'. Optional with category."
+          },
+          "sort": {
+            "default": "popular",
+            "description": "most_sellers = most shops.",
+            "enum": [
+              "popular",
+              "cheapest",
+              "priciest",
+              "newest",
+              "most_sellers"
+            ],
+            "type": "string"
+          },
+          "category": {
+            "anyOf": [
+              {
+                "maximum": 10000000,
+                "minimum": 1,
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Category id, e.g. 94."
+          },
+          "brand": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Brand id or name ('Apple', 'اپل'); needs query or category."
+          },
+          "min_price": {
+            "anyOf": [
+              {
+                "minimum": 0,
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Toman."
+          },
+          "max_price": {
+            "anyOf": [
+              {
+                "minimum": 1,
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Toman."
+          },
+          "available_only": {
+            "default": false,
+            "type": "boolean"
+          },
+          "condition": {
+            "default": "any",
+            "description": "used = کارکرده / stock.",
+            "enum": [
+              "any",
+              "new",
+              "used"
+            ],
+            "type": "string"
+          },
+          "in_person": {
+            "default": false,
+            "description": "Only products with an in-person shop.",
+            "type": "boolean"
+          },
+          "installment": {
+            "default": false,
+            "description": "Only installment (Torob Pay) products.",
+            "type": "boolean"
+          },
+          "city": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "City id or name; effect unverified, use tb_sellers(city=) for local offers."
+          },
+          "filters": {
+            "anyOf": [
+              {
+                "additionalProperties": {
+                  "type": "string"
+                },
+                "type": "object"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Attribute filters {slug: value} from tb_filters, e.g. {'storage': '256 gb'}."
+          },
+          "page": {
+            "default": 0,
+            "description": "0-based.",
+            "maximum": 100,
+            "minimum": 0,
+            "type": "integer"
+          },
+          "limit": {
+            "default": 10,
+            "maximum": 50,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "output": {
+            "default": "json",
+            "enum": [
+              "json",
+              "csv"
+            ],
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "tb_suggest",
+      "title": "Suggestions",
+      "description": "Torob's autocomplete: up to 8 search phrases for typed text (fixes Finglish and colloquial wording).\n\nUse before tb_search. Works even while other calls are blocked.",
+      "input_schema": {
+        "properties": {
+          "text": {
+            "description": "Typed text, e.g. 'ayfon' or 'لپ'.",
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "text"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "tb_filters",
+      "title": "Search filters",
+      "description": "Which filters exist for a query/category: sub-categories, brands, price span, sort options, attributes.\n\nUse before tb_search for category / brand ids or the attribute slugs and values of `filters`.",
+      "input_schema": {
+        "properties": {
+          "query": {
+            "anyOf": [
+              {
+                "maxLength": 120,
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Search text, e.g. 'لپ تاپ'."
+          },
+          "category": {
+            "anyOf": [
+              {
+                "maximum": 10000000,
+                "minimum": 1,
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          }
+        },
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "tb_category",
+      "title": "Browse category",
+      "description": "A category page: its parents, sub-categories and top products.\n\nUse to walk the category tree. For text search in a category use tb_search(category=).",
+      "input_schema": {
+        "properties": {
+          "category": {
+            "description": "Category id, e.g. 94 (mobile phones); see tb_filters.",
+            "maximum": 10000000,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "sort": {
+            "default": "popular",
+            "description": "most_sellers = most shops.",
+            "enum": [
+              "popular",
+              "cheapest",
+              "priciest",
+              "newest",
+              "most_sellers"
+            ],
+            "type": "string"
+          },
+          "brand": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Brand id or name."
+          },
+          "max_price": {
+            "anyOf": [
+              {
+                "minimum": 1,
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Toman."
+          },
+          "page": {
+            "default": 0,
+            "maximum": 100,
+            "minimum": 0,
+            "type": "integer"
+          },
+          "limit": {
+            "default": 10,
+            "maximum": 50,
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "category"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "tb_brands",
+      "title": "Brands",
+      "description": "All brands of a category with their ids (for tb_search brand=).",
+      "input_schema": {
+        "properties": {
+          "category": {
+            "description": "Category id, e.g. 94 (mobile phones); see tb_filters.",
+            "maximum": 10000000,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "search": {
+            "anyOf": [
+              {
+                "maxLength": 40,
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Name contains this text."
+          },
+          "limit": {
+            "default": 60,
+            "maximum": 100,
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "category"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "tb_trends",
+      "title": "Search trends",
+      "description": "What people search on Torob right now, each with its category and one sample product.",
+      "input_schema": {
+        "properties": {
+          "limit": {
+            "default": 10,
+            "maximum": 30,
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "tb_offers",
+      "title": "Special offers",
+      "description": "Torob's special-offers feed (\"پیشنهاد ویژه\"): themed rows with discounted or promoted products.",
+      "input_schema": {
+        "properties": {
+          "page": {
+            "default": 0,
+            "maximum": 50,
+            "minimum": 0,
+            "type": "integer"
+          },
+          "size": {
+            "default": 1,
+            "description": "Rows per page; each row is ~900 KB upstream.",
+            "maximum": 3,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "limit": {
+            "default": 10,
+            "description": "Products per row.",
+            "maximum": 30,
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "tb_cities",
+      "title": "Cities",
+      "description": "City ids for `city` arguments (392 Tehran, 468 Mashhad, 240 Isfahan).",
+      "input_schema": {
+        "properties": {
+          "search": {
+            "anyOf": [
+              {
+                "maxLength": 40,
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Persian name or part, e.g. 'مشهد'; omit for most visited."
+          },
+          "limit": {
+            "default": 10,
+            "maximum": 50,
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "tb_product",
+      "title": "Product details",
+      "description": "Full record of one product: name, price range (Toman), category, brand, key specs, cheapest offer.\n\n`price_min`/`price_max` include unreliable offers; `cheapest_offer` is the cheapest usable one on the page.",
+      "input_schema": {
+        "properties": {
+          "product": {
+            "description": "Product id (UUID) or torob.com product URL.",
+            "maxLength": 400,
+            "minLength": 8,
+            "type": "string"
+          },
+          "full_specs": {
+            "default": false,
+            "description": "Add the full spec table by section (long).",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "product"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "tb_sellers",
+      "title": "Sellers",
+      "description": "Every online shop offer for a product, cheapest first, with trust, warranty, installment and delivery info.\n\nUse to pick where to buy. `score`/`votes`: shop rating 0-5; `unreliable`: bait or stale price; `buyer_notes`:\nTorob's order-volume and complaint notes; `updated`: price age. `stats` cover usable offers only.",
+      "input_schema": {
+        "properties": {
+          "product": {
+            "description": "Product id (UUID) or torob.com product URL.",
+            "maxLength": 400,
+            "minLength": 8,
+            "type": "string"
+          },
+          "city": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "City id or name: only offers serving that city."
+          },
+          "installment_only": {
+            "default": false,
+            "description": "Installment (قسطی) shops only.",
+            "type": "boolean"
+          },
+          "warranty_only": {
+            "default": false,
+            "description": "Torob warranty (گارانتی ترب) offers only.",
+            "type": "boolean"
+          },
+          "min_score": {
+            "default": 0,
+            "description": "Minimum shop score.",
+            "maximum": 5,
+            "minimum": 0,
+            "type": "number"
+          },
+          "include_unreliable": {
+            "default": false,
+            "description": "Keep offers flagged unreliable (bait or stale).",
+            "type": "boolean"
+          },
+          "limit": {
+            "default": 15,
+            "maximum": 50,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "output": {
+            "default": "json",
+            "enum": [
+              "json",
+              "csv"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "product"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "tb_stores",
+      "title": "In-person stores",
+      "description": "In-person shops that stock a product: address, opening hours, open now, shelf price and its age.\n\nUse for \"can I buy it today near me\". Online offers: tb_sellers.",
+      "input_schema": {
+        "properties": {
+          "product": {
+            "description": "Product id (UUID) or torob.com product URL.",
+            "maxLength": 400,
+            "minLength": 8,
+            "type": "string"
+          },
+          "city": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "City id or name: only offers serving that city."
+          },
+          "with_location": {
+            "default": false,
+            "description": "Add lat/lon.",
+            "type": "boolean"
+          },
+          "limit": {
+            "default": 15,
+            "maximum": 50,
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "product"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "tb_presence",
+      "title": "Shop presence",
+      "description": "How widely a product is sold: online shops, in-person stores, installment and warranty shops, price window.",
+      "input_schema": {
+        "properties": {
+          "product": {
+            "description": "Product id (UUID) or torob.com product URL.",
+            "maxLength": 400,
+            "minLength": 8,
+            "type": "string"
+          }
+        },
+        "required": [
+          "product"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "tb_variants",
+      "title": "Variants",
+      "description": "Sibling variants of a product (storage + RAM, colour, region ...) each with its own cheapest price.",
+      "input_schema": {
+        "properties": {
+          "product": {
+            "description": "Product id (UUID) or torob.com product URL.",
+            "maxLength": 400,
+            "minLength": 8,
+            "type": "string"
+          }
+        },
+        "required": [
+          "product"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "tb_price_chart",
+      "title": "Price chart",
+      "description": "Price chart of a product (about a year, weekly): minimum and average price in Toman, with a buy-now verdict.\n\n`summary.verdict` (great / fair / high) follows `percentile`: share of weeks cheaper than now.",
+      "input_schema": {
+        "properties": {
+          "product": {
+            "description": "Product id (UUID) or torob.com product URL.",
+            "maxLength": 400,
+            "minLength": 8,
+            "type": "string"
+          },
+          "points": {
+            "default": 26,
+            "description": "Latest weekly points (26 = about 6 months).",
+            "maximum": 60,
+            "minimum": 4,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "product"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "tb_price_history",
+      "title": "Price history events",
+      "description": "Notable price moves of a product, newest first, with the lowest and highest point.\n\nWeekly moves of the chart's minimum price; a negative `change_pct` is a drop.",
+      "input_schema": {
+        "properties": {
+          "product": {
+            "description": "Product id (UUID) or torob.com product URL.",
+            "maxLength": 400,
+            "minLength": 8,
+            "type": "string"
+          },
+          "min_change_pct": {
+            "default": 3,
+            "description": "Ignore smaller moves (percent).",
+            "maximum": 90,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "limit": {
+            "default": 10,
+            "maximum": 30,
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "product"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "tb_similar",
+      "title": "Similar products",
+      "description": "Products Torob shows as similar (alternatives in the same class), with cheapest price and shop count.",
+      "input_schema": {
+        "properties": {
+          "product": {
+            "description": "Product id (UUID) or torob.com product URL.",
+            "maxLength": 400,
+            "minLength": 8,
+            "type": "string"
+          },
+          "limit": {
+            "default": 10,
+            "maximum": 50,
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "product"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "tb_product_url",
+      "title": "Product URL",
+      "description": "Clean torob.com URL for a product id, path or link (no request is sent).",
+      "input_schema": {
+        "properties": {
+          "product": {
+            "description": "Product id (UUID) or torob.com product URL.",
+            "maxLength": 400,
+            "minLength": 8,
+            "type": "string"
+          }
+        },
+        "required": [
+          "product"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "tb_products_batch",
+      "title": "Product cards",
+      "description": "Short records (name, price window, shop counts, category, brand) for up to 10 products at once.\n\nOne request per product; failures go to `errors`.",
+      "input_schema": {
+        "properties": {
+          "products": {
+            "items": {
+              "description": "Product id (UUID) or torob.com product URL.",
+              "maxLength": 400,
+              "minLength": 8,
+              "type": "string"
+            },
+            "maxItems": 10,
+            "minItems": 1,
+            "type": "array"
+          }
+        },
+        "required": [
+          "products"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "tb_cheapest",
+      "title": "Cheapest offer",
+      "description": "Cheapest trustworthy offer for a product named in words: searches, then looks at every shop's offer.\n\nGives the best usable offer per top match and the overall `cheapest`; check the matched name.",
+      "input_schema": {
+        "properties": {
+          "query": {
+            "description": "Product, e.g. 'ps5 slim'.",
+            "maxLength": 120,
+            "minLength": 1,
+            "type": "string"
+          },
+          "candidates": {
+            "default": 3,
+            "description": "Top search matches to check (one request each).",
+            "maximum": 5,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "condition": {
+            "default": "new",
+            "description": "used = کارکرده / stock.",
+            "enum": [
+              "new",
+              "used",
+              "any"
+            ],
+            "type": "string"
+          },
+          "city": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "City id or name: only offers serving that city."
+          },
+          "installment_only": {
+            "default": false,
+            "description": "Installment (قسطی) shops only.",
+            "type": "boolean"
+          },
+          "min_score": {
+            "default": 0,
+            "description": "Minimum shop score.",
+            "maximum": 5,
+            "minimum": 0,
+            "type": "number"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "tb_compare",
+      "title": "Compare products",
+      "description": "Side-by-side comparison of 2-5 products: only the specs that differ, the price window, and which is cheapest.\n\n`differences` maps a spec to its values in `products` order (null = not listed).",
+      "input_schema": {
+        "properties": {
+          "products": {
+            "items": {
+              "description": "Product id (UUID) or torob.com product URL.",
+              "maxLength": 400,
+              "minLength": 8,
+              "type": "string"
+            },
+            "maxItems": 5,
+            "minItems": 2,
+            "type": "array"
+          }
+        },
+        "required": [
+          "products"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "tb_best_value",
+      "title": "Best value under budget",
+      "description": "Ranked product picks that fit a budget (Toman), for \"best phone under 30 million\".\n\nNo quality score: check specs with tb_compare. In-stock products only.",
+      "input_schema": {
+        "properties": {
+          "budget": {
+            "description": "Max price, Toman.",
+            "minimum": 1000,
+            "type": "integer"
+          },
+          "query": {
+            "anyOf": [
+              {
+                "maxLength": 120,
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "What to buy, e.g. 'لپ تاپ'. Optional with category."
+          },
+          "category": {
+            "anyOf": [
+              {
+                "maximum": 10000000,
+                "minimum": 1,
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "rank_by": {
+            "default": "budget_reach",
+            "description": "budget_reach: priciest models that fit first.",
+            "enum": [
+              "budget_reach",
+              "popular",
+              "cheapest"
+            ],
+            "type": "string"
+          },
+          "min_shops": {
+            "default": 3,
+            "description": "Skip products with fewer shops.",
+            "maximum": 100,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "condition": {
+            "default": "new",
+            "description": "used = کارکرده / stock.",
+            "enum": [
+              "new",
+              "used",
+              "any"
+            ],
+            "type": "string"
+          },
+          "limit": {
+            "default": 10,
+            "maximum": 30,
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "budget"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "tb_deal_check",
+      "title": "Deal check",
+      "description": "Is this a good price? Score 0-100 from the product's price history and today's competing offers.\n\n100 minus the price's percentile among past weekly minimums, minus up to 20 when above today's cheapest usable\noffer. `reasons` explains it.",
+      "input_schema": {
+        "properties": {
+          "product": {
+            "description": "Product id (UUID) or torob.com product URL.",
+            "maxLength": 400,
+            "minLength": 8,
+            "type": "string"
+          },
+          "price": {
+            "anyOf": [
+              {
+                "minimum": 1000,
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Offered price, Toman; default today's cheapest usable offer."
+          }
+        },
+        "required": [
+          "product"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "tb_basket",
+      "title": "Shopping basket",
+      "description": "Cheapest shop for a whole shopping list: best single shop that sells everything, and the split-cart total.\n\nNames resolve to the top search match (check `items[].name`; pass ids to be exact).",
+      "input_schema": {
+        "properties": {
+          "items": {
+            "description": "Product names ('آیفون 13 128') or ids / URLs.",
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 8,
+            "minItems": 2,
+            "type": "array"
+          },
+          "condition": {
+            "default": "new",
+            "description": "used = کارکرده / stock.",
+            "enum": [
+              "new",
+              "used",
+              "any"
+            ],
+            "type": "string"
+          },
+          "city": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "City id or name: only offers serving that city."
+          },
+          "installment_only": {
+            "default": false,
+            "description": "Installment shops only.",
+            "type": "boolean"
+          },
+          "min_score": {
+            "default": 0,
+            "maximum": 5,
+            "minimum": 0,
+            "type": "number"
+          }
+        },
+        "required": [
+          "items"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "tb_shop",
+      "title": "Shop profile",
+      "description": "A shop's trust profile: score and votes, e-Namad seal, time on Torob, city, website, delivery and payment terms.\n\nUse to vet a seller from tb_sellers. Contact details are left out.",
+      "input_schema": {
+        "properties": {
+          "shop_id": {
+            "description": "Torob shop id (`shop_id` from tb_sellers).",
+            "maximum": 100000000,
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "shop_id"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "tb_find_shops",
+      "title": "Find shops",
+      "description": "Find shops in Torob's directory by name or domain; returns ids for tb_shop and tb_shop_products.",
+      "input_schema": {
+        "properties": {
+          "query": {
+            "description": "Shop name or domain, e.g. 'bavanmobile.ir'.",
+            "maxLength": 80,
+            "minLength": 1,
+            "type": "string"
+          },
+          "city": {
+            "anyOf": [
+              {
+                "maxLength": 40,
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "City or province, Persian."
+          },
+          "kind": {
+            "default": "all",
+            "description": "offline = in-person.",
+            "enum": [
+              "all",
+              "online",
+              "offline"
+            ],
+            "type": "string"
+          },
+          "page": {
+            "default": 0,
+            "maximum": 50,
+            "minimum": 0,
+            "type": "integer"
+          },
+          "limit": {
+            "default": 10,
+            "maximum": 30,
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "tb_shop_products",
+      "title": "Shop catalogue",
+      "description": "Products one shop sells on Torob, with the price range of the page.\n\nCard prices are the cheapest across all shops; tb_sellers gives this shop's own offer.",
+      "input_schema": {
+        "properties": {
+          "shop_id": {
+            "description": "Torob shop id (`shop_id` from tb_sellers).",
+            "maximum": 100000000,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "query": {
+            "anyOf": [
+              {
+                "maxLength": 80,
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Only products matching this text."
+          },
+          "sort": {
+            "default": "popular",
+            "enum": [
+              "popular",
+              "cheapest",
+              "priciest",
+              "newest"
+            ],
+            "type": "string"
+          },
+          "page": {
+            "default": 0,
+            "maximum": 50,
+            "minimum": 0,
+            "type": "integer"
+          },
+          "limit": {
+            "default": 10,
+            "maximum": 50,
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "shop_id"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    }
+  ]
+}

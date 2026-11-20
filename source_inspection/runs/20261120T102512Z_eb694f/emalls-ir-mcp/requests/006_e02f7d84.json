@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-11-20T10:55:52.108651+00:00",
+  "source": "emalls-ir-mcp",
+  "tool": "em_offers",
+  "arguments": {
+    "product_id": 1
+  },
+  "evidence_status": "request_sent"
+}

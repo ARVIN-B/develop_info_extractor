@@ -1,0 +1,13 @@
+{
+  "structuredContent": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"lat\":35.6892,\"lng\":51.389,\"address\":\"امام خمینی\",\"street\":\"امام خمینی\",\"province\":\"استان تهران\"}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "isError": false,
+  "_meta": null
+}

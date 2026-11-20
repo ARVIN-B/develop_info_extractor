@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-11-20T10:57:54.249925+00:00",
+  "tool": "dk_category_products",
+  "stage": "argument_construction",
+  "status": "requires_manual_configuration",
+  "missing_required_fields": [
+    "category_code"
+  ],
+  "reason": "No safe argument could be derived from the actual schema."
+}

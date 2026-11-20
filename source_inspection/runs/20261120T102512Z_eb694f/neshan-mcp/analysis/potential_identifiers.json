@@ -1,0 +1,20 @@
+{
+  "evidence_status": "verified_live_response",
+  "observed_identifier_fields": {
+    "results[].id": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/000_cd581d5f.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 1,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    }
+  },
+  "note": "These are fields present in captured payloads, not a complete source schema."
+}

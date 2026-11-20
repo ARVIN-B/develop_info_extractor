@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-11-20T10:56:46.319868+00:00",
+  "source": "iran-jobs-mcp",
+  "tool": "job_jobvision_similar_jobs",
+  "arguments": {
+    "job_id": 1
+  },
+  "evidence_status": "request_sent"
+}

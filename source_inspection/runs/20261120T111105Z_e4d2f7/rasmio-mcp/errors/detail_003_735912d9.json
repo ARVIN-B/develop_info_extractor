@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-11-20T11:11:10.715593+00:00",
+  "source": "rasmio-mcp",
+  "tool": "rs_product",
+  "stage": "detail_execution",
+  "evidence_status": "verified_live_error",
+  "exception_type": "MCPToolError",
+  "message": "The live tool response contained an error.",
+  "response": {
+    "structuredContent": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "Error executing tool rs_product: Rasmio returned a page without this product. Check the product_id.",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "isError": false,
+    "_meta": null
+  },
+  "request_file": "requests/detail_003_735912d9.json"
+}

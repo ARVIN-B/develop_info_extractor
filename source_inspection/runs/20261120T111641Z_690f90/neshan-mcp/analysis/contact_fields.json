@@ -1,0 +1,91 @@
+{
+  "evidence_status": "verified_live_response",
+  "observed_contact_fields": {
+    "address": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/005_3e13451c.json",
+        "neshan-mcp/responses/detail_001_b2f61eb9.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 6,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "phones": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_001_b2f61eb9.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "phones[]": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_001_b2f61eb9.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].address": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/000_a116380d.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].phone": {
+      "observed_values_count": 9,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/000_a116380d.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "website": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "neshan-mcp/responses/detail_001_b2f61eb9.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 7,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    }
+  },
+  "phone_value_observed": true
+}

@@ -1,0 +1,13 @@
+{
+  "structuredContent": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"plans\":[{\"id\":8,\"title\":\"اشتراک یک ماهه\",\"days\":31,\"price\":149000,\"price_before_discount\":300000,\"discount_pct\":50,\"free_shipments\":4,\"fresh_free_shipments\":0,\"jet_free_shipments\":6,\"note\":null},{\"id\":1,\"title\":\"اشتراک سه ماهه\",\"days\":93,\"price\":159000,\"price_before_discount\":900000,\"discount_pct\":82,\"free_shipments\":12,\"fresh_free_shipments\":0,\"jet_free_shipments\":18,\"note\":\"۸۲ ٪ تخفیف برای کاربران ۱۸ تا ۲۷ سال\"},{\"id\":23,\"title\":\"اشتراک شش ماهه\",\"days\":186,\"price\":599000,\"price_before_discount\":1800000,\"discount_pct\":67,\"free_shipments\":24,\"fresh_free_shipments\":0,\"jet_free_shipments\":36,\"note\":null},{\"id\":14,\"title\":\"اشتراک یک ساله\",\"days\":372,\"price\":999000,\"price_before_discount\":3300000,\"discount_pct\":70,\"free_shipments\":48,\"fresh_free_shipments\":0,\"jet_free_shipments\":72,\"note\":null}],\"benefits\":[\"ارسال رایگان\",\"۳۰ روز مهلت مرجوع کالا\",\"بازه‌های ارسال اختصاصی\",\"سود با پاداش خرید\"]}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "isError": false,
+  "_meta": null
+}

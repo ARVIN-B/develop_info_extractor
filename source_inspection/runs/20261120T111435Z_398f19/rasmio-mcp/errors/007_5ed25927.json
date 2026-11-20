@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-11-20T11:14:38.468367+00:00",
+  "source": "rasmio-mcp",
+  "tool": "rs_options",
+  "stage": "execution",
+  "evidence_status": "verified_live_error",
+  "exception_type": "MCPToolError",
+  "message": "The live tool response contained an error.",
+  "response": {
+    "structuredContent": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "Error executing tool rs_options: 1 validation error for rs_optionsArguments\nwhat\n  Input should be 'company_types', 'licenses', 'categories', 'brand_classes' or 'provinces' [type=literal_error, input_value='کافه', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.14/v/literal_error",
+        "annotations": null,
+        "_meta": null
+      }
+    ],
+    "isError": false,
+    "_meta": null
+  },
+  "request_file": "requests/007_5ed25927.json"
+}

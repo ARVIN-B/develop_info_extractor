@@ -1,0 +1,575 @@
+{
+  "evidence_status": "verified_tool_schema",
+  "tools": [
+    {
+      "name": "rs_company",
+      "title": "Company profile",
+      "description": "Registry profile of one Iranian company: basics, board and CEO, shareholders, licenses, capital history, ads.\n\nsections: people=board/officers/auditors, ownership=shareholders/stock, licenses=licenses/brands/patents,\nfinance=capital changes/contracts/statements, ads. Board rows give person_id (rs_person) and ad_id (rs_ad). Anonymous quota is a few profiles per IP every few\ndays; the error says when it is reached.",
+      "inputSchema": {
+        "properties": {
+          "company_id": {
+            "description": "11-digit national id (شناسه ملی) from rs_search_companies, e.g. '10100360794'.",
+            "type": "string"
+          },
+          "sections": {
+            "anyOf": [
+              {
+                "items": {
+                  "enum": [
+                    "people",
+                    "ownership",
+                    "licenses",
+                    "finance",
+                    "ads"
+                  ],
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Parts besides the basics; empty = all."
+          },
+          "max_rows": {
+            "default": 10,
+            "description": "Rows per table.",
+            "maximum": 30,
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "company_id"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "outputSchema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": true
+      },
+      "_meta": null
+    },
+    {
+      "name": "rs_ad",
+      "title": "Official gazette ad",
+      "description": "Full text of one official gazette (روزنامه رسمی) ad: board changes, capital changes, founding, liquidation.\n\nNational codes in the text are shortened to 6 digits.",
+      "inputSchema": {
+        "properties": {
+          "ad_id": {
+            "description": "Ad id from rs_company or rs_person, e.g. '129676674'.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "ad_id"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "outputSchema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": true
+      },
+      "_meta": null
+    },
+    {
+      "name": "rs_person",
+      "title": "Person profile",
+      "description": "Companies one person manages, sits on the board of or audits, with role dates and their latest gazette ads.\n\ncurrent=false is a finished term; ad_id opens with rs_ad.",
+      "inputSchema": {
+        "properties": {
+          "person_id": {
+            "description": "Hex id from rs_search(kind='people') or rs_company, e.g. '3706E5AB'.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "person_id"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "outputSchema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": true
+      },
+      "_meta": null
+    },
+    {
+      "name": "rs_product",
+      "title": "Product details",
+      "description": "One registered product: full specs (HS/ISIC codes, brand, maker, country), category and comparable suppliers.\n\ncategory_slug works as product_category in rs_search_companies.",
+      "inputSchema": {
+        "properties": {
+          "product_id": {
+            "description": "Id from rs_search(kind='products'), e.g. '42218435'.",
+            "type": "string"
+          },
+          "max_rows": {
+            "default": 10,
+            "description": "Rows of the similar-suppliers table.",
+            "maximum": 50,
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "product_id"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "outputSchema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": true
+      },
+      "_meta": null
+    },
+    {
+      "name": "rs_ip",
+      "title": "Trademark, patent or design",
+      "description": "Registration details of an Iranian trademark, patent or industrial design: numbers, date, owner, description.",
+      "inputSchema": {
+        "properties": {
+          "ip_id": {
+            "description": "ip_id from rs_search or rs_company, e.g. '812386'.",
+            "type": "string"
+          },
+          "kind": {
+            "default": "brand",
+            "description": "The search result's kind.",
+            "enum": [
+              "brand",
+              "patent",
+              "industrial_design"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "ip_id"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "outputSchema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": true
+      },
+      "_meta": null
+    },
+    {
+      "name": "rs_search_companies",
+      "title": "Search companies",
+      "description": "Search Iranian companies by name or activity with filters; returns national ids for rs_company.\n\nFilters combine freely. Next: rs_company(company_id).",
+      "inputSchema": {
+        "properties": {
+          "query": {
+            "default": "",
+            "description": "Persian name, brand or activity words, e.g. 'دیجی کالا'. Empty = filters only.",
+            "type": "string"
+          },
+          "province": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Persian province name, e.g. 'تهران'."
+          },
+          "city": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Persian city name, e.g. 'مشهد'."
+          },
+          "status": {
+            "anyOf": [
+              {
+                "enum": [
+                  "active",
+                  "tax_inactive",
+                  "liquidated",
+                  "incomplete_data",
+                  "revoked",
+                  "license_ended",
+                  "inactive"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "company_type": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Legal form id (rs_options 'company_types'); 5 = سهامی خاص, 6 = با مسئولیت محدود, 3 = تعاونی."
+          },
+          "size": {
+            "anyOf": [
+              {
+                "enum": [
+                  "xs",
+                  "s",
+                  "m",
+                  "l",
+                  "xl"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Headcount class, xs smallest .. xl largest."
+          },
+          "min_capital": {
+            "anyOf": [
+              {
+                "minimum": 0,
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Minimum capital, Rial."
+          },
+          "max_capital": {
+            "anyOf": [
+              {
+                "minimum": 0,
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Maximum capital, Rial."
+          },
+          "founded_after": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Registered on/after; '1400/01/01' or '2021-03-21'."
+          },
+          "founded_before": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Registered on/before, same formats."
+          },
+          "license_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "License id from rs_options('licenses')."
+          },
+          "product_category": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Product category slug (rs_options 'categories' or a product's category_slug)."
+          },
+          "has_brand": {
+            "default": false,
+            "description": "Owns a trademark.",
+            "type": "boolean"
+          },
+          "has_subsidiary": {
+            "default": false,
+            "description": "Has subsidiaries.",
+            "type": "boolean"
+          },
+          "has_contract": {
+            "default": false,
+            "description": "Has government contracts.",
+            "type": "boolean"
+          },
+          "sort": {
+            "default": "relevance",
+            "enum": [
+              "relevance",
+              "most_viewed",
+              "newest",
+              "oldest",
+              "lowest_capital",
+              "highest_capital"
+            ],
+            "type": "string"
+          },
+          "page": {
+            "default": 1,
+            "maximum": 200,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "page_size": {
+            "default": 20,
+            "maximum": 60,
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "type": "object"
+      },
+      "execution": null,
+      "outputSchema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": true
+      },
+      "_meta": null
+    },
+    {
+      "name": "rs_search",
+      "title": "Search people, products, brands or patents",
+      "description": "Search people (board members, managers), products, registered brands or patents and industrial designs.\n\nGives person_id (rs_person), product_id (rs_product) or ip_id (rs_ip). For companies use rs_search_companies.",
+      "inputSchema": {
+        "properties": {
+          "query": {
+            "description": "Persian words (Latin for brands), e.g. 'روغن موتور', 'Samsung'.",
+            "type": "string"
+          },
+          "kind": {
+            "default": "people",
+            "description": "'everything' mixes companies, people, brands, products.",
+            "enum": [
+              "people",
+              "products",
+              "brands",
+              "patents",
+              "everything"
+            ],
+            "type": "string"
+          },
+          "product_category": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "products only: slug from rs_options('categories')."
+          },
+          "brand_class": {
+            "anyOf": [
+              {
+                "maximum": 45,
+                "minimum": 1,
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "brands only: Nice class, 9 = electronics, 30 = foods."
+          },
+          "mark_type": {
+            "anyOf": [
+              {
+                "enum": [
+                  "image",
+                  "text",
+                  "combined"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "brands only."
+          },
+          "patent_kind": {
+            "anyOf": [
+              {
+                "enum": [
+                  "invention",
+                  "industrial_design"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "patents only."
+          },
+          "page": {
+            "default": 1,
+            "maximum": 200,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "page_size": {
+            "default": 20,
+            "maximum": 60,
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "outputSchema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": true
+      },
+      "_meta": null
+    },
+    {
+      "name": "rs_options",
+      "title": "Filter values and categories",
+      "description": "List the ids and names the search filters take: legal forms, licenses, product categories, brand classes.\n\nUse the id/slug in rs_search_companies or rs_search filters.",
+      "inputSchema": {
+        "properties": {
+          "what": {
+            "description": "licenses needs query; provinces include their cities.",
+            "enum": [
+              "company_types",
+              "licenses",
+              "categories",
+              "brand_classes",
+              "provinces"
+            ],
+            "type": "string"
+          },
+          "query": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "licenses: license-name words, e.g. 'دانش بنیان'. Others: optional text filter."
+          },
+          "category": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "categories: slug to list its sub-categories. Empty = top level."
+          }
+        },
+        "required": [
+          "what"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "outputSchema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": true
+      },
+      "_meta": null
+    }
+  ]
+}

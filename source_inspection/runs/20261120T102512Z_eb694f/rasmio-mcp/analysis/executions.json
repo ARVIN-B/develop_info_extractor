@@ -1,0 +1,21 @@
+{
+  "evidence_status": "execution_records",
+  "records": [
+    {
+      "tool": "rs_search_companies",
+      "request_file": "requests/005_fc88091f.json",
+      "response_file": "responses/005_fc88091f.json",
+      "arguments": {},
+      "ids_observed": []
+    },
+    {
+      "tool": "rs_search",
+      "request_file": "requests/006_bf33904f.json",
+      "response_file": "responses/006_bf33904f.json",
+      "arguments": {
+        "query": "کافه"
+      },
+      "ids_observed": []
+    }
+  ]
+}

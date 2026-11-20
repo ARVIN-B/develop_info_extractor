@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-11-20T10:57:40.943462+00:00",
+  "source": "torob-mcp",
+  "tool": "tb_best_value",
+  "arguments": {
+    "budget": 1000
+  },
+  "evidence_status": "request_sent"
+}

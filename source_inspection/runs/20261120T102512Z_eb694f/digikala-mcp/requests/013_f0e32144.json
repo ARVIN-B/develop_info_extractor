@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-11-20T10:57:56.552843+00:00",
+  "source": "digikala-mcp",
+  "tool": "dk_price_history",
+  "arguments": {
+    "product_id": 1
+  },
+  "evidence_status": "request_sent"
+}

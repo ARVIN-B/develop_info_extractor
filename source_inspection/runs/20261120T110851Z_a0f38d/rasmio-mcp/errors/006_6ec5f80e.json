@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-11-20T11:08:55.533321+00:00",
+  "source": "rasmio-mcp",
+  "tool": "rs_search",
+  "stage": "execution",
+  "exception_type": "NameError",
+  "message": "name 'schema_args_value' is not defined",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\Arvin\\Desktop\\test\\scripts\\inspect_sources.py\", line 342, in inspect\n    successful_searches[name] = (schema_args_value, data)\n                                 ^^^^^^^^^^^^^^^^^\nNameError: name 'schema_args_value' is not defined\n",
+  "request_file": "requests/006_6ec5f80e.json"
+}

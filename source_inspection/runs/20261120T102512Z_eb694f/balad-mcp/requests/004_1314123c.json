@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-11-20T10:55:23.971072+00:00",
+  "source": "balad-mcp",
+  "tool": "bl_reverse_geocode",
+  "arguments": {
+    "lat": 35.6892,
+    "lng": 51.389
+  },
+  "evidence_status": "request_sent"
+}

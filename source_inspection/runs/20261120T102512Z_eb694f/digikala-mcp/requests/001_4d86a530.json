@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-11-20T10:57:50.701290+00:00",
+  "source": "digikala-mcp",
+  "tool": "dk_find_cheapest",
+  "arguments": {
+    "query": "کافه"
+  },
+  "evidence_status": "request_sent"
+}

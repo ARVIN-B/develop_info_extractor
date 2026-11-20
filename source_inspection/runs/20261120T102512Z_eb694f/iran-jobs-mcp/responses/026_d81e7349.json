@@ -1,0 +1,13 @@
+{
+  "structuredContent": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"total\":155058,\"page\":1,\"companies\":[{\"id\":9432,\"name\":\"گروه ماموت\",\"name_en\":\"Mammut Group\",\"open_ads\":98,\"rating\":4.83,\"rank\":1,\"url\":\"https://jobvision.ir/companies/9432\"},{\"id\":9505,\"name\":\"نصب نیرو (گروه مپنا)\",\"name_en\":\"Nasb Niroo\",\"open_ads\":6,\"rating\":4.57,\"rank\":2,\"url\":\"https://jobvision.ir/companies/9505\"},{\"id\":12530,\"name\":\"کامل برچسب\",\"name_en\":\"KamelBarchasb\",\"open_ads\":1,\"rating\":4.54,\"rank\":3,\"url\":\"https://jobvision.ir/companies/12530\"},{\"id\":3420,\"name\":\"پایدار اندیشان دانا پاد\",\"name_en\":\"PAYDAR ANDISHAN DANA PAD\",\"open_ads\":1,\"rating\":4.53,\"rank\":4,\"url\":\"https://jobvision.ir/companies/3420\"},{\"id\":7598,\"name\":\"گسترش فناوری های نوین\",\"name_en\":\"Novin Hi-Tech Solutions\",\"open_ads\":24,\"rating\":4.47,\"rank\":5,\"url\":\"https://jobvision.ir/companies/7598\"},{\"id\":53872,\"name\":\"موسسه منظومه خرد\",\"name_en\":\"Manzoumeh Kherad Institute\",\"open_ads\":3,\"rating\":4.46,\"rank\":6,\"url\":\"https://jobvision.ir/companies/53872\"},{\"id\":6776,\"name\":\"تجارت شرق ایندستریز\",\"name_en\":\"Tejarat Sharq Industries Company\",\"open_ads\":1,\"rating\":4.46,\"rank\":7,\"url\":\"https://jobvision.ir/companies/6776\"},{\"id\":11018,\"name\":\"آرسین سلامت ایرانیان\",\"name_en\":\"Arsinsalamat iranian\",\"open_ads\":4,\"rating\":4.44,\"rank\":8,\"url\":\"https://jobvision.ir/companies/11018\"},{\"id\":1796,\"name\":\"گلنان پوراتوس\",\"name_en\":\"Golnanpuratos\",\"open_ads\":8,\"rating\":4.44,\"rank\":9,\"url\":\"https://jobvision.ir/companies/1796\"},{\"id\":62726,\"name\":\"پوشاک ایرانیان\",\"name_en\":\"iranian style\",\"open_ads\":40,\"rating\":4.43,\"rank\":10,\"url\":\"https://jobvision.ir/companies/62726\"}]}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "isError": false,
+  "_meta": null
+}

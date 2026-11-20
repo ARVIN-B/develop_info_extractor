@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-11-20T10:56:10.869078+00:00",
+  "tool": "job_irantalent_company_reviews",
+  "stage": "argument_construction",
+  "status": "requires_manual_configuration",
+  "missing_required_fields": [
+    "company_id"
+  ],
+  "reason": "No safe argument could be derived from the actual schema."
+}

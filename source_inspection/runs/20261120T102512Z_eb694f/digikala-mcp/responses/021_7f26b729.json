@@ -1,0 +1,13 @@
+{
+  "structuredContent": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"gold18_per_gram\":23769200,\"gold18_day_change_pct\":0.07,\"gold18_period_change_pct\":-2.28,\"gold18_period_low\":23424800,\"gold18_period_high\":24324300,\"coins\":[{\"title\":\"سکه امامی\",\"price\":249492000,\"change_pct\":-1.26},{\"title\":\"نیم سکه\",\"price\":null,\"change_pct\":0},{\"title\":\"ربع سکه\",\"price\":null,\"change_pct\":0}],\"updated\":\"58 ثانیه پیش\"}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "isError": false,
+  "_meta": null
+}

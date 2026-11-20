@@ -1,0 +1,13 @@
+{
+  "structuredContent": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"n_sampled\":12,\"n_with_salary\":7,\"n_negotiable\":4,\"min\":22000000,\"median\":30000000,\"max\":150000000,\"mean\":51142857,\"ads\":[{\"id\":\"ebtekar-3/t1um\",\"title\":\"Senior Digital & Performance Marketing Specialist\",\"company\":\"ابتکار | Ebtekar\",\"salary\":\"از ۵۰,۰۰۰,۰۰۰ تومان\",\"salary_min_toman\":50000000},{\"id\":\"sama-arya-nic/tZBF\",\"title\":\"مدرس برنامه‌نویسی (کودک و نوجوان-خانم)\",\"company\":\"سما آریا نیک | Sama Arya Nic\",\"salary\":\"توافقی\",\"salary_negotiable\":true},{\"id\":\"sama-arya-nic/tuZn\",\"title\":\"کارشناس تولید محتوا (خانم)\",\"company\":\"سما آریا نیک | Sama Arya Nic\",\"salary\":\"از ۳۰,۰۰۰,۰۰۰ تومان\",\"salary_min_toman\":30000000},{\"id\":\"sama-arya-nic/tTn2\",\"title\":\"پشتیبان آموزشی (خانم)\",\"company\":\"سما آریا نیک | Sama Arya Nic\",\"salary\":\"از ۲۶,۰۰۰,۰۰۰ تومان\",\"salary_min_toman\":26000000},{\"id\":\"azarabadegan/t1FG\",\"title\":\"(International Markets-دورکاری) Senior Social Media Marketing Specialist\",\"company\":\"اذرابادگان | Azarabadegan\",\"salary\":\"توافقی\",\"salary_negotiable\":true},{\"id\":\"azarabadegan/t1Fp\",\"title\":\"International Markets) Senior Google Ads Specialist-دورکاری)\",\"company\":\"اذرابادگان | Azarabadegan\",\"salary\":\"توافقی\",\"salary_negotiable\":true},{\"id\":\"rtr-2/t1pl\",\"title\":\"فروشنده سایت و تلفنی  (تجهیزات IT-خانم)\",\"company\":\"رادین تجارت رویان | RTR\",\"salary\":\"از ۲۲,۰۰۰,۰۰۰ تومان\",\"salary_min_toman\":22000000},{\"id\":\"arsenchemistry/t1ns\",\"title\":\"کارشناس فروش (خانم)\",\"company\":\"گروه سرمایه گذاری برادران | Brothers investment Group\",\"salary\":\"از ۳۰,۰۰۰,۰۰۰ تومان\",\"salary_min_toman\":30000000},{\"id\":\"rajaei-academi/tud2\",\"title\":\"کارشناس پشتیبانی و ارتباط با مشتریان (خانم-مشهد)\",\"company\":\"آکادمی رجایی | Rajaei Academi\",\"salary\":\"حقوق پایه (وزارت کار)\"},{\"id\":\"khoda-home/tTVo\",\"title\":\"مشاور املاک\",\"company\":\"کی اچ هوم | KH Home\",\"salary\":\"از ۱۵۰,۰۰۰,۰۰۰ تومان\",\"salary_min_toman\":150000000},{\"id\":\"impact-group/t1vo\",\"title\":\"کارمند فروش و بازاریابی\",\"company\":\"گروه تاثیر | Impact Group\",\"salary\":\"توافقی\",\"salary_negotiable\":true},{\"id\":\"soroush-nirou/tT2T\",\"title\":\"کارشناس فروش (آقا)\",\"company\":\"سروش نیرو | Soroush Nirou\",\"salary\":\"از ۵۰,۰۰۰,۰۰۰ تومان\",\"salary_min_toman\":50000000}]}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "isError": false,
+  "_meta": null
+}

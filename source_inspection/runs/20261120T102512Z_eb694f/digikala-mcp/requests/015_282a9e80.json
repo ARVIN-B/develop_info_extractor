@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-11-20T10:57:57.831438+00:00",
+  "source": "digikala-mcp",
+  "tool": "dk_questions",
+  "arguments": {
+    "product_id": 1
+  },
+  "evidence_status": "request_sent"
+}

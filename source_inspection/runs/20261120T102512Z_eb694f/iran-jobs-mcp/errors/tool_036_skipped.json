@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-11-20T10:57:22.918353+00:00",
+  "tool": "job_jobvision_career",
+  "stage": "argument_construction",
+  "status": "requires_manual_configuration",
+  "missing_required_fields": [
+    "career"
+  ],
+  "reason": "No safe argument could be derived from the actual schema."
+}

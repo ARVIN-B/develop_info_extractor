@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-11-20T11:16:57.911131+00:00",
+  "evidence_policy": "All counts derive from this run's records.",
+  "sources": [
+    {
+      "source": "rasmio-mcp",
+      "integration_type": "MCP stdio",
+      "startup_status": "initialized",
+      "authentication_status": "unknown",
+      "tool_operation_discovery_status": "succeeded",
+      "discovered_tool_count": 8,
+      "executed_request_count": 7,
+      "successful_request_count": 5,
+      "failed_request_count": 2,
+      "actual_response_file_count": 5,
+      "search_tested": true,
+      "detail_retrieval_tested": true,
+      "pagination_tested": true,
+      "phone_numbers_observed": false,
+      "phone_fields_in_search_results": false,
+      "phone_fields_in_detail_results": false,
+      "contact_information_requires_additional_access": "unknown",
+      "missing_configuration": [],
+      "overall_evidence_status": "verified_live_response"
+    }
+  ]
+}

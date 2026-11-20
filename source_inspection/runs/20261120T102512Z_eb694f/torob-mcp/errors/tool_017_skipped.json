@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-11-20T10:57:31.870378+00:00",
+  "tool": "tb_products_batch",
+  "stage": "argument_construction",
+  "status": "requires_manual_configuration",
+  "missing_required_fields": [
+    "products"
+  ],
+  "reason": "No safe argument could be derived from the actual schema."
+}

@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-11-20T11:03:58.829954+00:00",
+  "source": "torob-mcp",
+  "tool": "tb_similar",
+  "stage": "execution",
+  "evidence_status": "verified_live_error",
+  "exception_type": "MCPToolError",
+  "message": "The live tool response contained an error.",
+  "response": {
+    "structuredContent": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "Error executing tool tb_similar: 'گوشی موبایل' has no product id (a UUID like 57ea65ae-0798-4cd0-96a7-38d8af180345). Get ids from tb_search.",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "isError": false,
+    "_meta": null
+  },
+  "request_file": "requests/015_083ef4ac.json"
+}

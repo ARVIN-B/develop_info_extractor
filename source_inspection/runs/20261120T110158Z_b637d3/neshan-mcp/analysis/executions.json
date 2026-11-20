@@ -1,0 +1,68 @@
+{
+  "evidence_status": "execution_records",
+  "records": [
+    {
+      "tool": "ns_search",
+      "request_file": "requests/000_7bace38f.json",
+      "response_file": "responses/000_7bace38f.json",
+      "arguments": {
+        "query": "کافه"
+      },
+      "ids_observed": [
+        "e8d96bd9b9e0d4afcd83f32a1cb61ceb",
+        "18132abda08fa2978c36956b408135a8",
+        "6dba2695021a4722d6c633ebce660c74",
+        "e7d056eb647b3bdbcf5470350f24b275",
+        "07737f97a4d0c781813f05e7c70f5a97",
+        "1c59812c364710168abd887a28ae3203",
+        "8b4ce5615ec127dfda5943ee1e6e1fac",
+        "2aacea0ae243079f9bba5334e3ffb308",
+        "a2d3da60c7ef0a1128ba76b2e016162b",
+        "eeeef9ad31000d7e7d8d184a46d43baa"
+      ]
+    },
+    {
+      "tool": "ns_air_quality",
+      "request_file": "requests/006_334c1dc4.json",
+      "response_file": "responses/006_334c1dc4.json",
+      "arguments": {},
+      "ids_observed": []
+    },
+    {
+      "tool": "ns_place",
+      "request_file": "requests/detail_001_9145f8b8.json",
+      "response_file": "responses/detail_001_9145f8b8.json",
+      "stage": "detail",
+      "arguments": {
+        "place_id": "e8d96bd9b9e0d4afcd83f32a1cb61ceb"
+      }
+    },
+    {
+      "tool": "ns_reviews",
+      "request_file": "requests/detail_002_fe89c739.json",
+      "response_file": "responses/detail_002_fe89c739.json",
+      "stage": "detail",
+      "arguments": {
+        "place_id": "e8d96bd9b9e0d4afcd83f32a1cb61ceb"
+      }
+    },
+    {
+      "tool": "ns_photos",
+      "request_file": "requests/detail_003_053b27aa.json",
+      "response_file": "responses/detail_003_053b27aa.json",
+      "stage": "detail",
+      "arguments": {
+        "place_id": "e8d96bd9b9e0d4afcd83f32a1cb61ceb"
+      }
+    },
+    {
+      "tool": "ns_nearby",
+      "request_file": "requests/detail_004_81e952fa.json",
+      "response_file": "responses/detail_004_81e952fa.json",
+      "stage": "detail",
+      "arguments": {
+        "place_id": "e8d96bd9b9e0d4afcd83f32a1cb61ceb"
+      }
+    }
+  ]
+}

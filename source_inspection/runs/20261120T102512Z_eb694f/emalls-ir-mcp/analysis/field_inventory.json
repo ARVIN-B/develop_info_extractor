@@ -1,0 +1,236 @@
+{
+  "evidence_status": "verified_live_response",
+  "observed_fields": {
+    "address": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/008_fc03f3be.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "categories": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/001_ce50b4b6.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "categories[]": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/001_ce50b4b6.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "categories[].id": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/001_ce50b4b6.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "categories[].name": {
+      "observed_values_count": 10,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/001_ce50b4b6.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "enamad": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/008_fc03f3be.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "has_next": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/009_379fe3f2.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "id": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/008_fc03f3be.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "name": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/008_fc03f3be.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "options": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/008_fc03f3be.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "options[]": {
+      "observed_values_count": 8,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/008_fc03f3be.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "page": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/009_379fe3f2.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "phone": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/008_fc03f3be.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "rating": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/008_fc03f3be.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "rating_votes": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/008_fc03f3be.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "reviews": {
+      "observed_values_count": 1,
+      "null_count": 1,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/008_fc03f3be.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "shops": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/009_379fe3f2.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "shops[]": {
+      "observed_values_count": 48,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/009_379fe3f2.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "shops[].id": {
+      "observed_values_count": 48,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/009_379fe3f2.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "shops[].name": {
+      "observed_values_count": 48,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/009_379fe3f2.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "status": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/008_fc03f3be.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "website": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/008_fc03f3be.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    },
+    "with_emalls": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "emalls-ir-mcp/responses/008_fc03f3be.json"
+      ],
+      "observed_type": "multiple_or_nested",
+      "evidence_status": "verified_live_response"
+    }
+  },
+  "note": "Only captured successful response payloads are inventoried; absent fields are not asserted unavailable."
+}

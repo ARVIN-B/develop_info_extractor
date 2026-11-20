@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-11-20T11:03:58.762423+00:00",
+  "source": "digikala-mcp",
+  "tool": "dk_best_for_budget",
+  "stage": "execution",
+  "evidence_status": "verified_live_error",
+  "exception_type": "MCPToolError",
+  "message": "The live tool response contained an error.",
+  "response": {
+    "structuredContent": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "Error executing tool dk_best_for_budget: Pass a query (e.g. 'هدفون بی سیم') or a category_code (e.g. 'mobile-phone').",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "isError": false,
+    "_meta": null
+  },
+  "request_file": "requests/002_0cf3a1ef.json"
+}

@@ -1,0 +1,51 @@
+{
+  "evidence_status": "verified_live_response",
+  "observed_identifier_fields": {
+    "results[].companies[].company_id": {
+      "observed_values_count": 60,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/006_1d7215f6.json",
+        "rasmio-mcp/responses/pagination_006_f69ba6b3.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].company_id": {
+      "observed_values_count": 80,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/005_d08b4064.json",
+        "rasmio-mcp/responses/pagination_005_d1c0199c.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].person_id": {
+      "observed_values_count": 40,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/006_1d7215f6.json",
+        "rasmio-mcp/responses/pagination_006_f69ba6b3.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 2,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    }
+  },
+  "note": "These are fields present in captured payloads, not a complete source schema."
+}

@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-11-20T10:55:26.553869+00:00",
+  "source": "balad-mcp",
+  "tool": "bl_nearest_by_drive",
+  "arguments": {
+    "what": "کافه",
+    "lat": 35.6892,
+    "lng": 51.389
+  },
+  "evidence_status": "request_sent"
+}

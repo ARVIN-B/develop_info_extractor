@@ -1,0 +1,28 @@
+{
+  "evidence_status": "inferred_from_local_configuration",
+  "requested_sources": [
+    "neshan-mcp",
+    "balad-mcp",
+    "divar-mcp",
+    "sheypoor-mcp",
+    "basalam-mcp",
+    "emalls-ir-mcp",
+    "rasmio-mcp",
+    "iran-jobs-mcp",
+    "torob-mcp",
+    "digikala-mcp"
+  ],
+  "local_integration_evidence": {
+    "neshan-mcp": "MCP executable present in adjacent info_extractor virtual environment; also present in this project's virtual environment.",
+    "balad-mcp": "MCP executable present in adjacent info_extractor virtual environment; also present in this project's virtual environment.",
+    "divar-mcp": "No executable in inspected virtual environments and no integration in adjacent info_extractor source registry or requirements.",
+    "sheypoor-mcp": "No executable in inspected virtual environments and no integration in adjacent info_extractor source registry or requirements.",
+    "basalam-mcp": "MCP executable present in adjacent info_extractor virtual environment; package appears in adjacent info_extractor requirements/source registry.",
+    "emalls-ir-mcp": "MCP executable present in adjacent info_extractor virtual environment; package appears in adjacent info_extractor requirements/source registry.",
+    "rasmio-mcp": "MCP executable present in adjacent info_extractor virtual environment; package appears in adjacent info_extractor requirements/source registry.",
+    "iran-jobs-mcp": "MCP executable present in adjacent info_extractor virtual environment; package appears in adjacent info_extractor requirements/source registry.",
+    "torob-mcp": "MCP executable present in adjacent info_extractor virtual environment; package appears in adjacent info_extractor requirements/source registry.",
+    "digikala-mcp": "MCP executable present in adjacent info_extractor virtual environment; package appears in adjacent info_extractor requirements/source registry."
+  },
+  "note": "Local package/configuration evidence is not evidence that an endpoint or operation returned data."
+}

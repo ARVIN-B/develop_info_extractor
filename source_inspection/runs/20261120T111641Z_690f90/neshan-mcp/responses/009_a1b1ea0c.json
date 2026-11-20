@@ -1,0 +1,13 @@
+{
+  "structuredContent": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"lat\":35.6892,\"lng\":51.389,\"in_traffic_zone\":false,\"in_odd_even_zone\":false,\"plans\":null}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "isError": false,
+  "_meta": null
+}

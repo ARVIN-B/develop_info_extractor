@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-11-20T10:55:18.681093+00:00",
+  "source": "neshan-mcp",
+  "tool": "ns_zone_check",
+  "arguments": {
+    "location": "تهران"
+  },
+  "evidence_status": "request_sent"
+}

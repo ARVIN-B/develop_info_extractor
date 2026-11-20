@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-11-20T11:01:12.659206+00:00",
+  "tool": "ns_reviews",
+  "stage": "argument_construction",
+  "status": "requires_manual_configuration",
+  "missing_required_fields": [
+    "place_id"
+  ],
+  "reason": "No safe argument could be derived from the actual schema."
+}

@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-11-20T10:57:59.785630+00:00",
+  "tool": "dk_shortlist",
+  "stage": "argument_construction",
+  "status": "requires_manual_configuration",
+  "missing_required_fields": [
+    "product_ids"
+  ],
+  "reason": "No safe argument could be derived from the actual schema."
+}

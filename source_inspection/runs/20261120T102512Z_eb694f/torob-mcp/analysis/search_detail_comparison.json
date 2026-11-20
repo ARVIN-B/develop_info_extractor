@@ -1,0 +1,34 @@
+{
+  "evidence_status": "verified_live_response",
+  "search_response_files": [
+    "024_1dffb4ab.json"
+  ],
+  "detail_response_files": [],
+  "fields_observed_in_search": [
+    "count",
+    "next_page",
+    "query",
+    "shops",
+    "shops[]",
+    "shops[].city",
+    "shops[].domain",
+    "shops[].id",
+    "shops[].name",
+    "shops[].url"
+  ],
+  "fields_observed_in_detail": [],
+  "common_fields": [],
+  "search_only_fields": [
+    "count",
+    "next_page",
+    "query",
+    "shops",
+    "shops[]",
+    "shops[].city",
+    "shops[].domain",
+    "shops[].id",
+    "shops[].name",
+    "shops[].url"
+  ],
+  "detail_only_fields": []
+}

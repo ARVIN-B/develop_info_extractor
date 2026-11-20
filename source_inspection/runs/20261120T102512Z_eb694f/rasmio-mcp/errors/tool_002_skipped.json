@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-11-20T10:55:57.932007+00:00",
+  "tool": "rs_person",
+  "stage": "argument_construction",
+  "status": "requires_manual_configuration",
+  "missing_required_fields": [
+    "person_id"
+  ],
+  "reason": "No safe argument could be derived from the actual schema."
+}

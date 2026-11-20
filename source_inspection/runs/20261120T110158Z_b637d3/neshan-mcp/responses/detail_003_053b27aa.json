@@ -1,0 +1,13 @@
+{
+  "structuredContent": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"id\":\"e8d96bd9b9e0d4afcd83f32a1cb61ceb\",\"album\":\"all\",\"page\":1,\"pages\":1,\"albums\":[{\"id\":\"products\",\"title\":\"محصولات\"}],\"photos\":[{\"url\":\"https://static.neshanmap.ir/places/images/e8d/4376145_16983655.jpeg\",\"date\":\"۱۱ تیر\",\"author\":\"کاربر نشان\"},{\"url\":\"https://static.neshanmap.ir/places/images/e8d/4376145_16983657.jpeg\",\"date\":\"۱۱ تیر\",\"author\":\"کاربر نشان\"},{\"url\":\"https://static.neshanmap.ir/places/images/e8d/4188200_15881476.jpeg\",\"date\":\"۱۵ اردیبهشت\",\"author\":\"کاربر نشان\"},{\"url\":\"https://static.neshanmap.ir/places/images/e8d/4188193_15881422.jpeg\",\"date\":\"۱۵ اردیبهشت\",\"author\":\"کاربر نشان\"},{\"url\":\"https://static.neshanmap.ir/places/images/e8d/4188199_15881454.jpeg\",\"date\":\"۱۵ اردیبهشت\",\"author\":\"کاربر نشان\"},{\"url\":\"https://static.neshanmap.ir/places/images/e8d/4188200_15881566.jpeg\",\"date\":\"۱۵ اردیبهشت\",\"author\":\"کاربر نشان\"},{\"url\":\"https://static.neshanmap.ir/places/images/e8d/4188200_15881470.jpeg\",\"date\":\"۱۵ اردیبهشت\",\"author\":\"کاربر نشان\"}]}",
+      "annotations": null,
+      "_meta": null
+    }
+  ],
+  "isError": false,
+  "_meta": null
+}

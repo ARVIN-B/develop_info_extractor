@@ -1,0 +1,13 @@
+{
+  "structuredContent": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"id\":1,\"title\":\"Bilingual Assistant\",\"company\":{\"id\":\"e74c359f-9bb3-4c84-afa3-1e3ce17bd6b9\",\"name\":\"Leading Iranian Recruitment Agency\",\"name_fa\":\"شرکتی پیشرو در زمینه استخدام\",\"industry\":\"IT, Software and Internet Services\",\"size\":\"100-499 employees\"},\"city\":\"Iran\",\"city_fa\":\"ایران\",\"work_type\":\"on_site\",\"employment\":\"Full Time\",\"seniority\":[],\"categories\":[\"Office Administrator / Administrative & Data Entry Clerk / Typist\"],\"posted\":\"2003-03-02\",\"url\":\"https://www.irantalent.com/job/bilingual-assistant/1\",\"reference_code\":\"P001-01\",\"language\":\"en\",\"requirements\":\"Education: Bachelor degree from a reputable university \\r\\nLanguage Skills: Fluent English (Spoken and written)\\r\\nType and years of experience: One year experience is enough\\r\\nPersonality traits:Motivated,Ambitious,\\r\\nEnergetic\\r\\nSpecialist skills: Familiar with computers including MS Word and Internet\",\"study_fields\":[],\"min_experience_years\":\"0\",\"age\":{\"from\":\"21\",\"to\":\"25\"},\"expires\":\"2003-05-02\",\"views\":114713,\"apply_link\":\"\",\"status\":\"Closed\"}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "isError": false,
+  "_meta": null
+}

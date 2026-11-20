@@ -1,0 +1,13 @@
+{
+  "structuredContent": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"categories\":[{\"id\":1030,\"title\":\"طلا و نقره\",\"children\":2},{\"id\":1,\"title\":\"مواد غذایی\",\"children\":12},{\"id\":2,\"title\":\"مد و پوشاک\",\"children\":5},{\"id\":3,\"title\":\"خانه و آشپزخانه\",\"children\":12},{\"id\":4,\"title\":\"صنایع دستی\",\"children\":10},{\"id\":5,\"title\":\"سلامت، درمان و طب\",\"children\":4},{\"id\":6,\"title\":\"آرایشی و بهداشتی\",\"children\":10},{\"id\":7,\"title\":\"فرهنگی، آموزشی و سرگرمی\",\"children\":8},{\"id\":8,\"title\":\"ورزش و سفر\",\"children\":5},{\"id\":9,\"title\":\"خدمات کسب و کار\",\"children\":2},{\"id\":10,\"title\":\"کالای دیجیتال\",\"children\":21},{\"id\":11,\"title\":\"ابزارآلات و تجهیزات خودرو\",\"children\":13}]}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "isError": false,
+  "_meta": null
+}

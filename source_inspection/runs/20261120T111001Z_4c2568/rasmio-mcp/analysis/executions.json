@@ -1,0 +1,40 @@
+{
+  "evidence_status": "execution_records",
+  "records": [
+    {
+      "tool": "rs_search_companies",
+      "request_file": "requests/005_d08b4064.json",
+      "response_file": "responses/005_d08b4064.json",
+      "arguments": {},
+      "ids_observed": []
+    },
+    {
+      "tool": "rs_search",
+      "request_file": "requests/006_1d7215f6.json",
+      "response_file": "responses/006_1d7215f6.json",
+      "arguments": {
+        "query": "کافه"
+      },
+      "ids_observed": []
+    },
+    {
+      "tool": "rs_search_companies",
+      "request_file": "requests/pagination_005_d1c0199c.json",
+      "response_file": "responses/pagination_005_d1c0199c.json",
+      "stage": "pagination",
+      "arguments": {
+        "page": 2
+      }
+    },
+    {
+      "tool": "rs_search",
+      "request_file": "requests/pagination_006_f69ba6b3.json",
+      "response_file": "responses/pagination_006_f69ba6b3.json",
+      "stage": "pagination",
+      "arguments": {
+        "query": "کافه",
+        "page": 2
+      }
+    }
+  ]
+}

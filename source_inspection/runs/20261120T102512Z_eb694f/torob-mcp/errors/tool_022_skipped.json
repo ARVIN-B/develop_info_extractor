@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-11-20T10:57:40.951776+00:00",
+  "tool": "tb_basket",
+  "stage": "argument_construction",
+  "status": "requires_manual_configuration",
+  "missing_required_fields": [
+    "items"
+  ],
+  "reason": "No safe argument could be derived from the actual schema."
+}

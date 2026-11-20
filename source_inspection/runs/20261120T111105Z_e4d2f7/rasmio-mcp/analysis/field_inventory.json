@@ -1,0 +1,1233 @@
+{
+  "evidence_status": "verified_live_response",
+  "response_file_count": 5,
+  "observed_fields": {
+    "activity": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "address": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "auditors": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "auditors.rows": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "auditors.rows[]": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "auditors.rows[].ad_id": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "auditors.rows[].fiscal_year": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "auditors.rows[].kind": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "auditors.rows[].name": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "auditors.rows[].person_id": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "auditors.rows[].position": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "auditors.total_shown": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "board": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "board.rows": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "board.rows[]": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "board.rows[].ad_id": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "board.rows[].end": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "board.rows[].name": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "board.rows[].person_id": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "board.rows[].position": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "board.rows[].start": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "board.total_shown": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "brands": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 1,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "capital_changes": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "capital_changes.rows": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "capital_changes.rows[]": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "capital_changes.rows[].ad_id": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "capital_changes.rows[].capital_rial": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "capital_changes.rows[].registered": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "capital_changes.rows[].source": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "capital_changes.rows[].type": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "capital_changes.total_shown": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "capital_rial": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "company_id": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "contracts": {
+      "observed_values_count": 1,
+      "null_count": 1,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "null"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "null",
+      "evidence_status": "verified_live_response"
+    },
+    "economic_code": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "financial_statements": {
+      "observed_values_count": 1,
+      "null_count": 1,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "null"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "null",
+      "evidence_status": "verified_live_response"
+    },
+    "founded": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "industry": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "last_gazette_ad": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "legal_form": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "licenses": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "licenses.rows": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "licenses.rows[]": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "licenses.rows[].issuer": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "licenses.rows[].license": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "licenses.rows[].start": {
+      "observed_values_count": 3,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "licenses.total_shown": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "name": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "other_officers": {
+      "observed_values_count": 1,
+      "null_count": 1,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "null"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "null",
+      "evidence_status": "verified_live_response"
+    },
+    "page": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/005_4efd15b2.json",
+        "rasmio-mcp/responses/006_af237b01.json",
+        "rasmio-mcp/responses/pagination_005_a6161658.json",
+        "rasmio-mcp/responses/pagination_006_a52677e5.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 1,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "pages": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/005_4efd15b2.json",
+        "rasmio-mcp/responses/006_af237b01.json",
+        "rasmio-mcp/responses/pagination_005_a6161658.json",
+        "rasmio-mcp/responses/pagination_006_a52677e5.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 1,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "patents_and_designs": {
+      "observed_values_count": 1,
+      "null_count": 1,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "null"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "null",
+      "evidence_status": "verified_live_response"
+    },
+    "postal_code": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "recent_ads": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "recent_ads[]": {
+      "observed_values_count": 5,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "recent_ads[].ad_id": {
+      "observed_values_count": 5,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "recent_ads[].published": {
+      "observed_values_count": 5,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "recent_ads[].registered": {
+      "observed_values_count": 5,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "recent_ads[].source": {
+      "observed_values_count": 5,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "recent_ads[].text": {
+      "observed_values_count": 5,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "recent_ads[].title": {
+      "observed_values_count": 5,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "registration_no": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "results": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/005_4efd15b2.json",
+        "rasmio-mcp/responses/006_af237b01.json",
+        "rasmio-mcp/responses/pagination_005_a6161658.json",
+        "rasmio-mcp/responses/pagination_006_a52677e5.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 1,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "results[]": {
+      "observed_values_count": 80,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/005_4efd15b2.json",
+        "rasmio-mcp/responses/006_af237b01.json",
+        "rasmio-mcp/responses/pagination_005_a6161658.json",
+        "rasmio-mcp/responses/pagination_006_a52677e5.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 1,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].ceo": {
+      "observed_values_count": 38,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/005_4efd15b2.json",
+        "rasmio-mcp/responses/pagination_005_a6161658.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 3,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].companies": {
+      "observed_values_count": 38,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/006_af237b01.json",
+        "rasmio-mcp/responses/pagination_006_a52677e5.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 3,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].companies[]": {
+      "observed_values_count": 60,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/006_af237b01.json",
+        "rasmio-mcp/responses/pagination_006_a52677e5.json"
+      ],
+      "observed_types": [
+        "object"
+      ],
+      "missing_from_file_count": 3,
+      "observed_type": "object",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].companies[].company_id": {
+      "observed_values_count": 60,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/006_af237b01.json",
+        "rasmio-mcp/responses/pagination_006_a52677e5.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 3,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].companies[].name": {
+      "observed_values_count": 60,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/006_af237b01.json",
+        "rasmio-mcp/responses/pagination_006_a52677e5.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 3,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].company_count": {
+      "observed_values_count": 40,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/006_af237b01.json",
+        "rasmio-mcp/responses/pagination_006_a52677e5.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 3,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].company_id": {
+      "observed_values_count": 40,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/005_4efd15b2.json",
+        "rasmio-mcp/responses/pagination_005_a6161658.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 3,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].kind": {
+      "observed_values_count": 80,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/005_4efd15b2.json",
+        "rasmio-mcp/responses/006_af237b01.json",
+        "rasmio-mcp/responses/pagination_005_a6161658.json",
+        "rasmio-mcp/responses/pagination_006_a52677e5.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 1,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].license_count": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/005_4efd15b2.json",
+        "rasmio-mcp/responses/pagination_005_a6161658.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 3,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].licenses": {
+      "observed_values_count": 12,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/005_4efd15b2.json",
+        "rasmio-mcp/responses/pagination_005_a6161658.json"
+      ],
+      "observed_types": [
+        "array"
+      ],
+      "missing_from_file_count": 3,
+      "observed_type": "array",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].licenses[]": {
+      "observed_values_count": 19,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/005_4efd15b2.json",
+        "rasmio-mcp/responses/pagination_005_a6161658.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 3,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].name": {
+      "observed_values_count": 80,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/005_4efd15b2.json",
+        "rasmio-mcp/responses/006_af237b01.json",
+        "rasmio-mcp/responses/pagination_005_a6161658.json",
+        "rasmio-mcp/responses/pagination_006_a52677e5.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 1,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].person_id": {
+      "observed_values_count": 40,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/006_af237b01.json",
+        "rasmio-mcp/responses/pagination_006_a52677e5.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 3,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].summary": {
+      "observed_values_count": 80,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/005_4efd15b2.json",
+        "rasmio-mcp/responses/006_af237b01.json",
+        "rasmio-mcp/responses/pagination_005_a6161658.json",
+        "rasmio-mcp/responses/pagination_006_a52677e5.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 1,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "results[].verified_by_company": {
+      "observed_values_count": 2,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/005_4efd15b2.json",
+        "rasmio-mcp/responses/pagination_005_a6161658.json"
+      ],
+      "observed_types": [
+        "boolean"
+      ],
+      "missing_from_file_count": 3,
+      "observed_type": "boolean",
+      "evidence_status": "verified_live_response"
+    },
+    "shareholders": {
+      "observed_values_count": 1,
+      "null_count": 1,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "null"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "null",
+      "evidence_status": "verified_live_response"
+    },
+    "signature_rule": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "status": {
+      "observed_values_count": 1,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "stock_portfolio": {
+      "observed_values_count": 1,
+      "null_count": 1,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/detail_000_fee35999.json"
+      ],
+      "observed_types": [
+        "null"
+      ],
+      "missing_from_file_count": 4,
+      "observed_type": "null",
+      "evidence_status": "verified_live_response"
+    },
+    "total": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "rasmio-mcp/responses/005_4efd15b2.json",
+        "rasmio-mcp/responses/006_af237b01.json",
+        "rasmio-mcp/responses/pagination_005_a6161658.json",
+        "rasmio-mcp/responses/pagination_006_a52677e5.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 1,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    }
+  },
+  "note": "Only captured successful response payloads are inventoried; absent fields are not asserted unavailable."
+}

@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-11-20T11:03:58.777562+00:00",
+  "source": "emalls-ir-mcp",
+  "tool": "em_filters",
+  "stage": "execution",
+  "evidence_status": "verified_live_error",
+  "exception_type": "MCPToolError",
+  "message": "The live tool response contained an error.",
+  "response": {
+    "structuredContent": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "Error executing tool em_filters: emalls.ir found nothing at that address (HTTP 404). Check the id.",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "isError": false,
+    "_meta": null
+  },
+  "request_file": "requests/002_df201526.json"
+}

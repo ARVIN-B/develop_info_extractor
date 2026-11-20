@@ -1,0 +1,13 @@
+{
+  "structuredContent": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"address\":\"تهران، میدان حر، خ امام خمینی\",\"city\":\"شهر تهران\",\"county\":\"شهرستان تهران\",\"neighborhood\":\"میدان حر\",\"streets\":[\"خیابان امام خمینی\"]}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "isError": false,
+  "_meta": null
+}

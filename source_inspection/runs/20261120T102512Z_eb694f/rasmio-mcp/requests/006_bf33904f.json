@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-11-20T10:56:00.893205+00:00",
+  "source": "rasmio-mcp",
+  "tool": "rs_search",
+  "arguments": {
+    "query": "کافه"
+  },
+  "evidence_status": "request_sent"
+}

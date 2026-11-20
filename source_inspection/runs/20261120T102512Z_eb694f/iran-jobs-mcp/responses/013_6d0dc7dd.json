@@ -1,0 +1,13 @@
+{
+  "structuredContent": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"page\":1,\"companies\":[{\"slug\":\"batterybuzz\",\"name\":\"باتری باز\",\"name_en\":\"BatteryBuzz\",\"city\":\"تهران، تهران\",\"industry\":\"خرده‌فروشی، عمده‌فروشی و فروشگاه‌های زنجیره‌ای\",\"hiring\":true},{\"slug\":\"datatejarat\",\"name\":\"داده و اعتبار سنجی تجارت ایرانیان (داتا)\",\"name_en\":\"Datatejarat\",\"industry\":\"بانکداری\",\"hiring\":true},{\"slug\":\"saraf-4\",\"name\":\"صراف\",\"name_en\":\"Saraf\",\"city\":\"تهران، تهران\",\"industry\":\"مالی و اعتباری\",\"hiring\":true},{\"slug\":\"ficoland\",\"name\":\"فیکولند\",\"name_en\":\"Ficoland\",\"city\":\"تهران، تهران\",\"industry\":\"کامپیوتر، فناوری اطلاعات و اینترنت\",\"hiring\":true},{\"slug\":\"vista-media\",\"name\":\"ویستا مدیا\",\"name_en\":\"Vista Media\",\"city\":\"تهران، تهران\",\"industry\":\"مخابرات و ارتباطات (تلکام)\",\"hiring\":true},{\"slug\":\"sfiord\",\"name\":\"اسفیورد\",\"name_en\":\"SFIORD\",\"city\":\"تهران، تهران\",\"industry\":\"کامپیوتر، فناوری اطلاعات و اینترنت\",\"hiring\":true},{\"slug\":\"innovators-of-smart-horizons-of-the-future\",\"name\":\"نوآوران آفاق هوشمند آتیه\",\"name_en\":\"Innovators of Smart Horizons of the Future\",\"industry\":\"آموزش، مدارس و دانشگاه‌ها\",\"hiring\":true},{\"slug\":\"salem-tejarat-asya\",\"name\":\"سالم تجارت آسیا\",\"name_en\":\"Salem Tejarat Asia Company (STACO)\",\"city\":\"تهران، تهران\",\"industry\":\"واردات و صادرات\",\"hiring\":true}],\"next\":\"Raise page for more.\"}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "isError": false,
+  "_meta": null
+}

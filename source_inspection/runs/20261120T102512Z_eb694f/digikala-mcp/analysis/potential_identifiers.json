@@ -1,0 +1,64 @@
+{
+  "evidence_status": "verified_live_response",
+  "observed_identifier_fields": {
+    "categories[].code": {
+      "observed_values_count": 18,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/010_f30d90b3.json"
+      ],
+      "observed_types": [
+        "string"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "string",
+      "evidence_status": "verified_live_response"
+    },
+    "categories[].id": {
+      "observed_values_count": 18,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/010_f30d90b3.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "plans[].id": {
+      "observed_values_count": 4,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/020_8d3ce3ce.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 10,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    },
+    "products[].id": {
+      "observed_values_count": 40,
+      "null_count": 0,
+      "empty_count": 0,
+      "present_in_files": [
+        "digikala-mcp/responses/000_557092d0.json",
+        "digikala-mcp/responses/001_4d86a530.json",
+        "digikala-mcp/responses/010_f30d90b3.json"
+      ],
+      "observed_types": [
+        "integer"
+      ],
+      "missing_from_file_count": 8,
+      "observed_type": "integer",
+      "evidence_status": "verified_live_response"
+    }
+  },
+  "note": "These are fields present in captured payloads, not a complete source schema."
+}

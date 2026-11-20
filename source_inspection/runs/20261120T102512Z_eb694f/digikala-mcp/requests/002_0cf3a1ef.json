@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-11-20T10:57:52.427866+00:00",
+  "source": "digikala-mcp",
+  "tool": "dk_best_for_budget",
+  "arguments": {
+    "max_price": 1
+  },
+  "evidence_status": "request_sent"
+}

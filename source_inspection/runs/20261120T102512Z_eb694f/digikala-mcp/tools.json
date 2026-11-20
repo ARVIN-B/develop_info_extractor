@@ -1,0 +1,1281 @@
+{
+  "evidence_status": "verified_tool_schema",
+  "tools": [
+    {
+      "name": "dk_search",
+      "title": "Search products",
+      "description": "Search products by name: price (Toman), discount, seller, rating, 20 per page.\n\nEach product has `match` ('all', 'some' + `missing_words`, 'none'); prefer 'all'.\nFilter ids: dk_filters(query=...).",
+      "input_schema": {
+        "properties": {
+          "query": {
+            "description": "Persian or English words, e.g. 'گوشی سامسونگ'.",
+            "maxLength": 100,
+            "minLength": 2,
+            "type": "string"
+          },
+          "sort": {
+            "default": "relevance",
+            "enum": [
+              "relevance",
+              "cheapest",
+              "most_expensive",
+              "best_selling",
+              "most_viewed",
+              "newest",
+              "fastest_delivery",
+              "buyers_pick"
+            ],
+            "type": "string"
+          },
+          "min_price": {
+            "default": null,
+            "minimum": 0,
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "max_price": {
+            "default": null,
+            "minimum": 0,
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "brand_ids": {
+            "default": null,
+            "description": "Brand ids (dk_product brand_id), e.g. [18] Samsung.",
+            "items": {
+              "type": "integer"
+            },
+            "maxItems": 5,
+            "type": [
+              "array",
+              "null"
+            ]
+          },
+          "attributes": {
+            "default": null,
+            "description": "{attribute id: [value ids]} from dk_filters, e.g. {2226: [19239]}. Values OR, attributes AND.",
+            "additionalProperties": {
+              "items": {
+                "type": "integer"
+              },
+              "maxItems": 20,
+              "type": "array"
+            },
+            "maxProperties": 10,
+            "type": [
+              "object",
+              "null"
+            ]
+          },
+          "colors": {
+            "default": null,
+            "description": "Color ids from dk_filters.",
+            "items": {
+              "type": "integer"
+            },
+            "maxItems": 10,
+            "type": [
+              "array",
+              "null"
+            ]
+          },
+          "seller_type": {
+            "default": null,
+            "enum": [
+              "digikala",
+              "official",
+              "trusted",
+              "roosta",
+              null
+            ],
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "fast_delivery": {
+            "default": false,
+            "description": "Jet delivery only.",
+            "type": "boolean"
+          },
+          "ready_to_ship": {
+            "default": false,
+            "description": "In Digikala's warehouse only.",
+            "type": "boolean"
+          },
+          "in_stock_only": {
+            "default": true,
+            "type": "boolean"
+          },
+          "page": {
+            "default": 1,
+            "maximum": 100,
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "dk_find_cheapest",
+      "title": "Find cheapest product",
+      "description": "Find the cheapest in-stock products that really match a query, sorted by price (Toman).\n\nKeeps titles with every query word and drops accessories. Then dk_product on the winner:\nanother seller may be cheaper.",
+      "input_schema": {
+        "properties": {
+          "query": {
+            "description": "Persian or English words, e.g. 'گوشی سامسونگ'.",
+            "maxLength": 100,
+            "minLength": 2,
+            "type": "string"
+          },
+          "pages": {
+            "default": 3,
+            "description": "Relevance pages to scan.",
+            "maximum": 5,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "min_price": {
+            "default": null,
+            "description": "Toman. Default: 1/4 of the top matches' median price (drops accessories).",
+            "minimum": 0,
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "max_price": {
+            "default": null,
+            "minimum": 0,
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "limit": {
+            "default": 10,
+            "maximum": 60,
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "dk_best_for_budget",
+      "title": "Best picks for a budget",
+      "description": "Rank the best-rated in-stock products within a budget (Toman) by a rating weighted by its count.\n\nA 5.0 from 3 buyers does not beat a 4.6 from 900. Use for \"best X under Y\".",
+      "input_schema": {
+        "properties": {
+          "max_price": {
+            "description": "Budget, Toman.",
+            "minimum": 1,
+            "type": "integer"
+          },
+          "query": {
+            "default": null,
+            "description": "e.g. 'هدفون بی سیم'.",
+            "maxLength": 100,
+            "minLength": 2,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "category_code": {
+            "default": null,
+            "description": "Instead of query, e.g. 'mobile-phone'.",
+            "pattern": "^[a-z0-9][a-z0-9_.'’-]{1,80}$",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "min_price": {
+            "default": null,
+            "description": "Toman. Default for a query: a floor that drops accessories.",
+            "minimum": 0,
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "min_ratings": {
+            "default": 5,
+            "maximum": 1000,
+            "minimum": 0,
+            "type": "integer"
+          },
+          "pages": {
+            "default": 3,
+            "description": "Pages to scan.",
+            "maximum": 5,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "limit": {
+            "default": 10,
+            "maximum": 30,
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "max_price"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "dk_suggest",
+      "title": "Search suggestions",
+      "description": "Autocomplete a vague or misspelled query into keywords and categories.",
+      "input_schema": {
+        "properties": {
+          "query": {
+            "description": "Partial text, e.g. 'هدفون'.",
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "dk_filters",
+      "title": "Filter options",
+      "description": "List the filters of a category or a search: attributes, colors, sellers, price range (Toman), brands.\n\nMaps are {title: id}; an attribute with over 15 values has only `value_count` (call again with\nattribute_id). Pass the ids to dk_category_products or dk_search.",
+      "input_schema": {
+        "properties": {
+          "category_code": {
+            "default": null,
+            "description": "e.g. 'mobile-phone'.",
+            "pattern": "^[a-z0-9][a-z0-9_.'’-]{1,80}$",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "query": {
+            "default": null,
+            "description": "Instead of a category.",
+            "maxLength": 100,
+            "minLength": 2,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "brand_code": {
+            "default": null,
+            "description": "With category_code, e.g. 'samsung'.",
+            "pattern": "^[a-z0-9][a-z0-9_.'’-]{1,80}$",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "attribute_id": {
+            "default": null,
+            "description": "List all values of this one attribute.",
+            "minimum": 1,
+            "type": [
+              "integer",
+              "null"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "dk_categories",
+      "title": "Find categories",
+      "description": "Find category codes for dk_category_products and main-category ids for dk_best_sellers.\n\nNo arguments lists the main categories. A parent category mixes in accessories: browse its leaf.",
+      "input_schema": {
+        "properties": {
+          "query": {
+            "default": null,
+            "description": "Persian name (finds more) or English code, e.g. 'لپ تاپ'.",
+            "maxLength": 100,
+            "minLength": 2,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "parent_id": {
+            "default": null,
+            "description": "List its sub-categories.",
+            "minimum": 1,
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "limit": {
+            "default": 25,
+            "maximum": 100,
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "dk_category_products",
+      "title": "Browse a category",
+      "description": "List one category's products with sort and filters (price in Toman), strict order.\n\nNo text query. Filter ids: dk_filters(category_code=...).",
+      "input_schema": {
+        "properties": {
+          "category_code": {
+            "description": "e.g. 'mobile-phone'.",
+            "pattern": "^[a-z0-9][a-z0-9_.'’-]{1,80}$",
+            "type": "string"
+          },
+          "sort": {
+            "default": "relevance",
+            "enum": [
+              "relevance",
+              "cheapest",
+              "most_expensive",
+              "best_selling",
+              "most_viewed",
+              "newest",
+              "fastest_delivery",
+              "buyers_pick"
+            ],
+            "type": "string"
+          },
+          "min_price": {
+            "default": null,
+            "minimum": 0,
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "max_price": {
+            "default": null,
+            "minimum": 0,
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "brand_code": {
+            "default": null,
+            "description": "e.g. 'xiaomi'.",
+            "pattern": "^[a-z0-9][a-z0-9_.'’-]{1,80}$",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "brand_ids": {
+            "default": null,
+            "description": "As dk_search.",
+            "items": {
+              "type": "integer"
+            },
+            "maxItems": 5,
+            "type": [
+              "array",
+              "null"
+            ]
+          },
+          "attributes": {
+            "default": null,
+            "description": "As dk_search.",
+            "additionalProperties": {
+              "items": {
+                "type": "integer"
+              },
+              "maxItems": 20,
+              "type": "array"
+            },
+            "maxProperties": 10,
+            "type": [
+              "object",
+              "null"
+            ]
+          },
+          "colors": {
+            "default": null,
+            "description": "As dk_search.",
+            "items": {
+              "type": "integer"
+            },
+            "maxItems": 10,
+            "type": [
+              "array",
+              "null"
+            ]
+          },
+          "seller_type": {
+            "default": null,
+            "enum": [
+              "digikala",
+              "official",
+              "trusted",
+              "roosta",
+              null
+            ],
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "fast_delivery": {
+            "default": false,
+            "description": "Jet delivery only.",
+            "type": "boolean"
+          },
+          "ready_to_ship": {
+            "default": false,
+            "description": "In Digikala's warehouse only.",
+            "type": "boolean"
+          },
+          "in_stock_only": {
+            "default": true,
+            "type": "boolean"
+          },
+          "page": {
+            "default": 1,
+            "maximum": 100,
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "category_code"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "dk_brand_products",
+      "title": "Browse a brand",
+      "description": "List a brand's products with sort and price filters (Toman), plus the brand id for brand_ids.\n\nOne brand in one category: dk_category_products(brand_code=...).",
+      "input_schema": {
+        "properties": {
+          "brand_code": {
+            "description": "Lowercase English name, e.g. 'samsung'.",
+            "pattern": "^[a-z0-9][a-z0-9_.'’-]{1,80}$",
+            "type": "string"
+          },
+          "sort": {
+            "default": "relevance",
+            "enum": [
+              "relevance",
+              "cheapest",
+              "most_expensive",
+              "best_selling",
+              "most_viewed",
+              "newest",
+              "fastest_delivery",
+              "buyers_pick"
+            ],
+            "type": "string"
+          },
+          "min_price": {
+            "default": null,
+            "minimum": 0,
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "max_price": {
+            "default": null,
+            "minimum": 0,
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "in_stock_only": {
+            "default": true,
+            "type": "boolean"
+          },
+          "page": {
+            "default": 1,
+            "maximum": 100,
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "brand_code"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "dk_seller",
+      "title": "Seller profile and products",
+      "description": "Get a seller's reputation (rating 0-5, on-time shipping, cancellations, returns) and products.\n\nPercentages are the share of good orders (100 = never late).",
+      "input_schema": {
+        "properties": {
+          "seller_code": {
+            "description": "dk_product offer seller_code, e.g. 'CGDG9'.",
+            "pattern": "^[A-Za-z0-9]{3,12}$",
+            "type": "string"
+          },
+          "sort": {
+            "default": "best_selling",
+            "enum": [
+              "relevance",
+              "cheapest",
+              "most_expensive",
+              "best_selling",
+              "most_viewed",
+              "newest",
+              "fastest_delivery",
+              "buyers_pick"
+            ],
+            "type": "string"
+          },
+          "in_stock_only": {
+            "default": true,
+            "type": "boolean"
+          },
+          "page": {
+            "default": 1,
+            "maximum": 100,
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "seller_code"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "dk_deals",
+      "title": "Current deals",
+      "description": "List today's Incredible Offers (flash deals), biggest discount first, in-stock only.\n\ndeal_ends is Tehran time.",
+      "input_schema": {
+        "properties": {
+          "store": {
+            "default": "digikala",
+            "description": "'supermarket' = Fresh grocery deals.",
+            "enum": [
+              "digikala",
+              "supermarket"
+            ],
+            "type": "string"
+          },
+          "query": {
+            "default": null,
+            "description": "Narrow the deals.",
+            "maxLength": 100,
+            "minLength": 2,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sort": {
+            "default": "biggest_discount",
+            "enum": [
+              "biggest_discount",
+              "cheapest",
+              "most_expensive",
+              "best_selling",
+              "most_viewed",
+              "newest"
+            ],
+            "type": "string"
+          },
+          "min_price": {
+            "default": null,
+            "minimum": 0,
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "max_price": {
+            "default": null,
+            "minimum": 0,
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "page": {
+            "default": 1,
+            "maximum": 100,
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "dk_best_sellers",
+      "title": "Best sellers",
+      "description": "List current best sellers, overall or in one main category; also returns the main categories' ids for category_id.",
+      "input_schema": {
+        "properties": {
+          "category_id": {
+            "default": null,
+            "description": "Main category id (this tool's `categories`), e.g. 1 mobile. Leaf ids fail.",
+            "minimum": 1,
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "limit": {
+            "default": 10,
+            "maximum": 50,
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "dk_fresh_search",
+      "title": "Search groceries",
+      "description": "Search or browse Digikala Fresh (supermarket). category_code beats query and also returns sub-categories.",
+      "input_schema": {
+        "properties": {
+          "query": {
+            "default": null,
+            "description": "Persian works best, e.g. 'شیر کم چرب'.",
+            "maxLength": 100,
+            "minLength": 2,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "category_code": {
+            "default": null,
+            "description": "Instead of query: groceries, dairy, snacks, protein-foods, breakfast, beverages, warm-drinks, fruits-and-vegetables, personal-hygiene, baby-and-mother, home-hygiene, dried-fruit-nuts, ready-made-canned-food, condiments, frozen-food, salts-and-pickles, or a returned sub-category.",
+            "pattern": "^[a-z0-9][a-z0-9_.'’-]{1,80}$",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sort": {
+            "default": "relevance",
+            "enum": [
+              "relevance",
+              "cheapest",
+              "most_expensive",
+              "best_selling",
+              "most_viewed",
+              "newest",
+              "buyers_pick"
+            ],
+            "type": "string"
+          },
+          "min_price": {
+            "default": null,
+            "minimum": 0,
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "max_price": {
+            "default": null,
+            "minimum": 0,
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "in_stock_only": {
+            "default": true,
+            "type": "boolean"
+          },
+          "page": {
+            "default": 1,
+            "maximum": 100,
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "dk_product",
+      "title": "Product details and offers",
+      "description": "Get one product's price, stock, rating, specs and every seller's offer (cheapest first).\n\nAn offer is one color/size from one seller; stock_left only when low; ships_by 'jet' = same-day\nTehran/Karaj. lowest_price_30d can be a one-day dip (dk_price_history's lowest_2_days is steadier).",
+      "input_schema": {
+        "properties": {
+          "product_id": {
+            "maximum": 1000000000,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "max_offers": {
+            "default": 15,
+            "maximum": 50,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "include_specs": {
+            "default": true,
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "product_id"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "dk_price_history",
+      "title": "Price history",
+      "description": "Get ~30 days of daily buy-box prices (Toman) per color/variant, with lowest and highest.\n\n`lowest_2_days` is the lowest price held two days in a row (`lowest` can be a one-day dip). Days are Jalali.",
+      "input_schema": {
+        "properties": {
+          "product_id": {
+            "maximum": 1000000000,
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "product_id"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "dk_reviews",
+      "title": "Product reviews",
+      "description": "Read customer reviews: stars 1-5 (null = none), text, pros/cons, verified buyer flag.\n\nTexts are cut to 300 characters, pros/cons to 5 of 80 (full_text=true: whole).",
+      "input_schema": {
+        "properties": {
+          "product_id": {
+            "maximum": 1000000000,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "sort": {
+            "default": "most_helpful",
+            "enum": [
+              "most_helpful",
+              "newest",
+              "buyers_first"
+            ],
+            "type": "string"
+          },
+          "page": {
+            "default": 1,
+            "maximum": 100,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "limit": {
+            "default": 10,
+            "description": "Of the page's 20.",
+            "maximum": 20,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "full_text": {
+            "default": false,
+            "description": "No text cuts.",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "product_id"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "dk_questions",
+      "title": "Product questions and answers",
+      "description": "Read customers' questions (20 per page) with up to 2 answers each (answered_by: buyer, seller, ...).\n\nTexts are cut to 300 characters (full_text=true: whole).",
+      "input_schema": {
+        "properties": {
+          "product_id": {
+            "maximum": 1000000000,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "sort": {
+            "default": "most_answered",
+            "enum": [
+              "newest",
+              "most_answered"
+            ],
+            "type": "string"
+          },
+          "page": {
+            "default": 1,
+            "maximum": 100,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "full_text": {
+            "default": false,
+            "description": "No text cuts.",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "product_id"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "dk_similar",
+      "title": "Similar products",
+      "description": "List products similar to one (same kind, other models and brands); sort='cheapest' for cheaper ones.",
+      "input_schema": {
+        "properties": {
+          "product_id": {
+            "maximum": 1000000000,
+            "minimum": 1,
+            "type": "integer"
+          },
+          "sort": {
+            "default": "relevance",
+            "enum": [
+              "relevance",
+              "cheapest",
+              "most_expensive",
+              "best_selling",
+              "most_viewed",
+              "newest",
+              "fastest_delivery",
+              "buyers_pick"
+            ],
+            "type": "string"
+          },
+          "in_stock_only": {
+            "default": true,
+            "type": "boolean"
+          },
+          "page": {
+            "default": 1,
+            "maximum": 100,
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "product_id"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "dk_compare",
+      "title": "Compare products",
+      "description": "Compare 2-4 products side by side: price and rating, then the spec rows where they differ.\n\nA `specs` row's `values` follow `products` order (null = no such spec); identical rows fold into `same_specs`.",
+      "input_schema": {
+        "properties": {
+          "product_ids": {
+            "description": "Same kind, e.g. [20109389, 20110013].",
+            "items": {
+              "type": "integer"
+            },
+            "maxItems": 4,
+            "minItems": 2,
+            "type": "array"
+          }
+        },
+        "required": [
+          "product_ids"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "dk_shortlist",
+      "title": "Re-check a shortlist",
+      "description": "Re-price up to 10 products in one call: price, cheapest offer, stock, rating and 30-day low (Toman).\n\n`low_30d` is the lowest price held two days in a row, `vs_30d_low_pct` today's price above it.",
+      "input_schema": {
+        "properties": {
+          "product_ids": {
+            "description": "e.g. [20109389, 20110013].",
+            "items": {
+              "type": "integer"
+            },
+            "maxItems": 10,
+            "minItems": 1,
+            "type": "array"
+          }
+        },
+        "required": [
+          "product_ids"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "dk_installments",
+      "title": "Installment plans",
+      "description": "Get the Digipay credit-line offers for a product, in Toman.\n\nA plan is a fixed credit line repaid in `months` installments, not sized to the product price:\nnever present it as \"this product for X a month\".",
+      "input_schema": {
+        "properties": {
+          "product_id": {
+            "maximum": 1000000000,
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "product_id"
+        ],
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "dk_plus_plans",
+      "title": "Digikala Plus plans",
+      "description": "List Digikala Plus plans (monthly free shipments; fresh = supermarket) with price in Toman and benefits.",
+      "input_schema": {
+        "properties": {},
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "dk_gold_prices",
+      "title": "Gold and coin prices",
+      "description": "Get the live 18k gold price per gram and gold coin prices, in Toman.\n\nPeriod change, low and high cover ~3 months. A coin with price null is not for sale.",
+      "input_schema": {
+        "properties": {},
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    },
+    {
+      "name": "dk_location",
+      "title": "Find location",
+      "description": "Turn an address into coordinates, or coordinates into an address with Digikala's city_id and state_id.\n\nPrices are the same everywhere; location only affects delivery.",
+      "input_schema": {
+        "properties": {
+          "address": {
+            "default": null,
+            "description": "Persian address or landmark, e.g. 'میدان ونک'.",
+            "maxLength": 200,
+            "minLength": 2,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "city": {
+            "default": null,
+            "description": "Persian city, e.g. 'تهران'; needed for most addresses.",
+            "maxLength": 50,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "lat": {
+            "default": null,
+            "description": "With long: describe a point instead.",
+            "maximum": 40,
+            "minimum": 24,
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "long": {
+            "default": null,
+            "maximum": 64,
+            "minimum": 44,
+            "type": [
+              "number",
+              "null"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "execution": null,
+      "output_schema": null,
+      "icons": null,
+      "annotations": {
+        "title": null,
+        "read_only_hint": true,
+        "destructive_hint": false,
+        "idempotent_hint": true,
+        "open_world_hint": true
+      },
+      "meta": null
+    }
+  ]
+}
